@@ -234,23 +234,87 @@ struct {
 } MotorFaultDeploy_U;</code>
 </div>
 </div>
-</section>
-<section id="sec_outports">
-<h3>
-3.2 Outports
-</h3>
-Outputs are variables that are generated in the code based on storage class specifications for model root-level output ports.<div id="fcn_MotorFaultDeploy_Y.faultClass">
+<div id="fcn_MotorFaultDeploy_U.current">
 <h4 class="function">
-MotorFaultDeploy_Y.faultClass
+MotorFaultDeploy_U.current
 </h4>
 <span class="description">
-Output data for &lt;Root&gt;/faultClass
+Input data for &lt;Root&gt;/current
 </span>
 <div class="programlisting">
 <code class="usage"><span class="include">#include "<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'jumpToCode',location:'MotorFaultDeploy.h'})" class="include">MotorFaultDeploy.h</a>"</span>
 struct {
   ...
-  real_T faultClass;
+  real_T current;
+  ...
+} MotorFaultDeploy_U;</code>
+</div>
+</div>
+<div id="fcn_MotorFaultDeploy_U.speed">
+<h4 class="function">
+MotorFaultDeploy_U.speed
+</h4>
+<span class="description">
+Input data for &lt;Root&gt;/speed
+</span>
+<div class="programlisting">
+<code class="usage"><span class="include">#include "<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'jumpToCode',location:'MotorFaultDeploy.h'})" class="include">MotorFaultDeploy.h</a>"</span>
+struct {
+  ...
+  real_T speed;
+  ...
+} MotorFaultDeploy_U;</code>
+</div>
+</div>
+<div id="fcn_MotorFaultDeploy_U.voltage">
+<h4 class="function">
+MotorFaultDeploy_U.voltage
+</h4>
+<span class="description">
+Input data for &lt;Root&gt;/voltage
+</span>
+<div class="programlisting">
+<code class="usage"><span class="include">#include "<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'jumpToCode',location:'MotorFaultDeploy.h'})" class="include">MotorFaultDeploy.h</a>"</span>
+struct {
+  ...
+  real_T voltage;
+  ...
+} MotorFaultDeploy_U;</code>
+</div>
+</div>
+</section>
+<section id="sec_outports">
+<h3>
+3.2 Outports
+</h3>
+Outputs are variables that are generated in the code based on storage class specifications for model root-level output ports.<div id="fcn_MotorFaultDeploy_Y.bearingClass">
+<h4 class="function">
+MotorFaultDeploy_Y.bearingClass
+</h4>
+<span class="description">
+Output data for &lt;Root&gt;/bearingClass
+</span>
+<div class="programlisting">
+<code class="usage"><span class="include">#include "<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'jumpToCode',location:'MotorFaultDeploy.h'})" class="include">MotorFaultDeploy.h</a>"</span>
+struct {
+  ...
+  real_T bearingClass;
+  ...
+} MotorFaultDeploy_Y;</code>
+</div>
+</div>
+<div id="fcn_MotorFaultDeploy_Y.electricalClass">
+<h4 class="function">
+MotorFaultDeploy_Y.electricalClass
+</h4>
+<span class="description">
+Output data for &lt;Root&gt;/electricalClass
+</span>
+<div class="programlisting">
+<code class="usage"><span class="include">#include "<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'jumpToCode',location:'MotorFaultDeploy.h'})" class="include">MotorFaultDeploy.h</a>"</span>
+struct {
+  ...
+  real_T electricalClass;
   ...
 } MotorFaultDeploy_Y;</code>
 </div>
@@ -266,7 +330,7 @@ Output data for &lt;Root&gt;/alarm
 <code class="usage"><span class="include">#include "<a href="javascript: void(0)" onclick="postParentWindowMessage({message:'jumpToCode',location:'MotorFaultDeploy.h'})" class="include">MotorFaultDeploy.h</a>"</span>
 struct {
   ...
-  real_T alarm;
+  boolean_T alarm;
   ...
 } MotorFaultDeploy_Y;</code>
 </div>

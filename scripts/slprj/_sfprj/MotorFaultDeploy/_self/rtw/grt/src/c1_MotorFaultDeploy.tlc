@@ -1,0 +1,69 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   7 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "bc"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Tejashri\motor-fault-detection\scripts\electricalDetector.m:179-181"\
+      Dimensions   [2400]\
+    }\
+    ChartData {\
+      Name         "bc_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Tejashri\motor-fault-detection\scripts\electricalDetector.m:179-181"\
+    }\
+    ChartData {\
+      Name         "bs"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Tejashri\motor-fault-detection\scripts\electricalDetector.m:182-184"\
+      Dimensions   [2400]\
+    }\
+    ChartData {\
+      Name         "idx"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Tejashri\motor-fault-detection\scripts\electricalDetector.m:185-188"\
+    }\
+    ChartData {\
+      Name         "mdl"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Tejashri\motor-fault-detection\scripts\electricalDetector.m:189-192"\
+    }\
+    ChartData {\
+      Name         "lastLabel"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Tejashri\motor-fault-detection\scripts\electricalDetector.m:193-202"\
+    }\
+    ChartData {\
+      Name         "cnt"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Tejashri\motor-fault-detection\scripts\electricalDetector.m:203-206"\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

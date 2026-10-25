@@ -9,7 +9,7 @@
  *
  * Model version              : 1.1
  * Simulink Coder version : 26.1 (R2026a) 20-Nov-2025
- * C source code generated on : Sun Oct 25 13:06:37 2026
+ * C source code generated on : Sun Oct 25 14:16:21 2026
  *
  * Target selection: grt.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping
@@ -22,7 +22,7 @@
 #define MotorFaultDeploy_types_h_
 #include "rtwtypes.h"
 
-/* Custom Type definition for MATLAB Function: '<Root>/Detector' */
+/* Custom Type definition for MATLAB Function: '<Root>/ElectricalDetector' */
 #ifndef typedef_c_classreg_learning_coderutil_T
 #define typedef_c_classreg_learning_coderutil_T
 
@@ -46,6 +46,7 @@ typedef int32_T c_classreg_learning_coderutil_T;
 #define Softmax                        (9)
 #endif                    /* classreg_learning_coderutils_Transform_constants */
 
+/* Custom Type definition for MATLAB Function: '<Root>/BearingDetector' */
 #ifndef struct_tag_DqVcferuk7CCJnkFJ3kY6
 #define struct_tag_DqVcferuk7CCJnkFJ3kY6
 
@@ -68,6 +69,30 @@ struct tag_DqVcferuk7CCJnkFJ3kY6
 typedef struct tag_DqVcferuk7CCJnkFJ3kY6 c_classreg_learning_classif_C_T;
 
 #endif                             /* typedef_c_classreg_learning_classif_C_T */
+
+/* Custom Type definition for MATLAB Function: '<Root>/ElectricalDetector' */
+#ifndef struct_tag_p0nXxQvHHYLSaQGbf1xiEH
+#define struct_tag_p0nXxQvHHYLSaQGbf1xiEH
+
+struct tag_p0nXxQvHHYLSaQGbf1xiEH
+{
+  boolean_T IsCached[50];
+  real_T LearnerWeights[50];
+  int32_T ClassNamesLength[3];
+  c_classreg_learning_coderutil_T ScoreTransform;
+  real_T Prior[3];
+  boolean_T ClassLogicalIndices[3];
+  real_T Cost[9];
+};
+
+#endif                                 /* struct_tag_p0nXxQvHHYLSaQGbf1xiEH */
+
+#ifndef typedef_c_classreg_learning_classif_o_T
+#define typedef_c_classreg_learning_classif_o_T
+
+typedef struct tag_p0nXxQvHHYLSaQGbf1xiEH c_classreg_learning_classif_o_T;
+
+#endif                             /* typedef_c_classreg_learning_classif_o_T */
 
 /* Forward declaration for rtModel */
 typedef struct tag_RTM_MotorFaultDeploy_T RT_MODEL_MotorFaultDeploy_T;

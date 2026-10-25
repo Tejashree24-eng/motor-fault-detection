@@ -9,7 +9,7 @@
  *
  * Model version              : 1.1
  * Simulink Coder version : 26.1 (R2026a) 20-Nov-2025
- * C source code generated on : Sun Oct 25 13:06:37 2026
+ * C source code generated on : Sun Oct 25 14:16:21 2026
  *
  * Target selection: grt.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping
@@ -73,111 +73,111 @@ static void MotorFaul_predictOneWithCache_o(const real_T X[10], real_T
   const real_T weak_learner_CutPoint[31], const boolean_T
   weak_learner_NanCutPoints[31], const real_T weak_learner_Cost[16], const
   real_T weak_learner_ClassProbability[124], boolean_T *cached, real_T score[4]);
-static void CompactClassificationTree_pr_g2(const real_T obj_CutPredictorIndex
+static void CompactClassificationTree_pr_gp(const real_T obj_CutPredictorIndex
   [29], const real_T obj_Children[58], const real_T obj_CutPoint[29], const
   boolean_T obj_NanCutPoints[29], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[116], const real_T Xin[10], real_T *labels, real_T
   scores[4]);
-static void MotorFau_predictOneWithCache_ou(const real_T X[10], real_T
+static void MotorFau_predictOneWithCache_o2(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[29], const real_T weak_learner_Children[58],
   const real_T weak_learner_CutPoint[29], const boolean_T
   weak_learner_NanCutPoints[29], const real_T weak_learner_Cost[16], const
   real_T weak_learner_ClassProbability[116], boolean_T *cached, real_T score[4]);
-static void CompactClassificationTree_p_g2w(const real_T obj_CutPredictorIndex
+static void CompactClassificationTree_p_gps(const real_T obj_CutPredictorIndex
   [63], const real_T obj_Children[126], const real_T obj_CutPoint[63], const
   boolean_T obj_NanCutPoints[63], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[252], const real_T Xin[10], real_T *labels, real_T
   scores[4]);
-static void MotorFa_predictOneWithCache_ouc(const real_T X[10], real_T
+static void MotorFa_predictOneWithCache_o22(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[63], const real_T weak_learner_Children[126],
   const real_T weak_learner_CutPoint[63], const boolean_T
   weak_learner_NanCutPoints[63], const real_T weak_learner_Cost[16], const
   real_T weak_learner_ClassProbability[252], boolean_T *cached, real_T score[4]);
-static void CompactClassificationTree__g2wu(const real_T obj_CutPredictorIndex
+static void CompactClassificationTree__gpst(const real_T obj_CutPredictorIndex
   [33], const real_T obj_Children[66], const real_T obj_CutPoint[33], const
   boolean_T obj_NanCutPoints[33], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[132], const real_T Xin[10], real_T *labels, real_T
   scores[4]);
-static void MotorF_predictOneWithCache_ouc3(const real_T X[10], real_T
+static void MotorF_predictOneWithCache_o22p(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[33], const real_T weak_learner_Children[66],
   const real_T weak_learner_CutPoint[33], const boolean_T
   weak_learner_NanCutPoints[33], const real_T weak_learner_Cost[16], const
   real_T weak_learner_ClassProbability[132], boolean_T *cached, real_T score[4]);
-static void CompactClassificationTree_g2wua(const real_T obj_CutPredictorIndex
+static void CompactClassificationTree_gpst0(const real_T obj_CutPredictorIndex
   [47], const real_T obj_Children[94], const real_T obj_CutPoint[47], const
   boolean_T obj_NanCutPoints[47], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[188], const real_T Xin[10], real_T *labels, real_T
   scores[4]);
-static void Motor_predictOneWithCache_ouc3j(const real_T X[10], real_T
+static void Motor_predictOneWithCache_o22p4(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[47], const real_T weak_learner_Children[94],
   const real_T weak_learner_CutPoint[47], const boolean_T
   weak_learner_NanCutPoints[47], const real_T weak_learner_Cost[16], const
   real_T weak_learner_ClassProbability[188], boolean_T *cached, real_T score[4]);
-static void CompactClassificationTre_g2wuaa(const real_T obj_CutPredictorIndex
+static void CompactClassificationTre_gpst0p(const real_T obj_CutPredictorIndex
   [41], const real_T obj_Children[82], const real_T obj_CutPoint[41], const
   boolean_T obj_NanCutPoints[41], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[164], const real_T Xin[10], real_T *labels, real_T
   scores[4]);
-static void Moto_predictOneWithCache_ouc3jh(const real_T X[10], real_T
+static void Moto_predictOneWithCache_o22p4v(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[41], const real_T weak_learner_Children[82],
   const real_T weak_learner_CutPoint[41], const boolean_T
   weak_learner_NanCutPoints[41], const real_T weak_learner_Cost[16], const
   real_T weak_learner_ClassProbability[164], boolean_T *cached, real_T score[4]);
-static void CompactClassificationTr_g2wuaat(const real_T obj_CutPredictorIndex
+static void CompactClassificationTr_gpst0p4(const real_T obj_CutPredictorIndex
   [37], const real_T obj_Children[74], const real_T obj_CutPoint[37], const
   boolean_T obj_NanCutPoints[37], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[148], const real_T Xin[10], real_T *labels, real_T
   scores[4]);
-static void Mot_predictOneWithCache_ouc3jhs(const real_T X[10], real_T
+static void Mot_predictOneWithCache_o22p4vs(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[37], const real_T weak_learner_Children[74],
   const real_T weak_learner_CutPoint[37], const boolean_T
   weak_learner_NanCutPoints[37], const real_T weak_learner_Cost[16], const
   real_T weak_learner_ClassProbability[148], boolean_T *cached, real_T score[4]);
-static void CompactClassificationT_g2wuaatd(const real_T obj_CutPredictorIndex
+static void CompactClassificationT_gpst0p4p(const real_T obj_CutPredictorIndex
   [39], const real_T obj_Children[78], const real_T obj_CutPoint[39], const
   boolean_T obj_NanCutPoints[39], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[156], const real_T Xin[10], real_T *labels, real_T
   scores[4]);
-static void Mo_predictOneWithCache_ouc3jhsa(const real_T X[10], real_T
+static void Mo_predictOneWithCache_o22p4vsu(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[39], const real_T weak_learner_Children[78],
   const real_T weak_learner_CutPoint[39], const boolean_T
   weak_learner_NanCutPoints[39], const real_T weak_learner_Cost[16], const
   real_T weak_learner_ClassProbability[156], boolean_T *cached, real_T score[4]);
-static void CompactClassification_g2wuaatdf(const real_T obj_CutPredictorIndex
+static void CompactClassification_gpst0p4p3(const real_T obj_CutPredictorIndex
   [53], const real_T obj_Children[106], const real_T obj_CutPoint[53], const
   boolean_T obj_NanCutPoints[53], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[212], const real_T Xin[10], real_T *labels, real_T
   scores[4]);
-static void M_predictOneWithCache_ouc3jhsam(const real_T X[10], real_T
+static void M_predictOneWithCache_o22p4vsub(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[53], const real_T weak_learner_Children[106],
   const real_T weak_learner_CutPoint[53], const boolean_T
   weak_learner_NanCutPoints[53], const real_T weak_learner_Cost[16], const
   real_T weak_learner_ClassProbability[212], boolean_T *cached, real_T score[4]);
-static void CompactClassificatio_g2wuaatdfz(const real_T obj_CutPredictorIndex
+static void CompactClassificatio_gpst0p4p3i(const real_T obj_CutPredictorIndex
   [59], const real_T obj_Children[118], const real_T obj_CutPoint[59], const
   boolean_T obj_NanCutPoints[59], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[236], const real_T Xin[10], real_T *labels, real_T
   scores[4]);
-static void predictOneWithCache_ouc3jhsamd(const real_T X[10], real_T
+static void predictOneWithCache_o22p4vsubw(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[59], const real_T weak_learner_Children[118],
   const real_T weak_learner_CutPoint[59], const boolean_T
   weak_learner_NanCutPoints[59], const real_T weak_learner_Cost[16], const
   real_T weak_learner_ClassProbability[236], boolean_T *cached, real_T score[4]);
-static void CompactClassificati_g2wuaatdfzv(const real_T obj_CutPredictorIndex
+static void CompactClassificati_gpst0p4p3is(const real_T obj_CutPredictorIndex
   [45], const real_T obj_Children[90], const real_T obj_CutPoint[45], const
   boolean_T obj_NanCutPoints[45], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[180], const real_T Xin[10], real_T *labels, real_T
   scores[4]);
-static void predictOneWithCache_ouc3jhsamdo(const real_T X[10], real_T
+static void predictOneWithCache_o22p4vsubwb(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[45], const real_T weak_learner_Children[90],
   const real_T weak_learner_CutPoint[45], const boolean_T
@@ -189,141 +189,141 @@ static void CompactClassificationTree_Compa(real_T obj_CutPredictorIndex[43],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[172]);
-static void CompactClassificat_g2wuaatdfzvx(const real_T obj_CutPredictorIndex
+static void CompactClassificat_gpst0p4p3isq(const real_T obj_CutPredictorIndex
   [43], const real_T obj_Children[86], const real_T obj_CutPoint[43], const
   boolean_T obj_NanCutPoints[43], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[172], const real_T Xin[10], real_T *labels, real_T
   scores[4]);
-static void predictOneWithCach_ouc3jhsamdor(const real_T X[10], real_T
+static void predictOneWithCach_o22p4vsubwbf(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[43], const real_T weak_learner_Children[86],
   const real_T weak_learner_CutPoint[43], const boolean_T
   weak_learner_NanCutPoints[43], const real_T weak_learner_Cost[16], const
   real_T weak_learner_ClassProbability[172], boolean_T *cached, real_T score[4]);
-static void CompactClassificationTree_Com_k(real_T obj_CutPredictorIndex[39],
+static void CompactClassificationTree_Com_g(real_T obj_CutPredictorIndex[39],
   real_T obj_Children[78], real_T obj_CutPoint[39], boolean_T obj_NanCutPoints
   [39], boolean_T obj_InfCutPoints[39], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[156]);
-static void CompactClassificationTree_Co_kp(real_T obj_CutPredictorIndex[53],
+static void CompactClassificationTree_Co_gk(real_T obj_CutPredictorIndex[53],
   real_T obj_Children[106], real_T obj_CutPoint[53], boolean_T obj_NanCutPoints
   [53], boolean_T obj_InfCutPoints[53], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[212]);
-static void CompactClassificationTree_C_kpi(real_T obj_CutPredictorIndex[55],
+static void CompactClassificationTree_C_gkd(real_T obj_CutPredictorIndex[55],
   real_T obj_Children[110], real_T obj_CutPoint[55], boolean_T obj_NanCutPoints
   [55], boolean_T obj_InfCutPoints[55], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[220]);
-static void CompactClassifica_g2wuaatdfzvxm(const real_T obj_CutPredictorIndex
+static void CompactClassifica_gpst0p4p3isq4(const real_T obj_CutPredictorIndex
   [55], const real_T obj_Children[110], const real_T obj_CutPoint[55], const
   boolean_T obj_NanCutPoints[55], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[220], const real_T Xin[10], real_T *labels, real_T
   scores[4]);
-static void predictOneWithCac_ouc3jhsamdorg(const real_T X[10], real_T
+static void predictOneWithCac_o22p4vsubwbfs(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[55], const real_T weak_learner_Children[110],
   const real_T weak_learner_CutPoint[55], const boolean_T
   weak_learner_NanCutPoints[55], const real_T weak_learner_Cost[16], const
   real_T weak_learner_ClassProbability[220], boolean_T *cached, real_T score[4]);
-static void CompactClassificationTree__kpia(real_T obj_CutPredictorIndex[49],
+static void CompactClassificationTree__gkd2(real_T obj_CutPredictorIndex[49],
   real_T obj_Children[98], real_T obj_CutPoint[49], boolean_T obj_NanCutPoints
   [49], boolean_T obj_InfCutPoints[49], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[196]);
-static void CompactClassificationTree_kpian(real_T obj_CutPredictorIndex[45],
+static void CompactClassificationTree_gkd2u(real_T obj_CutPredictorIndex[45],
   real_T obj_Children[90], real_T obj_CutPoint[45], boolean_T obj_NanCutPoints
   [45], boolean_T obj_InfCutPoints[45], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[180]);
-static void CompactClassificationTre_kpianh(real_T obj_CutPredictorIndex[47],
+static void CompactClassificationTre_gkd2u4(real_T obj_CutPredictorIndex[47],
   real_T obj_Children[94], real_T obj_CutPoint[47], boolean_T obj_NanCutPoints
   [47], boolean_T obj_InfCutPoints[47], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[188]);
-static void CompactClassificationTr_kpianhe(real_T obj_CutPredictorIndex[31],
+static void CompactClassificationTr_gkd2u4z(real_T obj_CutPredictorIndex[31],
   real_T obj_Children[62], real_T obj_CutPoint[31], boolean_T obj_NanCutPoints
   [31], boolean_T obj_InfCutPoints[31], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[124]);
-static void CompactClassificationT_kpianhew(real_T obj_CutPredictorIndex[39],
+static void CompactClassificationT_gkd2u4zd(real_T obj_CutPredictorIndex[39],
   real_T obj_Children[78], real_T obj_CutPoint[39], boolean_T obj_NanCutPoints
   [39], boolean_T obj_InfCutPoints[39], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[156]);
-static void CompactClassification_kpianhewy(real_T obj_CutPredictorIndex[51],
+static void CompactClassification_gkd2u4zdv(real_T obj_CutPredictorIndex[51],
   real_T obj_Children[102], real_T obj_CutPoint[51], boolean_T obj_NanCutPoints
   [51], boolean_T obj_InfCutPoints[51], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[204]);
-static void CompactClassific_g2wuaatdfzvxmi(const real_T obj_CutPredictorIndex
+static void CompactClassific_gpst0p4p3isq4m(const real_T obj_CutPredictorIndex
   [51], const real_T obj_Children[102], const real_T obj_CutPoint[51], const
   boolean_T obj_NanCutPoints[51], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[204], const real_T Xin[10], real_T *labels, real_T
   scores[4]);
-static void predictOneWithCa_ouc3jhsamdorgh(const real_T X[10], real_T
+static void predictOneWithCa_o22p4vsubwbfsd(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[51], const real_T weak_learner_Children[102],
   const real_T weak_learner_CutPoint[51], const boolean_T
   weak_learner_NanCutPoints[51], const real_T weak_learner_Cost[16], const
   real_T weak_learner_ClassProbability[204], boolean_T *cached, real_T score[4]);
-static void CompactClassificatio_kpianhewy0(real_T obj_CutPredictorIndex[53],
+static void CompactClassificatio_gkd2u4zdvp(real_T obj_CutPredictorIndex[53],
   real_T obj_Children[106], real_T obj_CutPoint[53], boolean_T obj_NanCutPoints
   [53], boolean_T obj_InfCutPoints[53], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[212]);
-static void CompactClassificati_kpianhewy0x(real_T obj_CutPredictorIndex[51],
+static void CompactClassificati_gkd2u4zdvpw(real_T obj_CutPredictorIndex[51],
   real_T obj_Children[102], real_T obj_CutPoint[51], boolean_T obj_NanCutPoints
   [51], boolean_T obj_InfCutPoints[51], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[204]);
-static void CompactClassificat_kpianhewy0xe(real_T obj_CutPredictorIndex[45],
+static void CompactClassificat_gkd2u4zdvpwa(real_T obj_CutPredictorIndex[45],
   real_T obj_Children[90], real_T obj_CutPoint[45], boolean_T obj_NanCutPoints
   [45], boolean_T obj_InfCutPoints[45], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[180]);
-static void CompactClassifica_kpianhewy0xey(real_T obj_CutPredictorIndex[51],
+static void CompactClassifica_gkd2u4zdvpwal(real_T obj_CutPredictorIndex[51],
   real_T obj_Children[102], real_T obj_CutPoint[51], boolean_T obj_NanCutPoints
   [51], boolean_T obj_InfCutPoints[51], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[204]);
-static void CompactClassific_kpianhewy0xey4(real_T obj_CutPredictorIndex[43],
+static void CompactClassific_gkd2u4zdvpwala(real_T obj_CutPredictorIndex[43],
   real_T obj_Children[86], real_T obj_CutPoint[43], boolean_T obj_NanCutPoints
   [43], boolean_T obj_InfCutPoints[43], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[172]);
-static void CompactClassifi_kpianhewy0xey4g(real_T obj_CutPredictorIndex[57],
+static void CompactClassifi_gkd2u4zdvpwalat(real_T obj_CutPredictorIndex[57],
   real_T obj_Children[114], real_T obj_CutPoint[57], boolean_T obj_NanCutPoints
   [57], boolean_T obj_InfCutPoints[57], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[228]);
-static void CompactClassifi_g2wuaatdfzvxmiw(const real_T obj_CutPredictorIndex
+static void CompactClassifi_gpst0p4p3isq4md(const real_T obj_CutPredictorIndex
   [57], const real_T obj_Children[114], const real_T obj_CutPoint[57], const
   boolean_T obj_NanCutPoints[57], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[228], const real_T Xin[10], real_T *labels, real_T
   scores[4]);
-static void predictOneWithC_ouc3jhsamdorgh4(const real_T X[10], real_T
+static void predictOneWithC_o22p4vsubwbfsdz(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[57], const real_T weak_learner_Children[114],
   const real_T weak_learner_CutPoint[57], const boolean_T
   weak_learner_NanCutPoints[57], const real_T weak_learner_Cost[16], const
   real_T weak_learner_ClassProbability[228], boolean_T *cached, real_T score[4]);
-static void CompactClassificationTree_Com_g(real_T obj_CutPredictorIndex[49],
+static void CompactClassificationTree_Com_k(real_T obj_CutPredictorIndex[49],
   real_T obj_Children[98], real_T obj_CutPoint[49], boolean_T obj_NanCutPoints
   [49], boolean_T obj_InfCutPoints[49], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -335,49 +335,49 @@ static void CompactClassificationTree_Com_o(real_T obj_CutPredictorIndex[47],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[188]);
-static void CompactClassificationTree_Co_kq(real_T obj_CutPredictorIndex[37],
+static void CompactClassificationTree_Com_e(real_T obj_CutPredictorIndex[37],
   real_T obj_Children[74], real_T obj_CutPoint[37], boolean_T obj_NanCutPoints
   [37], boolean_T obj_InfCutPoints[37], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[148]);
-static void CompactClassificationTree_Com_h(real_T obj_CutPredictorIndex[45],
+static void CompactClassificationTree_Co_ej(real_T obj_CutPredictorIndex[45],
   real_T obj_Children[90], real_T obj_CutPoint[45], boolean_T obj_NanCutPoints
   [45], boolean_T obj_InfCutPoints[45], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[180]);
-static void CompactClassificationTree_Com_m(real_T obj_CutPredictorIndex[51],
+static void CompactClassificationTree_Com_j(real_T obj_CutPredictorIndex[51],
   real_T obj_Children[102], real_T obj_CutPoint[51], boolean_T obj_NanCutPoints
   [51], boolean_T obj_InfCutPoints[51], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[204]);
-static void CompactClassificationTree_Co_m3(real_T obj_CutPredictorIndex[41],
+static void CompactClassificationTree_Co_ea(real_T obj_CutPredictorIndex[41],
   real_T obj_Children[82], real_T obj_CutPoint[41], boolean_T obj_NanCutPoints
   [41], boolean_T obj_InfCutPoints[41], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[164]);
-static void CompactClassificationTree_Com_b(real_T obj_CutPredictorIndex[51],
+static void CompactClassificationTree_Com_a(real_T obj_CutPredictorIndex[51],
   real_T obj_Children[102], real_T obj_CutPoint[51], boolean_T obj_NanCutPoints
   [51], boolean_T obj_InfCutPoints[51], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[204]);
-static void CompactClassificationTree_Com_d(real_T obj_CutPredictorIndex[51],
+static void CompactClassificationTree_Com_c(real_T obj_CutPredictorIndex[51],
   real_T obj_Children[102], real_T obj_CutPoint[51], boolean_T obj_NanCutPoints
   [51], boolean_T obj_InfCutPoints[51], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[204]);
-static void CompactClassificationTree_Com_e(real_T obj_CutPredictorIndex[35],
+static void CompactClassificationTree_Co_gt(real_T obj_CutPredictorIndex[35],
   real_T obj_Children[70], real_T obj_CutPoint[35], boolean_T obj_NanCutPoints
   [35], boolean_T obj_InfCutPoints[35], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[140]);
-static void CompactClassificationTree_pre_i(const real_T obj_CutPredictorIndex
+static void CompactClassificationTree_pre_a(const real_T obj_CutPredictorIndex
   [35], const real_T obj_Children[70], const real_T obj_CutPoint[35], const
   boolean_T obj_NanCutPoints[35], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[140], const real_T Xin[10], real_T *labels, real_T
@@ -388,66 +388,66 @@ static void MotorFaul_predictOneWithCache_e(const real_T X[10], real_T
   const real_T weak_learner_CutPoint[35], const boolean_T
   weak_learner_NanCutPoints[35], const real_T weak_learner_Cost[16], const
   real_T weak_learner_ClassProbability[140], boolean_T *cached, real_T score[4]);
-static void CompactClassificationTree_Com_c(real_T obj_CutPredictorIndex[43],
+static void CompactClassificationTree_Com_i(real_T obj_CutPredictorIndex[43],
   real_T obj_Children[86], real_T obj_CutPoint[43], boolean_T obj_NanCutPoints
   [43], boolean_T obj_InfCutPoints[43], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[172]);
-static void CompactClassificationTree_Co_oc(real_T obj_CutPredictorIndex[41],
+static void CompactClassificationTree_Com_h(real_T obj_CutPredictorIndex[41],
   real_T obj_Children[82], real_T obj_CutPoint[41], boolean_T obj_NanCutPoints
   [41], boolean_T obj_InfCutPoints[41], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[164]);
-static void CompactClassificationTree_Co_kf(real_T obj_CutPredictorIndex[51],
+static void CompactClassificationTree_Com_n(real_T obj_CutPredictorIndex[51],
   real_T obj_Children[102], real_T obj_CutPoint[51], boolean_T obj_NanCutPoints
   [51], boolean_T obj_InfCutPoints[51], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[204]);
-static void CompactClassificationTree_Co_oe(real_T obj_CutPredictorIndex[57],
+static void CompactClassificationTree_Co_kq(real_T obj_CutPredictorIndex[57],
   real_T obj_Children[114], real_T obj_CutPoint[57], boolean_T obj_NanCutPoints
   [57], boolean_T obj_InfCutPoints[57], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[228]);
-static void CompactClassificationTree_Co_hx(real_T obj_CutPredictorIndex[49],
+static void CompactClassificationTree_Co_o2(real_T obj_CutPredictorIndex[49],
   real_T obj_Children[98], real_T obj_CutPoint[49], boolean_T obj_NanCutPoints
   [49], boolean_T obj_InfCutPoints[49], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[196]);
-static void CompactClassificationTree_Com_f(real_T obj_CutPredictorIndex[43],
+static void CompactClassificationTree_Com_b(real_T obj_CutPredictorIndex[43],
   real_T obj_Children[86], real_T obj_CutPoint[43], boolean_T obj_NanCutPoints
   [43], boolean_T obj_InfCutPoints[43], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[172]);
-static void CompactClassificationTree_Com_p(real_T obj_CutPredictorIndex[67],
+static void CompactClassificationTree_Co_cr(real_T obj_CutPredictorIndex[67],
   real_T obj_Children[134], real_T obj_CutPoint[67], boolean_T obj_NanCutPoints
   [67], boolean_T obj_InfCutPoints[67], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[268]);
-static void CompactClassificationTree_pre_e(const real_T obj_CutPredictorIndex
+static void CompactClassificationTree_pre_b(const real_T obj_CutPredictorIndex
   [67], const real_T obj_Children[134], const real_T obj_CutPoint[67], const
   boolean_T obj_NanCutPoints[67], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[268], const real_T Xin[10], real_T *labels, real_T
   scores[4]);
-static void MotorFaul_predictOneWithCache_k(const real_T X[10], real_T
+static void MotorFaul_predictOneWithCache_i(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[67], const real_T weak_learner_Children[134],
   const real_T weak_learner_CutPoint[67], const boolean_T
   weak_learner_NanCutPoints[67], const real_T weak_learner_Cost[16], const
   real_T weak_learner_ClassProbability[268], boolean_T *cached, real_T score[4]);
-static void CompactClassificationTree_Com_n(real_T obj_CutPredictorIndex[43],
+static void CompactClassificationTree_Co_he(real_T obj_CutPredictorIndex[43],
   real_T obj_Children[86], real_T obj_CutPoint[43], boolean_T obj_NanCutPoints
   [43], boolean_T obj_InfCutPoints[43], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
   boolean_T obj_ClassLogicalIndices[4], real_T obj_Cost[16], real_T
   obj_ClassProbability[172]);
-static void CompactClassificationTree_Com_j(real_T obj_CutPredictorIndex[49],
+static void CompactClassificationTree_Co_ci(real_T obj_CutPredictorIndex[49],
   real_T obj_Children[98], real_T obj_CutPoint[49], boolean_T obj_NanCutPoints
   [49], boolean_T obj_InfCutPoints[49], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -455,8 +455,356 @@ static void CompactClassificationTree_Com_j(real_T obj_CutPredictorIndex[49],
   obj_ClassProbability[196]);
 static void CompactEnsemble_ensemblePredict(const boolean_T obj_IsCached[50],
   const real_T X[10], real_T score[4]);
+static real_T MotorFaultDeploy_mean_o(const real_T x[2400]);
+static real_T MotorFaul_combineVectorElements(const real_T x[2400]);
+static real_T MotorFaultDeploy_std(const real_T x[2400]);
+static real_T MotorFaultDeploy_maximum_p(const real_T x[2400]);
+static void MotorFaultDeploy_minimum_j(const real_T x[3], real_T *ex, int32_T
+  *idx);
+static void CompactClassificationTree_pre_n(const real_T obj_CutPredictorIndex
+  [35], const real_T obj_Children[70], const real_T obj_CutPoint[35], const
+  boolean_T obj_NanCutPoints[35], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[105], const real_T Xin[10], real_T *labels, real_T
+  scores[3]);
+static void MotorFaultDeploy_updateCache_k(const real_T learnerscore[3], real_T
+  cachedScore[3], real_T *cachedWeights, boolean_T *cached, const char_T
+  combinerName[15], real_T score[3]);
+static void MotorFaul_predictOneWithCache_j(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[35], const real_T weak_learner_Children[70],
+  const real_T weak_learner_CutPoint[35], const boolean_T
+  weak_learner_NanCutPoints[35], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[105], boolean_T *cached, boolean_T initCache,
+  real_T score[3]);
+static void CompactClassificationTree_pr_na(const real_T obj_CutPredictorIndex
+  [33], const real_T obj_Children[66], const real_T obj_CutPoint[33], const
+  boolean_T obj_NanCutPoints[33], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[99], const real_T Xin[10], real_T *labels, real_T scores
+  [3]);
+static void MotorFau_predictOneWithCache_jp(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[33], const real_T weak_learner_Children[66],
+  const real_T weak_learner_CutPoint[33], const boolean_T
+  weak_learner_NanCutPoints[33], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[99], boolean_T *cached, real_T score[3]);
+static void CompactClassificationTree_p_nap(const real_T obj_CutPredictorIndex
+  [25], const real_T obj_Children[50], const real_T obj_CutPoint[25], const
+  boolean_T obj_NanCutPoints[25], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[75], const real_T Xin[10], real_T *labels, real_T scores
+  [3]);
+static void MotorFa_predictOneWithCache_jpy(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[25], const real_T weak_learner_Children[50],
+  const real_T weak_learner_CutPoint[25], const boolean_T
+  weak_learner_NanCutPoints[25], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[75], boolean_T *cached, real_T score[3]);
+static void CompactClassificationTree__napl(const real_T obj_CutPredictorIndex
+  [45], const real_T obj_Children[90], const real_T obj_CutPoint[45], const
+  boolean_T obj_NanCutPoints[45], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[135], const real_T Xin[10], real_T *labels, real_T
+  scores[3]);
+static void MotorF_predictOneWithCache_jpyz(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[45], const real_T weak_learner_Children[90],
+  const real_T weak_learner_CutPoint[45], const boolean_T
+  weak_learner_NanCutPoints[45], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[135], boolean_T *cached, real_T score[3]);
+static void CompactClassificationTree_naplr(const real_T obj_CutPredictorIndex
+  [27], const real_T obj_Children[54], const real_T obj_CutPoint[27], const
+  boolean_T obj_NanCutPoints[27], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[81], const real_T Xin[10], real_T *labels, real_T scores
+  [3]);
+static void Motor_predictOneWithCache_jpyzw(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[27], const real_T weak_learner_Children[54],
+  const real_T weak_learner_CutPoint[27], const boolean_T
+  weak_learner_NanCutPoints[27], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[81], boolean_T *cached, real_T score[3]);
+static void CompactClassificationTre_naplrq(const real_T obj_CutPredictorIndex
+  [29], const real_T obj_Children[58], const real_T obj_CutPoint[29], const
+  boolean_T obj_NanCutPoints[29], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[87], const real_T Xin[10], real_T *labels, real_T scores
+  [3]);
+static void Moto_predictOneWithCache_jpyzwe(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[29], const real_T weak_learner_Children[58],
+  const real_T weak_learner_CutPoint[29], const boolean_T
+  weak_learner_NanCutPoints[29], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[87], boolean_T *cached, real_T score[3]);
+static void CompactClassificationTr_naplrqt(const real_T obj_CutPredictorIndex
+  [21], const real_T obj_Children[42], const real_T obj_CutPoint[21], const
+  boolean_T obj_NanCutPoints[21], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[63], const real_T Xin[10], real_T *labels, real_T scores
+  [3]);
+static void Mot_predictOneWithCache_jpyzwef(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[21], const real_T weak_learner_Children[42],
+  const real_T weak_learner_CutPoint[21], const boolean_T
+  weak_learner_NanCutPoints[21], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[63], boolean_T *cached, real_T score[3]);
+static void CompactClassificationT_naplrqtl(const real_T obj_CutPredictorIndex
+  [31], const real_T obj_Children[62], const real_T obj_CutPoint[31], const
+  boolean_T obj_NanCutPoints[31], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[93], const real_T Xin[10], real_T *labels, real_T scores
+  [3]);
+static void Mo_predictOneWithCache_jpyzwefn(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[31], const real_T weak_learner_Children[62],
+  const real_T weak_learner_CutPoint[31], const boolean_T
+  weak_learner_NanCutPoints[31], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[93], boolean_T *cached, real_T score[3]);
+static void CompactClassification_naplrqtlh(const real_T obj_CutPredictorIndex
+  [23], const real_T obj_Children[46], const real_T obj_CutPoint[23], const
+  boolean_T obj_NanCutPoints[23], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[69], const real_T Xin[10], real_T *labels, real_T scores
+  [3]);
+static void M_predictOneWithCache_jpyzwefnb(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[23], const real_T weak_learner_Children[46],
+  const real_T weak_learner_CutPoint[23], const boolean_T
+  weak_learner_NanCutPoints[23], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[69], boolean_T *cached, real_T score[3]);
+static void CompactClassificationTree_Co_gn(real_T obj_CutPredictorIndex[33],
+  real_T obj_Children[66], real_T obj_CutPoint[33], boolean_T obj_NanCutPoints
+  [33], boolean_T obj_InfCutPoints[33], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[99]);
+static void CompactClassificationTree_C_gne(real_T obj_CutPredictorIndex[25],
+  real_T obj_Children[50], real_T obj_CutPoint[25], boolean_T obj_NanCutPoints
+  [25], boolean_T obj_InfCutPoints[25], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[75]);
+static void CompactClassificationTree__gnex(real_T obj_CutPredictorIndex[17],
+  real_T obj_Children[34], real_T obj_CutPoint[17], boolean_T obj_NanCutPoints
+  [17], boolean_T obj_InfCutPoints[17], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[51]);
+static void CompactClassificatio_naplrqtlhi(const real_T obj_CutPredictorIndex
+  [17], const real_T obj_Children[34], const real_T obj_CutPoint[17], const
+  boolean_T obj_NanCutPoints[17], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[51], const real_T Xin[10], real_T *labels, real_T scores
+  [3]);
+static void predictOneWithCache_jpyzwefnbj(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[17], const real_T weak_learner_Children[34],
+  const real_T weak_learner_CutPoint[17], const boolean_T
+  weak_learner_NanCutPoints[17], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[51], boolean_T *cached, real_T score[3]);
+static void CompactClassificationTree_gnexe(real_T obj_CutPredictorIndex[31],
+  real_T obj_Children[62], real_T obj_CutPoint[31], boolean_T obj_NanCutPoints
+  [31], boolean_T obj_InfCutPoints[31], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[93]);
+static void CompactClassificationTre_gnexe4(real_T obj_CutPredictorIndex[31],
+  real_T obj_Children[62], real_T obj_CutPoint[31], boolean_T obj_NanCutPoints
+  [31], boolean_T obj_InfCutPoints[31], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[93]);
+static void CompactClassificationTr_gnexe4e(real_T obj_CutPredictorIndex[19],
+  real_T obj_Children[38], real_T obj_CutPoint[19], boolean_T obj_NanCutPoints
+  [19], boolean_T obj_InfCutPoints[19], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[57]);
+static void CompactClassificati_naplrqtlhie(const real_T obj_CutPredictorIndex
+  [19], const real_T obj_Children[38], const real_T obj_CutPoint[19], const
+  boolean_T obj_NanCutPoints[19], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[57], const real_T Xin[10], real_T *labels, real_T scores
+  [3]);
+static void predictOneWithCache_jpyzwefnbjt(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[19], const real_T weak_learner_Children[38],
+  const real_T weak_learner_CutPoint[19], const boolean_T
+  weak_learner_NanCutPoints[19], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[57], boolean_T *cached, real_T score[3]);
+static void CompactClassificationT_gnexe4eq(real_T obj_CutPredictorIndex[31],
+  real_T obj_Children[62], real_T obj_CutPoint[31], boolean_T obj_NanCutPoints
+  [31], boolean_T obj_InfCutPoints[31], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[93]);
+static void CompactClassification_gnexe4eq5(real_T obj_CutPredictorIndex[51],
+  real_T obj_Children[102], real_T obj_CutPoint[51], boolean_T obj_NanCutPoints
+  [51], boolean_T obj_InfCutPoints[51], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[153]);
+static void CompactClassificat_naplrqtlhieu(const real_T obj_CutPredictorIndex
+  [51], const real_T obj_Children[102], const real_T obj_CutPoint[51], const
+  boolean_T obj_NanCutPoints[51], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[153], const real_T Xin[10], real_T *labels, real_T
+  scores[3]);
+static void predictOneWithCach_jpyzwefnbjt0(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[51], const real_T weak_learner_Children[102],
+  const real_T weak_learner_CutPoint[51], const boolean_T
+  weak_learner_NanCutPoints[51], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[153], boolean_T *cached, real_T score[3]);
+static void CompactClassificatio_gnexe4eq5x(real_T obj_CutPredictorIndex[25],
+  real_T obj_Children[50], real_T obj_CutPoint[25], boolean_T obj_NanCutPoints
+  [25], boolean_T obj_InfCutPoints[25], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[75]);
+static void CompactClassificati_gnexe4eq5xh(real_T obj_CutPredictorIndex[23],
+  real_T obj_Children[46], real_T obj_CutPoint[23], boolean_T obj_NanCutPoints
+  [23], boolean_T obj_InfCutPoints[23], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[69]);
+static void CompactClassificat_gnexe4eq5xht(real_T obj_CutPredictorIndex[45],
+  real_T obj_Children[90], real_T obj_CutPoint[45], boolean_T obj_NanCutPoints
+  [45], boolean_T obj_InfCutPoints[45], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[135]);
+static void CompactClassifica_gnexe4eq5xhts(real_T obj_CutPredictorIndex[19],
+  real_T obj_Children[38], real_T obj_CutPoint[19], boolean_T obj_NanCutPoints
+  [19], boolean_T obj_InfCutPoints[19], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[57]);
+static void CompactClassific_gnexe4eq5xhtsj(real_T obj_CutPredictorIndex[29],
+  real_T obj_Children[58], real_T obj_CutPoint[29], boolean_T obj_NanCutPoints
+  [29], boolean_T obj_InfCutPoints[29], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[87]);
+static void CompactClassifi_gnexe4eq5xhtsjp(real_T obj_CutPredictorIndex[25],
+  real_T obj_Children[50], real_T obj_CutPoint[25], boolean_T obj_NanCutPoints
+  [25], boolean_T obj_InfCutPoints[25], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[75]);
+static void CompactClassificationTree_Com_l(real_T obj_CutPredictorIndex[25],
+  real_T obj_Children[50], real_T obj_CutPoint[25], boolean_T obj_NanCutPoints
+  [25], boolean_T obj_InfCutPoints[25], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[75]);
+static void CompactClassificationTree_Co_jt(real_T obj_CutPredictorIndex[23],
+  real_T obj_Children[46], real_T obj_CutPoint[23], boolean_T obj_NanCutPoints
+  [23], boolean_T obj_InfCutPoints[23], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[69]);
+static void CompactClassificationTree_Com_p(real_T obj_CutPredictorIndex[27],
+  real_T obj_Children[54], real_T obj_CutPoint[27], boolean_T obj_NanCutPoints
+  [27], boolean_T obj_InfCutPoints[27], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[81]);
+static void CompactClassificationTree_Com_d(real_T obj_CutPredictorIndex[31],
+  real_T obj_Children[62], real_T obj_CutPoint[31], boolean_T obj_NanCutPoints
+  [31], boolean_T obj_InfCutPoints[31], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[93]);
+static void CompactClassificationTree_Co_g0(real_T obj_CutPredictorIndex[31],
+  real_T obj_Children[62], real_T obj_CutPoint[31], boolean_T obj_NanCutPoints
+  [31], boolean_T obj_InfCutPoints[31], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[93]);
+static void CompactClassificationTree_Co_bl(real_T obj_CutPredictorIndex[25],
+  real_T obj_Children[50], real_T obj_CutPoint[25], boolean_T obj_NanCutPoints
+  [25], boolean_T obj_InfCutPoints[25], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[75]);
+static void CompactClassificationTree_Co_cj(real_T obj_CutPredictorIndex[33],
+  real_T obj_Children[66], real_T obj_CutPoint[33], boolean_T obj_NanCutPoints
+  [33], boolean_T obj_InfCutPoints[33], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[99]);
+static void CompactClassificationTree_Co_lj(real_T obj_CutPredictorIndex[23],
+  real_T obj_Children[46], real_T obj_CutPoint[23], boolean_T obj_NanCutPoints
+  [23], boolean_T obj_InfCutPoints[23], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[69]);
+static void CompactClassificationTree_Co_lk(real_T obj_CutPredictorIndex[25],
+  real_T obj_Children[50], real_T obj_CutPoint[25], boolean_T obj_NanCutPoints
+  [25], boolean_T obj_InfCutPoints[25], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[75]);
+static void CompactClassificationTree_Co_n0(real_T obj_CutPredictorIndex[25],
+  real_T obj_Children[50], real_T obj_CutPoint[25], boolean_T obj_NanCutPoints
+  [25], boolean_T obj_InfCutPoints[25], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[75]);
+static void CompactClassificationTree_Co_ha(real_T obj_CutPredictorIndex[23],
+  real_T obj_Children[46], real_T obj_CutPoint[23], boolean_T obj_NanCutPoints
+  [23], boolean_T obj_InfCutPoints[23], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[69]);
+static void CompactClassificationTree_Co_cw(real_T obj_CutPredictorIndex[21],
+  real_T obj_Children[42], real_T obj_CutPoint[21], boolean_T obj_NanCutPoints
+  [21], boolean_T obj_InfCutPoints[21], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[63]);
+static void CompactClassificationTree_Co_pp(real_T obj_CutPredictorIndex[27],
+  real_T obj_Children[54], real_T obj_CutPoint[27], boolean_T obj_NanCutPoints
+  [27], boolean_T obj_InfCutPoints[27], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[81]);
+static void CompactClassificationTree_Co_de(real_T obj_CutPredictorIndex[21],
+  real_T obj_Children[42], real_T obj_CutPoint[21], boolean_T obj_NanCutPoints
+  [21], boolean_T obj_InfCutPoints[21], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[63]);
+static void CompactClassificationTree_Co_gj(real_T obj_CutPredictorIndex[21],
+  real_T obj_Children[42], real_T obj_CutPoint[21], boolean_T obj_NanCutPoints
+  [21], boolean_T obj_InfCutPoints[21], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[63]);
+static void CompactClassificationTree_Co_gv(real_T obj_CutPredictorIndex[27],
+  real_T obj_Children[54], real_T obj_CutPoint[27], boolean_T obj_NanCutPoints
+  [27], boolean_T obj_InfCutPoints[27], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[81]);
+static void CompactClassificationTree_Co_pa(real_T obj_CutPredictorIndex[35],
+  real_T obj_Children[70], real_T obj_CutPoint[35], boolean_T obj_NanCutPoints
+  [35], boolean_T obj_InfCutPoints[35], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[105]);
+static void CompactClassificationTree_Com_f(real_T obj_CutPredictorIndex[27],
+  real_T obj_Children[54], real_T obj_CutPoint[27], boolean_T obj_NanCutPoints
+  [27], boolean_T obj_InfCutPoints[27], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[81]);
+static void CompactClassificationTree_Co_o4(real_T obj_CutPredictorIndex[31],
+  real_T obj_Children[62], real_T obj_CutPoint[31], boolean_T obj_NanCutPoints
+  [31], boolean_T obj_InfCutPoints[31], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[93]);
+static void CompactClassificationTree_Co_ba(real_T obj_CutPredictorIndex[19],
+  real_T obj_Children[38], real_T obj_CutPoint[19], boolean_T obj_NanCutPoints
+  [19], boolean_T obj_InfCutPoints[19], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[57]);
+static void CompactEnsemble_ensemblePredi_j(const boolean_T obj_IsCached[50],
+  const real_T X[10], real_T score[3]);
 
-/* Function for MATLAB Function: '<Root>/Detector' */
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
 static void FFTImplementationCallback_doHal(const real_T x[2048], creal_T y[2048])
 {
   real_T costab[512];
@@ -5539,7 +5887,7 @@ real_T rt_hypotd_snf(real_T u0, real_T u1)
   return y;
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
 static real_T MotorFaultDeploy_mean(const real_T x[2048])
 {
   real_T b_y;
@@ -5581,7 +5929,7 @@ static real_T MotorFaultDeploy_mean(const real_T x[2048])
   return (b_y + bsum) / (real_T)counts;
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
 static real_T MotorFaultDeploy_maximum(const real_T x[2048])
 {
   real_T ex;
@@ -5666,7 +6014,7 @@ real_T rt_powd_snf(real_T u0, real_T u1)
   return y;
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
 static void MotorFaultDeploy_minimum(const real_T x[4], real_T *ex, int32_T *idx)
 {
   int32_T b_idx;
@@ -5705,7 +6053,7 @@ static void MotorFaultDeploy_minimum(const real_T x[4], real_T *ex, int32_T *idx
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
 static void CompactClassificationTree_predi(const real_T obj_CutPredictorIndex
   [49], const real_T obj_Children[98], const real_T obj_CutPoint[49], const
   boolean_T obj_NanCutPoints[49], const real_T obj_Cost[16], const real_T
@@ -5749,7 +6097,7 @@ static void CompactClassificationTree_predi(const real_T obj_CutPredictorIndex
   *labels = (int8_T)((int8_T)(m - 1) + 1);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
 static void MotorFaultDeploy_updateCache(const real_T learnerscore[4], real_T
   cachedScore[4], real_T *cachedWeights, boolean_T *cached, const char_T
   combinerName[15], real_T score[4])
@@ -5813,7 +6161,7 @@ static void MotorFaultDeploy_updateCache(const real_T learnerscore[4], real_T
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
 static void MotorFaultD_predictOneWithCache(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[49], const real_T weak_learner_Children[98],
@@ -5861,7 +6209,7 @@ static void MotorFaultD_predictOneWithCache(const real_T X[10], real_T
     score);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
 static void CompactClassificationTree_pre_g(const real_T obj_CutPredictorIndex
   [31], const real_T obj_Children[62], const real_T obj_CutPoint[31], const
   boolean_T obj_NanCutPoints[31], const real_T obj_Cost[16], const real_T
@@ -5905,7 +6253,7 @@ static void CompactClassificationTree_pre_g(const real_T obj_CutPredictorIndex
   *labels = (int8_T)((int8_T)(m - 1) + 1);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
 static void MotorFaul_predictOneWithCache_o(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[31], const real_T weak_learner_Children[62],
@@ -5945,8 +6293,8 @@ static void MotorFaul_predictOneWithCache_o(const real_T X[10], real_T
     score);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_pr_g2(const real_T obj_CutPredictorIndex
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_pr_gp(const real_T obj_CutPredictorIndex
   [29], const real_T obj_Children[58], const real_T obj_CutPoint[29], const
   boolean_T obj_NanCutPoints[29], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[116], const real_T Xin[10], real_T *labels, real_T
@@ -5989,8 +6337,8 @@ static void CompactClassificationTree_pr_g2(const real_T obj_CutPredictorIndex
   *labels = (int8_T)((int8_T)(m - 1) + 1);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void MotorFau_predictOneWithCache_ou(const real_T X[10], real_T
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void MotorFau_predictOneWithCache_o2(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[29], const real_T weak_learner_Children[58],
   const real_T weak_learner_CutPoint[29], const boolean_T
@@ -6002,7 +6350,7 @@ static void MotorFau_predictOneWithCache_ou(const real_T X[10], real_T
   int32_T k;
   boolean_T exitg1;
   boolean_T y;
-  CompactClassificationTree_pr_g2(weak_learner_CutPredictorIndex,
+  CompactClassificationTree_pr_gp(weak_learner_CutPredictorIndex,
     weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
     weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
   y = false;
@@ -6029,8 +6377,8 @@ static void MotorFau_predictOneWithCache_ou(const real_T X[10], real_T
     score);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_p_g2w(const real_T obj_CutPredictorIndex
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_p_gps(const real_T obj_CutPredictorIndex
   [63], const real_T obj_Children[126], const real_T obj_CutPoint[63], const
   boolean_T obj_NanCutPoints[63], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[252], const real_T Xin[10], real_T *labels, real_T
@@ -6073,8 +6421,8 @@ static void CompactClassificationTree_p_g2w(const real_T obj_CutPredictorIndex
   *labels = (int8_T)((int8_T)(m - 1) + 1);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void MotorFa_predictOneWithCache_ouc(const real_T X[10], real_T
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void MotorFa_predictOneWithCache_o22(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[63], const real_T weak_learner_Children[126],
   const real_T weak_learner_CutPoint[63], const boolean_T
@@ -6086,7 +6434,7 @@ static void MotorFa_predictOneWithCache_ouc(const real_T X[10], real_T
   int32_T k;
   boolean_T exitg1;
   boolean_T y;
-  CompactClassificationTree_p_g2w(weak_learner_CutPredictorIndex,
+  CompactClassificationTree_p_gps(weak_learner_CutPredictorIndex,
     weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
     weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
   y = false;
@@ -6113,8 +6461,8 @@ static void MotorFa_predictOneWithCache_ouc(const real_T X[10], real_T
     score);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree__g2wu(const real_T obj_CutPredictorIndex
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree__gpst(const real_T obj_CutPredictorIndex
   [33], const real_T obj_Children[66], const real_T obj_CutPoint[33], const
   boolean_T obj_NanCutPoints[33], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[132], const real_T Xin[10], real_T *labels, real_T
@@ -6157,8 +6505,8 @@ static void CompactClassificationTree__g2wu(const real_T obj_CutPredictorIndex
   *labels = (int8_T)((int8_T)(m - 1) + 1);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void MotorF_predictOneWithCache_ouc3(const real_T X[10], real_T
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void MotorF_predictOneWithCache_o22p(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[33], const real_T weak_learner_Children[66],
   const real_T weak_learner_CutPoint[33], const boolean_T
@@ -6170,7 +6518,7 @@ static void MotorF_predictOneWithCache_ouc3(const real_T X[10], real_T
   int32_T k;
   boolean_T exitg1;
   boolean_T y;
-  CompactClassificationTree__g2wu(weak_learner_CutPredictorIndex,
+  CompactClassificationTree__gpst(weak_learner_CutPredictorIndex,
     weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
     weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
   y = false;
@@ -6197,8 +6545,8 @@ static void MotorF_predictOneWithCache_ouc3(const real_T X[10], real_T
     score);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_g2wua(const real_T obj_CutPredictorIndex
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_gpst0(const real_T obj_CutPredictorIndex
   [47], const real_T obj_Children[94], const real_T obj_CutPoint[47], const
   boolean_T obj_NanCutPoints[47], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[188], const real_T Xin[10], real_T *labels, real_T
@@ -6241,8 +6589,8 @@ static void CompactClassificationTree_g2wua(const real_T obj_CutPredictorIndex
   *labels = (int8_T)((int8_T)(m - 1) + 1);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void Motor_predictOneWithCache_ouc3j(const real_T X[10], real_T
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void Motor_predictOneWithCache_o22p4(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[47], const real_T weak_learner_Children[94],
   const real_T weak_learner_CutPoint[47], const boolean_T
@@ -6254,7 +6602,7 @@ static void Motor_predictOneWithCache_ouc3j(const real_T X[10], real_T
   int32_T k;
   boolean_T exitg1;
   boolean_T y;
-  CompactClassificationTree_g2wua(weak_learner_CutPredictorIndex,
+  CompactClassificationTree_gpst0(weak_learner_CutPredictorIndex,
     weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
     weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
   y = false;
@@ -6281,8 +6629,8 @@ static void Motor_predictOneWithCache_ouc3j(const real_T X[10], real_T
     score);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTre_g2wuaa(const real_T obj_CutPredictorIndex
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTre_gpst0p(const real_T obj_CutPredictorIndex
   [41], const real_T obj_Children[82], const real_T obj_CutPoint[41], const
   boolean_T obj_NanCutPoints[41], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[164], const real_T Xin[10], real_T *labels, real_T
@@ -6325,8 +6673,8 @@ static void CompactClassificationTre_g2wuaa(const real_T obj_CutPredictorIndex
   *labels = (int8_T)((int8_T)(m - 1) + 1);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void Moto_predictOneWithCache_ouc3jh(const real_T X[10], real_T
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void Moto_predictOneWithCache_o22p4v(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[41], const real_T weak_learner_Children[82],
   const real_T weak_learner_CutPoint[41], const boolean_T
@@ -6338,7 +6686,7 @@ static void Moto_predictOneWithCache_ouc3jh(const real_T X[10], real_T
   int32_T k;
   boolean_T exitg1;
   boolean_T y;
-  CompactClassificationTre_g2wuaa(weak_learner_CutPredictorIndex,
+  CompactClassificationTre_gpst0p(weak_learner_CutPredictorIndex,
     weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
     weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
   y = false;
@@ -6365,8 +6713,8 @@ static void Moto_predictOneWithCache_ouc3jh(const real_T X[10], real_T
     score);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTr_g2wuaat(const real_T obj_CutPredictorIndex
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTr_gpst0p4(const real_T obj_CutPredictorIndex
   [37], const real_T obj_Children[74], const real_T obj_CutPoint[37], const
   boolean_T obj_NanCutPoints[37], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[148], const real_T Xin[10], real_T *labels, real_T
@@ -6409,8 +6757,8 @@ static void CompactClassificationTr_g2wuaat(const real_T obj_CutPredictorIndex
   *labels = (int8_T)((int8_T)(m - 1) + 1);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void Mot_predictOneWithCache_ouc3jhs(const real_T X[10], real_T
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void Mot_predictOneWithCache_o22p4vs(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[37], const real_T weak_learner_Children[74],
   const real_T weak_learner_CutPoint[37], const boolean_T
@@ -6422,7 +6770,7 @@ static void Mot_predictOneWithCache_ouc3jhs(const real_T X[10], real_T
   int32_T k;
   boolean_T exitg1;
   boolean_T y;
-  CompactClassificationTr_g2wuaat(weak_learner_CutPredictorIndex,
+  CompactClassificationTr_gpst0p4(weak_learner_CutPredictorIndex,
     weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
     weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
   y = false;
@@ -6449,8 +6797,8 @@ static void Mot_predictOneWithCache_ouc3jhs(const real_T X[10], real_T
     score);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationT_g2wuaatd(const real_T obj_CutPredictorIndex
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationT_gpst0p4p(const real_T obj_CutPredictorIndex
   [39], const real_T obj_Children[78], const real_T obj_CutPoint[39], const
   boolean_T obj_NanCutPoints[39], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[156], const real_T Xin[10], real_T *labels, real_T
@@ -6493,8 +6841,8 @@ static void CompactClassificationT_g2wuaatd(const real_T obj_CutPredictorIndex
   *labels = (int8_T)((int8_T)(m - 1) + 1);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void Mo_predictOneWithCache_ouc3jhsa(const real_T X[10], real_T
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void Mo_predictOneWithCache_o22p4vsu(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[39], const real_T weak_learner_Children[78],
   const real_T weak_learner_CutPoint[39], const boolean_T
@@ -6506,7 +6854,7 @@ static void Mo_predictOneWithCache_ouc3jhsa(const real_T X[10], real_T
   int32_T k;
   boolean_T exitg1;
   boolean_T y;
-  CompactClassificationT_g2wuaatd(weak_learner_CutPredictorIndex,
+  CompactClassificationT_gpst0p4p(weak_learner_CutPredictorIndex,
     weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
     weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
   y = false;
@@ -6533,8 +6881,8 @@ static void Mo_predictOneWithCache_ouc3jhsa(const real_T X[10], real_T
     score);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassification_g2wuaatdf(const real_T obj_CutPredictorIndex
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassification_gpst0p4p3(const real_T obj_CutPredictorIndex
   [53], const real_T obj_Children[106], const real_T obj_CutPoint[53], const
   boolean_T obj_NanCutPoints[53], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[212], const real_T Xin[10], real_T *labels, real_T
@@ -6577,8 +6925,8 @@ static void CompactClassification_g2wuaatdf(const real_T obj_CutPredictorIndex
   *labels = (int8_T)((int8_T)(m - 1) + 1);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void M_predictOneWithCache_ouc3jhsam(const real_T X[10], real_T
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void M_predictOneWithCache_o22p4vsub(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[53], const real_T weak_learner_Children[106],
   const real_T weak_learner_CutPoint[53], const boolean_T
@@ -6590,7 +6938,7 @@ static void M_predictOneWithCache_ouc3jhsam(const real_T X[10], real_T
   int32_T k;
   boolean_T exitg1;
   boolean_T y;
-  CompactClassification_g2wuaatdf(weak_learner_CutPredictorIndex,
+  CompactClassification_gpst0p4p3(weak_learner_CutPredictorIndex,
     weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
     weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
   y = false;
@@ -6617,8 +6965,8 @@ static void M_predictOneWithCache_ouc3jhsam(const real_T X[10], real_T
     score);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificatio_g2wuaatdfz(const real_T obj_CutPredictorIndex
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificatio_gpst0p4p3i(const real_T obj_CutPredictorIndex
   [59], const real_T obj_Children[118], const real_T obj_CutPoint[59], const
   boolean_T obj_NanCutPoints[59], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[236], const real_T Xin[10], real_T *labels, real_T
@@ -6661,8 +7009,8 @@ static void CompactClassificatio_g2wuaatdfz(const real_T obj_CutPredictorIndex
   *labels = (int8_T)((int8_T)(m - 1) + 1);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void predictOneWithCache_ouc3jhsamd(const real_T X[10], real_T
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void predictOneWithCache_o22p4vsubw(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[59], const real_T weak_learner_Children[118],
   const real_T weak_learner_CutPoint[59], const boolean_T
@@ -6674,7 +7022,7 @@ static void predictOneWithCache_ouc3jhsamd(const real_T X[10], real_T
   int32_T k;
   boolean_T exitg1;
   boolean_T y;
-  CompactClassificatio_g2wuaatdfz(weak_learner_CutPredictorIndex,
+  CompactClassificatio_gpst0p4p3i(weak_learner_CutPredictorIndex,
     weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
     weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
   y = false;
@@ -6701,8 +7049,8 @@ static void predictOneWithCache_ouc3jhsamd(const real_T X[10], real_T
     score);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificati_g2wuaatdfzv(const real_T obj_CutPredictorIndex
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificati_gpst0p4p3is(const real_T obj_CutPredictorIndex
   [45], const real_T obj_Children[90], const real_T obj_CutPoint[45], const
   boolean_T obj_NanCutPoints[45], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[180], const real_T Xin[10], real_T *labels, real_T
@@ -6745,8 +7093,8 @@ static void CompactClassificati_g2wuaatdfzv(const real_T obj_CutPredictorIndex
   *labels = (int8_T)((int8_T)(m - 1) + 1);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void predictOneWithCache_ouc3jhsamdo(const real_T X[10], real_T
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void predictOneWithCache_o22p4vsubwb(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[45], const real_T weak_learner_Children[90],
   const real_T weak_learner_CutPoint[45], const boolean_T
@@ -6758,7 +7106,7 @@ static void predictOneWithCache_ouc3jhsamdo(const real_T X[10], real_T
   int32_T k;
   boolean_T exitg1;
   boolean_T y;
-  CompactClassificati_g2wuaatdfzv(weak_learner_CutPredictorIndex,
+  CompactClassificati_gpst0p4p3is(weak_learner_CutPredictorIndex,
     weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
     weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
   y = false;
@@ -6785,7 +7133,7 @@ static void predictOneWithCache_ouc3jhsamdo(const real_T X[10], real_T
     score);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
 static void CompactClassificationTree_Compa(real_T obj_CutPredictorIndex[43],
   real_T obj_Children[86], real_T obj_CutPoint[43], boolean_T obj_NanCutPoints
   [43], boolean_T obj_InfCutPoints[43], int32_T obj_ClassNamesLength[4],
@@ -6882,8 +7230,8 @@ static void CompactClassificationTree_Compa(real_T obj_CutPredictorIndex[43],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificat_g2wuaatdfzvx(const real_T obj_CutPredictorIndex
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificat_gpst0p4p3isq(const real_T obj_CutPredictorIndex
   [43], const real_T obj_Children[86], const real_T obj_CutPoint[43], const
   boolean_T obj_NanCutPoints[43], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[172], const real_T Xin[10], real_T *labels, real_T
@@ -6926,8 +7274,8 @@ static void CompactClassificat_g2wuaatdfzvx(const real_T obj_CutPredictorIndex
   *labels = (int8_T)((int8_T)(m - 1) + 1);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void predictOneWithCach_ouc3jhsamdor(const real_T X[10], real_T
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void predictOneWithCach_o22p4vsubwbf(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[43], const real_T weak_learner_Children[86],
   const real_T weak_learner_CutPoint[43], const boolean_T
@@ -6939,7 +7287,7 @@ static void predictOneWithCach_ouc3jhsamdor(const real_T X[10], real_T
   int32_T k;
   boolean_T exitg1;
   boolean_T y;
-  CompactClassificat_g2wuaatdfzvx(weak_learner_CutPredictorIndex,
+  CompactClassificat_gpst0p4p3isq(weak_learner_CutPredictorIndex,
     weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
     weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
   y = false;
@@ -6966,8 +7314,8 @@ static void predictOneWithCach_ouc3jhsamdor(const real_T X[10], real_T
     score);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_Com_k(real_T obj_CutPredictorIndex[39],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_Com_g(real_T obj_CutPredictorIndex[39],
   real_T obj_Children[78], real_T obj_CutPoint[39], boolean_T obj_NanCutPoints
   [39], boolean_T obj_InfCutPoints[39], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -7058,8 +7406,8 @@ static void CompactClassificationTree_Com_k(real_T obj_CutPredictorIndex[39],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_Co_kp(real_T obj_CutPredictorIndex[53],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_Co_gk(real_T obj_CutPredictorIndex[53],
   real_T obj_Children[106], real_T obj_CutPoint[53], boolean_T obj_NanCutPoints
   [53], boolean_T obj_InfCutPoints[53], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -7166,8 +7514,8 @@ static void CompactClassificationTree_Co_kp(real_T obj_CutPredictorIndex[53],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_C_kpi(real_T obj_CutPredictorIndex[55],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_C_gkd(real_T obj_CutPredictorIndex[55],
   real_T obj_Children[110], real_T obj_CutPoint[55], boolean_T obj_NanCutPoints
   [55], boolean_T obj_InfCutPoints[55], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -7272,8 +7620,8 @@ static void CompactClassificationTree_C_kpi(real_T obj_CutPredictorIndex[55],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassifica_g2wuaatdfzvxm(const real_T obj_CutPredictorIndex
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassifica_gpst0p4p3isq4(const real_T obj_CutPredictorIndex
   [55], const real_T obj_Children[110], const real_T obj_CutPoint[55], const
   boolean_T obj_NanCutPoints[55], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[220], const real_T Xin[10], real_T *labels, real_T
@@ -7316,8 +7664,8 @@ static void CompactClassifica_g2wuaatdfzvxm(const real_T obj_CutPredictorIndex
   *labels = (int8_T)((int8_T)(m - 1) + 1);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void predictOneWithCac_ouc3jhsamdorg(const real_T X[10], real_T
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void predictOneWithCac_o22p4vsubwbfs(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[55], const real_T weak_learner_Children[110],
   const real_T weak_learner_CutPoint[55], const boolean_T
@@ -7329,7 +7677,7 @@ static void predictOneWithCac_ouc3jhsamdorg(const real_T X[10], real_T
   int32_T k;
   boolean_T exitg1;
   boolean_T y;
-  CompactClassifica_g2wuaatdfzvxm(weak_learner_CutPredictorIndex,
+  CompactClassifica_gpst0p4p3isq4(weak_learner_CutPredictorIndex,
     weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
     weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
   y = false;
@@ -7356,8 +7704,8 @@ static void predictOneWithCac_ouc3jhsamdorg(const real_T X[10], real_T
     score);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree__kpia(real_T obj_CutPredictorIndex[49],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree__gkd2(real_T obj_CutPredictorIndex[49],
   real_T obj_Children[98], real_T obj_CutPoint[49], boolean_T obj_NanCutPoints
   [49], boolean_T obj_InfCutPoints[49], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -7457,8 +7805,8 @@ static void CompactClassificationTree__kpia(real_T obj_CutPredictorIndex[49],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_kpian(real_T obj_CutPredictorIndex[45],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_gkd2u(real_T obj_CutPredictorIndex[45],
   real_T obj_Children[90], real_T obj_CutPoint[45], boolean_T obj_NanCutPoints
   [45], boolean_T obj_InfCutPoints[45], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -7555,8 +7903,8 @@ static void CompactClassificationTree_kpian(real_T obj_CutPredictorIndex[45],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTre_kpianh(real_T obj_CutPredictorIndex[47],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTre_gkd2u4(real_T obj_CutPredictorIndex[47],
   real_T obj_Children[94], real_T obj_CutPoint[47], boolean_T obj_NanCutPoints
   [47], boolean_T obj_InfCutPoints[47], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -7655,8 +8003,8 @@ static void CompactClassificationTre_kpianh(real_T obj_CutPredictorIndex[47],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTr_kpianhe(real_T obj_CutPredictorIndex[31],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTr_gkd2u4z(real_T obj_CutPredictorIndex[31],
   real_T obj_Children[62], real_T obj_CutPoint[31], boolean_T obj_NanCutPoints
   [31], boolean_T obj_InfCutPoints[31], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -7740,8 +8088,8 @@ static void CompactClassificationTr_kpianhe(real_T obj_CutPredictorIndex[31],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationT_kpianhew(real_T obj_CutPredictorIndex[39],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationT_gkd2u4zd(real_T obj_CutPredictorIndex[39],
   real_T obj_Children[78], real_T obj_CutPoint[39], boolean_T obj_NanCutPoints
   [39], boolean_T obj_InfCutPoints[39], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -7831,8 +8179,8 @@ static void CompactClassificationT_kpianhew(real_T obj_CutPredictorIndex[39],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassification_kpianhewy(real_T obj_CutPredictorIndex[51],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassification_gkd2u4zdv(real_T obj_CutPredictorIndex[51],
   real_T obj_Children[102], real_T obj_CutPoint[51], boolean_T obj_NanCutPoints
   [51], boolean_T obj_InfCutPoints[51], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -7932,8 +8280,8 @@ static void CompactClassification_kpianhewy(real_T obj_CutPredictorIndex[51],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassific_g2wuaatdfzvxmi(const real_T obj_CutPredictorIndex
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassific_gpst0p4p3isq4m(const real_T obj_CutPredictorIndex
   [51], const real_T obj_Children[102], const real_T obj_CutPoint[51], const
   boolean_T obj_NanCutPoints[51], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[204], const real_T Xin[10], real_T *labels, real_T
@@ -7976,8 +8324,8 @@ static void CompactClassific_g2wuaatdfzvxmi(const real_T obj_CutPredictorIndex
   *labels = (int8_T)((int8_T)(m - 1) + 1);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void predictOneWithCa_ouc3jhsamdorgh(const real_T X[10], real_T
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void predictOneWithCa_o22p4vsubwbfsd(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[51], const real_T weak_learner_Children[102],
   const real_T weak_learner_CutPoint[51], const boolean_T
@@ -7989,7 +8337,7 @@ static void predictOneWithCa_ouc3jhsamdorgh(const real_T X[10], real_T
   int32_T k;
   boolean_T exitg1;
   boolean_T y;
-  CompactClassific_g2wuaatdfzvxmi(weak_learner_CutPredictorIndex,
+  CompactClassific_gpst0p4p3isq4m(weak_learner_CutPredictorIndex,
     weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
     weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
   y = false;
@@ -8016,8 +8364,8 @@ static void predictOneWithCa_ouc3jhsamdorgh(const real_T X[10], real_T
     score);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificatio_kpianhewy0(real_T obj_CutPredictorIndex[53],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificatio_gkd2u4zdvp(real_T obj_CutPredictorIndex[53],
   real_T obj_Children[106], real_T obj_CutPoint[53], boolean_T obj_NanCutPoints
   [53], boolean_T obj_InfCutPoints[53], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -8120,8 +8468,8 @@ static void CompactClassificatio_kpianhewy0(real_T obj_CutPredictorIndex[53],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificati_kpianhewy0x(real_T obj_CutPredictorIndex[51],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificati_gkd2u4zdvpw(real_T obj_CutPredictorIndex[51],
   real_T obj_Children[102], real_T obj_CutPoint[51], boolean_T obj_NanCutPoints
   [51], boolean_T obj_InfCutPoints[51], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -8223,8 +8571,8 @@ static void CompactClassificati_kpianhewy0x(real_T obj_CutPredictorIndex[51],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificat_kpianhewy0xe(real_T obj_CutPredictorIndex[45],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificat_gkd2u4zdvpwa(real_T obj_CutPredictorIndex[45],
   real_T obj_Children[90], real_T obj_CutPoint[45], boolean_T obj_NanCutPoints
   [45], boolean_T obj_InfCutPoints[45], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -8320,8 +8668,8 @@ static void CompactClassificat_kpianhewy0xe(real_T obj_CutPredictorIndex[45],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassifica_kpianhewy0xey(real_T obj_CutPredictorIndex[51],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassifica_gkd2u4zdvpwal(real_T obj_CutPredictorIndex[51],
   real_T obj_Children[102], real_T obj_CutPoint[51], boolean_T obj_NanCutPoints
   [51], boolean_T obj_InfCutPoints[51], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -8421,8 +8769,8 @@ static void CompactClassifica_kpianhewy0xey(real_T obj_CutPredictorIndex[51],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassific_kpianhewy0xey4(real_T obj_CutPredictorIndex[43],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassific_gkd2u4zdvpwala(real_T obj_CutPredictorIndex[43],
   real_T obj_Children[86], real_T obj_CutPoint[43], boolean_T obj_NanCutPoints
   [43], boolean_T obj_InfCutPoints[43], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -8517,8 +8865,8 @@ static void CompactClassific_kpianhewy0xey4(real_T obj_CutPredictorIndex[43],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassifi_kpianhewy0xey4g(real_T obj_CutPredictorIndex[57],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassifi_gkd2u4zdvpwalat(real_T obj_CutPredictorIndex[57],
   real_T obj_Children[114], real_T obj_CutPoint[57], boolean_T obj_NanCutPoints
   [57], boolean_T obj_InfCutPoints[57], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -8626,8 +8974,8 @@ static void CompactClassifi_kpianhewy0xey4g(real_T obj_CutPredictorIndex[57],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassifi_g2wuaatdfzvxmiw(const real_T obj_CutPredictorIndex
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassifi_gpst0p4p3isq4md(const real_T obj_CutPredictorIndex
   [57], const real_T obj_Children[114], const real_T obj_CutPoint[57], const
   boolean_T obj_NanCutPoints[57], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[228], const real_T Xin[10], real_T *labels, real_T
@@ -8670,8 +9018,8 @@ static void CompactClassifi_g2wuaatdfzvxmiw(const real_T obj_CutPredictorIndex
   *labels = (int8_T)((int8_T)(m - 1) + 1);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void predictOneWithC_ouc3jhsamdorgh4(const real_T X[10], real_T
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void predictOneWithC_o22p4vsubwbfsdz(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[57], const real_T weak_learner_Children[114],
   const real_T weak_learner_CutPoint[57], const boolean_T
@@ -8683,7 +9031,7 @@ static void predictOneWithC_ouc3jhsamdorgh4(const real_T X[10], real_T
   int32_T k;
   boolean_T exitg1;
   boolean_T y;
-  CompactClassifi_g2wuaatdfzvxmiw(weak_learner_CutPredictorIndex,
+  CompactClassifi_gpst0p4p3isq4md(weak_learner_CutPredictorIndex,
     weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
     weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
   y = false;
@@ -8710,8 +9058,8 @@ static void predictOneWithC_ouc3jhsamdorgh4(const real_T X[10], real_T
     score);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_Com_g(real_T obj_CutPredictorIndex[49],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_Com_k(real_T obj_CutPredictorIndex[49],
   real_T obj_Children[98], real_T obj_CutPoint[49], boolean_T obj_NanCutPoints
   [49], boolean_T obj_InfCutPoints[49], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -8812,7 +9160,7 @@ static void CompactClassificationTree_Com_g(real_T obj_CutPredictorIndex[49],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
 static void CompactClassificationTree_Com_o(real_T obj_CutPredictorIndex[47],
   real_T obj_Children[94], real_T obj_CutPoint[47], boolean_T obj_NanCutPoints
   [47], boolean_T obj_InfCutPoints[47], int32_T obj_ClassNamesLength[4],
@@ -8912,8 +9260,8 @@ static void CompactClassificationTree_Com_o(real_T obj_CutPredictorIndex[47],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_Co_kq(real_T obj_CutPredictorIndex[37],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_Com_e(real_T obj_CutPredictorIndex[37],
   real_T obj_Children[74], real_T obj_CutPoint[37], boolean_T obj_NanCutPoints
   [37], boolean_T obj_InfCutPoints[37], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -9003,8 +9351,8 @@ static void CompactClassificationTree_Co_kq(real_T obj_CutPredictorIndex[37],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_Com_h(real_T obj_CutPredictorIndex[45],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_Co_ej(real_T obj_CutPredictorIndex[45],
   real_T obj_Children[90], real_T obj_CutPoint[45], boolean_T obj_NanCutPoints
   [45], boolean_T obj_InfCutPoints[45], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -9100,8 +9448,8 @@ static void CompactClassificationTree_Com_h(real_T obj_CutPredictorIndex[45],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_Com_m(real_T obj_CutPredictorIndex[51],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_Com_j(real_T obj_CutPredictorIndex[51],
   real_T obj_Children[102], real_T obj_CutPoint[51], boolean_T obj_NanCutPoints
   [51], boolean_T obj_InfCutPoints[51], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -9201,8 +9549,8 @@ static void CompactClassificationTree_Com_m(real_T obj_CutPredictorIndex[51],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_Co_m3(real_T obj_CutPredictorIndex[41],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_Co_ea(real_T obj_CutPredictorIndex[41],
   real_T obj_Children[82], real_T obj_CutPoint[41], boolean_T obj_NanCutPoints
   [41], boolean_T obj_InfCutPoints[41], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -9293,8 +9641,8 @@ static void CompactClassificationTree_Co_m3(real_T obj_CutPredictorIndex[41],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_Com_b(real_T obj_CutPredictorIndex[51],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_Com_a(real_T obj_CutPredictorIndex[51],
   real_T obj_Children[102], real_T obj_CutPoint[51], boolean_T obj_NanCutPoints
   [51], boolean_T obj_InfCutPoints[51], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -9395,8 +9743,8 @@ static void CompactClassificationTree_Com_b(real_T obj_CutPredictorIndex[51],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_Com_d(real_T obj_CutPredictorIndex[51],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_Com_c(real_T obj_CutPredictorIndex[51],
   real_T obj_Children[102], real_T obj_CutPoint[51], boolean_T obj_NanCutPoints
   [51], boolean_T obj_InfCutPoints[51], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -9499,8 +9847,8 @@ static void CompactClassificationTree_Com_d(real_T obj_CutPredictorIndex[51],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_Com_e(real_T obj_CutPredictorIndex[35],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_Co_gt(real_T obj_CutPredictorIndex[35],
   real_T obj_Children[70], real_T obj_CutPoint[35], boolean_T obj_NanCutPoints
   [35], boolean_T obj_InfCutPoints[35], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -9587,8 +9935,8 @@ static void CompactClassificationTree_Com_e(real_T obj_CutPredictorIndex[35],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_pre_i(const real_T obj_CutPredictorIndex
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_pre_a(const real_T obj_CutPredictorIndex
   [35], const real_T obj_Children[70], const real_T obj_CutPoint[35], const
   boolean_T obj_NanCutPoints[35], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[140], const real_T Xin[10], real_T *labels, real_T
@@ -9631,7 +9979,7 @@ static void CompactClassificationTree_pre_i(const real_T obj_CutPredictorIndex
   *labels = (int8_T)((int8_T)(m - 1) + 1);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
 static void MotorFaul_predictOneWithCache_e(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[35], const real_T weak_learner_Children[70],
@@ -9644,7 +9992,7 @@ static void MotorFaul_predictOneWithCache_e(const real_T X[10], real_T
   int32_T k;
   boolean_T exitg1;
   boolean_T y;
-  CompactClassificationTree_pre_i(weak_learner_CutPredictorIndex,
+  CompactClassificationTree_pre_a(weak_learner_CutPredictorIndex,
     weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
     weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
   y = false;
@@ -9671,8 +10019,8 @@ static void MotorFaul_predictOneWithCache_e(const real_T X[10], real_T
     score);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_Com_c(real_T obj_CutPredictorIndex[43],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_Com_i(real_T obj_CutPredictorIndex[43],
   real_T obj_Children[86], real_T obj_CutPoint[43], boolean_T obj_NanCutPoints
   [43], boolean_T obj_InfCutPoints[43], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -9769,8 +10117,8 @@ static void CompactClassificationTree_Com_c(real_T obj_CutPredictorIndex[43],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_Co_oc(real_T obj_CutPredictorIndex[41],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_Com_h(real_T obj_CutPredictorIndex[41],
   real_T obj_Children[82], real_T obj_CutPoint[41], boolean_T obj_NanCutPoints
   [41], boolean_T obj_InfCutPoints[41], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -9863,8 +10211,8 @@ static void CompactClassificationTree_Co_oc(real_T obj_CutPredictorIndex[41],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_Co_kf(real_T obj_CutPredictorIndex[51],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_Com_n(real_T obj_CutPredictorIndex[51],
   real_T obj_Children[102], real_T obj_CutPoint[51], boolean_T obj_NanCutPoints
   [51], boolean_T obj_InfCutPoints[51], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -9965,8 +10313,8 @@ static void CompactClassificationTree_Co_kf(real_T obj_CutPredictorIndex[51],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_Co_oe(real_T obj_CutPredictorIndex[57],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_Co_kq(real_T obj_CutPredictorIndex[57],
   real_T obj_Children[114], real_T obj_CutPoint[57], boolean_T obj_NanCutPoints
   [57], boolean_T obj_InfCutPoints[57], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -10075,8 +10423,8 @@ static void CompactClassificationTree_Co_oe(real_T obj_CutPredictorIndex[57],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_Co_hx(real_T obj_CutPredictorIndex[49],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_Co_o2(real_T obj_CutPredictorIndex[49],
   real_T obj_Children[98], real_T obj_CutPoint[49], boolean_T obj_NanCutPoints
   [49], boolean_T obj_InfCutPoints[49], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -10176,8 +10524,8 @@ static void CompactClassificationTree_Co_hx(real_T obj_CutPredictorIndex[49],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_Com_f(real_T obj_CutPredictorIndex[43],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_Com_b(real_T obj_CutPredictorIndex[43],
   real_T obj_Children[86], real_T obj_CutPoint[43], boolean_T obj_NanCutPoints
   [43], boolean_T obj_InfCutPoints[43], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -10274,8 +10622,8 @@ static void CompactClassificationTree_Com_f(real_T obj_CutPredictorIndex[43],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_Com_p(real_T obj_CutPredictorIndex[67],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_Co_cr(real_T obj_CutPredictorIndex[67],
   real_T obj_Children[134], real_T obj_CutPoint[67], boolean_T obj_NanCutPoints
   [67], boolean_T obj_InfCutPoints[67], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -10387,8 +10735,8 @@ static void CompactClassificationTree_Com_p(real_T obj_CutPredictorIndex[67],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_pre_e(const real_T obj_CutPredictorIndex
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_pre_b(const real_T obj_CutPredictorIndex
   [67], const real_T obj_Children[134], const real_T obj_CutPoint[67], const
   boolean_T obj_NanCutPoints[67], const real_T obj_Cost[16], const real_T
   obj_ClassProbability[268], const real_T Xin[10], real_T *labels, real_T
@@ -10431,8 +10779,8 @@ static void CompactClassificationTree_pre_e(const real_T obj_CutPredictorIndex
   *labels = (int8_T)((int8_T)(m - 1) + 1);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void MotorFaul_predictOneWithCache_k(const real_T X[10], real_T
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void MotorFaul_predictOneWithCache_i(const real_T X[10], real_T
   cachedScore[4], real_T *cachedWeights, const char_T combiner[15], const real_T
   weak_learner_CutPredictorIndex[67], const real_T weak_learner_Children[134],
   const real_T weak_learner_CutPoint[67], const boolean_T
@@ -10444,7 +10792,7 @@ static void MotorFaul_predictOneWithCache_k(const real_T X[10], real_T
   int32_T k;
   boolean_T exitg1;
   boolean_T y;
-  CompactClassificationTree_pre_e(weak_learner_CutPredictorIndex,
+  CompactClassificationTree_pre_b(weak_learner_CutPredictorIndex,
     weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
     weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
   y = false;
@@ -10471,8 +10819,8 @@ static void MotorFaul_predictOneWithCache_k(const real_T X[10], real_T
     score);
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_Com_n(real_T obj_CutPredictorIndex[43],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_Co_he(real_T obj_CutPredictorIndex[43],
   real_T obj_Children[86], real_T obj_CutPoint[43], boolean_T obj_NanCutPoints
   [43], boolean_T obj_InfCutPoints[43], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -10567,8 +10915,8 @@ static void CompactClassificationTree_Com_n(real_T obj_CutPredictorIndex[43],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
-static void CompactClassificationTree_Com_j(real_T obj_CutPredictorIndex[49],
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
+static void CompactClassificationTree_Co_ci(real_T obj_CutPredictorIndex[49],
   real_T obj_Children[98], real_T obj_CutPoint[49], boolean_T obj_NanCutPoints
   [49], boolean_T obj_InfCutPoints[49], int32_T obj_ClassNamesLength[4],
   c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[4],
@@ -10668,7 +11016,7 @@ static void CompactClassificationTree_Com_j(real_T obj_CutPredictorIndex[49],
   }
 }
 
-/* Function for MATLAB Function: '<Root>/Detector' */
+/* Function for MATLAB Function: '<Root>/BearingDetector' */
 static void CompactEnsemble_ensemblePredict(const boolean_T obj_IsCached[50],
   const real_T X[10], real_T score[4])
 {
@@ -11631,7 +11979,7 @@ static void CompactEnsemble_ensemblePredict(const boolean_T obj_IsCached[50],
     r[i] = r_0[i];
   }
 
-  MotorFau_predictOneWithCache_ou(X, cachedScore, &cachedWeights, combiner, q, r,
+  MotorFau_predictOneWithCache_o2(X, cachedScore, &cachedWeights, combiner, q, r,
     p, s, assign_temp_Cost, t, &b, unusedExpr);
   b = obj_IsCached[3];
   for (i = 0; i < 63; i++) {
@@ -11642,7 +11990,7 @@ static void CompactEnsemble_ensemblePredict(const boolean_T obj_IsCached[50],
     x[i] = x_0[i];
   }
 
-  MotorFa_predictOneWithCache_ouc(X, cachedScore, &cachedWeights, combiner, w, x,
+  MotorFa_predictOneWithCache_o22(X, cachedScore, &cachedWeights, combiner, w, x,
     v, y, assign_temp_Cost, ab, &b, unusedExpr);
   b = obj_IsCached[4];
   for (i = 0; i < 33; i++) {
@@ -11653,7 +12001,7 @@ static void CompactEnsemble_ensemblePredict(const boolean_T obj_IsCached[50],
     eb[i] = eb_0[i];
   }
 
-  MotorF_predictOneWithCache_ouc3(X, cachedScore, &cachedWeights, combiner, db,
+  MotorF_predictOneWithCache_o22p(X, cachedScore, &cachedWeights, combiner, db,
     eb, cb, fb, assign_temp_Cost, gb, &b, unusedExpr);
   b = obj_IsCached[5];
   for (i = 0; i < 47; i++) {
@@ -11664,7 +12012,7 @@ static void CompactEnsemble_ensemblePredict(const boolean_T obj_IsCached[50],
     kb[i] = kb_0[i];
   }
 
-  Motor_predictOneWithCache_ouc3j(X, cachedScore, &cachedWeights, combiner, jb,
+  Motor_predictOneWithCache_o22p4(X, cachedScore, &cachedWeights, combiner, jb,
     kb, ib, lb, assign_temp_Cost, mb, &b, unusedExpr);
   b = obj_IsCached[6];
   for (i = 0; i < 41; i++) {
@@ -11675,7 +12023,7 @@ static void CompactEnsemble_ensemblePredict(const boolean_T obj_IsCached[50],
     qb[i] = qb_0[i];
   }
 
-  Moto_predictOneWithCache_ouc3jh(X, cachedScore, &cachedWeights, combiner, pb,
+  Moto_predictOneWithCache_o22p4v(X, cachedScore, &cachedWeights, combiner, pb,
     qb, ob, rb, assign_temp_Cost, sb, &b, unusedExpr);
   b = obj_IsCached[7];
   for (i = 0; i < 37; i++) {
@@ -11686,7 +12034,7 @@ static void CompactEnsemble_ensemblePredict(const boolean_T obj_IsCached[50],
     wb[i] = wb_0[i];
   }
 
-  Mot_predictOneWithCache_ouc3jhs(X, cachedScore, &cachedWeights, combiner, vb,
+  Mot_predictOneWithCache_o22p4vs(X, cachedScore, &cachedWeights, combiner, vb,
     wb, ub, xb, assign_temp_Cost, yb, &b, unusedExpr);
   b = obj_IsCached[8];
   for (i = 0; i < 49; i++) {
@@ -11708,7 +12056,7 @@ static void CompactEnsemble_ensemblePredict(const boolean_T obj_IsCached[50],
     jc[i] = jc_0[i];
   }
 
-  Mo_predictOneWithCache_ouc3jhsa(X, cachedScore, &cachedWeights, combiner, ic,
+  Mo_predictOneWithCache_o22p4vsu(X, cachedScore, &cachedWeights, combiner, ic,
     jc, hc, kc, assign_temp_Cost, lc, &b, unusedExpr);
   b = obj_IsCached[10];
   for (i = 0; i < 53; i++) {
@@ -11719,7 +12067,7 @@ static void CompactEnsemble_ensemblePredict(const boolean_T obj_IsCached[50],
     pc[i] = pc_0[i];
   }
 
-  M_predictOneWithCache_ouc3jhsam(X, cachedScore, &cachedWeights, combiner, oc,
+  M_predictOneWithCache_o22p4vsub(X, cachedScore, &cachedWeights, combiner, oc,
     pc, nc, qc, assign_temp_Cost, rc, &b, unusedExpr);
   b = obj_IsCached[11];
   for (i = 0; i < 49; i++) {
@@ -11741,7 +12089,7 @@ static void CompactEnsemble_ensemblePredict(const boolean_T obj_IsCached[50],
     pc[i] = cd[i];
   }
 
-  M_predictOneWithCache_ouc3jhsam(X, cachedScore, &cachedWeights, combiner, oc,
+  M_predictOneWithCache_o22p4vsub(X, cachedScore, &cachedWeights, combiner, oc,
     pc, ad, dd, assign_temp_Cost, ed, &b, unusedExpr);
   b = obj_IsCached[13];
   for (i = 0; i < 47; i++) {
@@ -11752,7 +12100,7 @@ static void CompactEnsemble_ensemblePredict(const boolean_T obj_IsCached[50],
     kb[i] = id[i];
   }
 
-  Motor_predictOneWithCache_ouc3j(X, cachedScore, &cachedWeights, combiner, jb,
+  Motor_predictOneWithCache_o22p4(X, cachedScore, &cachedWeights, combiner, jb,
     kb, gd, jd, assign_temp_Cost, kd, &b, unusedExpr);
   b = obj_IsCached[14];
   for (i = 0; i < 59; i++) {
@@ -11763,7 +12111,7 @@ static void CompactEnsemble_ensemblePredict(const boolean_T obj_IsCached[50],
     od[i] = od_0[i];
   }
 
-  predictOneWithCache_ouc3jhsamd(X, cachedScore, &cachedWeights, combiner, nd,
+  predictOneWithCache_o22p4vsubw(X, cachedScore, &cachedWeights, combiner, nd,
     od, md, pd, assign_temp_Cost, qd, &b, unusedExpr);
   b = obj_IsCached[15];
   for (i = 0; i < 45; i++) {
@@ -11774,136 +12122,136 @@ static void CompactEnsemble_ensemblePredict(const boolean_T obj_IsCached[50],
     ud[i] = ud_0[i];
   }
 
-  predictOneWithCache_ouc3jhsamdo(X, cachedScore, &cachedWeights, combiner, td,
+  predictOneWithCache_o22p4vsubwb(X, cachedScore, &cachedWeights, combiner, td,
     ud, sd, vd, assign_temp_Cost, wd, &b, unusedExpr);
   b = obj_IsCached[16];
   CompactClassificationTree_Compa(assign_temp_CutPredictorIndex,
     assign_temp_Children, assign_temp_CutPoint, assign_temp_NanCutPoints,
     expl_temp, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
     assign_temp_Cost, assign_temp_ClassProbability);
-  predictOneWithCach_ouc3jhsamdor(X, cachedScore, &cachedWeights, combiner,
+  predictOneWithCach_o22p4vsubwbf(X, cachedScore, &cachedWeights, combiner,
     assign_temp_CutPredictorIndex, assign_temp_Children, assign_temp_CutPoint,
     assign_temp_NanCutPoints, assign_temp_Cost, assign_temp_ClassProbability, &b,
     unusedExpr);
   b = obj_IsCached[17];
-  CompactClassificationTree_Com_k(ic, jc, assign_temp_CutPoint_0,
+  CompactClassificationTree_Com_g(ic, jc, assign_temp_CutPoint_0,
     assign_temp_NanCutPoints_0, expl_temp_3, expl_temp_0, &expl_temp_1,
     unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_0);
-  Mo_predictOneWithCache_ouc3jhsa(X, cachedScore, &cachedWeights, combiner, ic,
+  Mo_predictOneWithCache_o22p4vsu(X, cachedScore, &cachedWeights, combiner, ic,
     jc, assign_temp_CutPoint_0, assign_temp_NanCutPoints_0, assign_temp_Cost,
     assign_temp_ClassProbability_0, &b, unusedExpr);
   b = obj_IsCached[18];
-  CompactClassificationTree_Co_kp(oc, pc, assign_temp_CutPoint_1,
+  CompactClassificationTree_Co_gk(oc, pc, assign_temp_CutPoint_1,
     assign_temp_NanCutPoints_1, expl_temp_4, expl_temp_0, &expl_temp_1,
     unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_1);
-  M_predictOneWithCache_ouc3jhsam(X, cachedScore, &cachedWeights, combiner, oc,
+  M_predictOneWithCache_o22p4vsub(X, cachedScore, &cachedWeights, combiner, oc,
     pc, assign_temp_CutPoint_1, assign_temp_NanCutPoints_1, assign_temp_Cost,
     assign_temp_ClassProbability_1, &b, unusedExpr);
   b = obj_IsCached[19];
-  CompactClassificationTree_C_kpi(assign_temp_CutPredictorIndex_0,
+  CompactClassificationTree_C_gkd(assign_temp_CutPredictorIndex_0,
     assign_temp_Children_0, assign_temp_CutPoint_2, assign_temp_NanCutPoints_2,
     expl_temp_5, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
     assign_temp_Cost, assign_temp_ClassProbability_2);
-  predictOneWithCac_ouc3jhsamdorg(X, cachedScore, &cachedWeights, combiner,
+  predictOneWithCac_o22p4vsubwbfs(X, cachedScore, &cachedWeights, combiner,
     assign_temp_CutPredictorIndex_0, assign_temp_Children_0,
     assign_temp_CutPoint_2, assign_temp_NanCutPoints_2, assign_temp_Cost,
     assign_temp_ClassProbability_2, &b, unusedExpr);
   b = obj_IsCached[20];
-  CompactClassificationTree__kpia(d, e, assign_temp_CutPoint_3,
+  CompactClassificationTree__gkd2(d, e, assign_temp_CutPoint_3,
     assign_temp_NanCutPoints_3, expl_temp_6, expl_temp_0, &expl_temp_1,
     unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_3);
   MotorFaultD_predictOneWithCache(X, cachedScore, &cachedWeights, combiner, d, e,
     assign_temp_CutPoint_3, assign_temp_NanCutPoints_3, assign_temp_Cost,
     assign_temp_ClassProbability_3, &b, false, unusedExpr);
   b = obj_IsCached[21];
-  CompactClassificationTree_kpian(td, ud, assign_temp_CutPoint_4,
+  CompactClassificationTree_gkd2u(td, ud, assign_temp_CutPoint_4,
     assign_temp_NanCutPoints_4, expl_temp_7, expl_temp_0, &expl_temp_1,
     unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_4);
-  predictOneWithCache_ouc3jhsamdo(X, cachedScore, &cachedWeights, combiner, td,
+  predictOneWithCache_o22p4vsubwb(X, cachedScore, &cachedWeights, combiner, td,
     ud, assign_temp_CutPoint_4, assign_temp_NanCutPoints_4, assign_temp_Cost,
     assign_temp_ClassProbability_4, &b, unusedExpr);
   b = obj_IsCached[22];
-  CompactClassificationTre_kpianh(jb, kb, assign_temp_CutPoint_5,
+  CompactClassificationTre_gkd2u4(jb, kb, assign_temp_CutPoint_5,
     assign_temp_NanCutPoints_5, expl_temp_8, expl_temp_0, &expl_temp_1,
     unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_5);
-  Motor_predictOneWithCache_ouc3j(X, cachedScore, &cachedWeights, combiner, jb,
+  Motor_predictOneWithCache_o22p4(X, cachedScore, &cachedWeights, combiner, jb,
     kb, assign_temp_CutPoint_5, assign_temp_NanCutPoints_5, assign_temp_Cost,
     assign_temp_ClassProbability_5, &b, unusedExpr);
   b = obj_IsCached[23];
-  CompactClassificationTr_kpianhe(k, l, assign_temp_CutPoint_6,
+  CompactClassificationTr_gkd2u4z(k, l, assign_temp_CutPoint_6,
     assign_temp_NanCutPoints_6, expl_temp_9, expl_temp_0, &expl_temp_1,
     unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_6);
   MotorFaul_predictOneWithCache_o(X, cachedScore, &cachedWeights, combiner, k, l,
     assign_temp_CutPoint_6, assign_temp_NanCutPoints_6, assign_temp_Cost,
     assign_temp_ClassProbability_6, &b, unusedExpr);
   b = obj_IsCached[24];
-  CompactClassificationT_kpianhew(ic, jc, assign_temp_CutPoint_0,
+  CompactClassificationT_gkd2u4zd(ic, jc, assign_temp_CutPoint_0,
     assign_temp_NanCutPoints_0, expl_temp_3, expl_temp_0, &expl_temp_1,
     unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_0);
-  Mo_predictOneWithCache_ouc3jhsa(X, cachedScore, &cachedWeights, combiner, ic,
+  Mo_predictOneWithCache_o22p4vsu(X, cachedScore, &cachedWeights, combiner, ic,
     jc, assign_temp_CutPoint_0, assign_temp_NanCutPoints_0, assign_temp_Cost,
     assign_temp_ClassProbability_0, &b, unusedExpr);
   b = obj_IsCached[25];
-  CompactClassification_kpianhewy(assign_temp_CutPredictorIndex_1,
+  CompactClassification_gkd2u4zdv(assign_temp_CutPredictorIndex_1,
     assign_temp_Children_1, assign_temp_CutPoint_7, assign_temp_NanCutPoints_7,
     expl_temp_a, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
     assign_temp_Cost, assign_temp_ClassProbability_7);
-  predictOneWithCa_ouc3jhsamdorgh(X, cachedScore, &cachedWeights, combiner,
+  predictOneWithCa_o22p4vsubwbfsd(X, cachedScore, &cachedWeights, combiner,
     assign_temp_CutPredictorIndex_1, assign_temp_Children_1,
     assign_temp_CutPoint_7, assign_temp_NanCutPoints_7, assign_temp_Cost,
     assign_temp_ClassProbability_7, &b, unusedExpr);
   b = obj_IsCached[26];
-  CompactClassificatio_kpianhewy0(oc, pc, assign_temp_CutPoint_1,
+  CompactClassificatio_gkd2u4zdvp(oc, pc, assign_temp_CutPoint_1,
     assign_temp_NanCutPoints_1, expl_temp_4, expl_temp_0, &expl_temp_1,
     unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_1);
-  M_predictOneWithCache_ouc3jhsam(X, cachedScore, &cachedWeights, combiner, oc,
+  M_predictOneWithCache_o22p4vsub(X, cachedScore, &cachedWeights, combiner, oc,
     pc, assign_temp_CutPoint_1, assign_temp_NanCutPoints_1, assign_temp_Cost,
     assign_temp_ClassProbability_1, &b, unusedExpr);
   b = obj_IsCached[27];
-  CompactClassificati_kpianhewy0x(assign_temp_CutPredictorIndex_1,
+  CompactClassificati_gkd2u4zdvpw(assign_temp_CutPredictorIndex_1,
     assign_temp_Children_1, assign_temp_CutPoint_7, assign_temp_NanCutPoints_7,
     expl_temp_a, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
     assign_temp_Cost, assign_temp_ClassProbability_7);
-  predictOneWithCa_ouc3jhsamdorgh(X, cachedScore, &cachedWeights, combiner,
+  predictOneWithCa_o22p4vsubwbfsd(X, cachedScore, &cachedWeights, combiner,
     assign_temp_CutPredictorIndex_1, assign_temp_Children_1,
     assign_temp_CutPoint_7, assign_temp_NanCutPoints_7, assign_temp_Cost,
     assign_temp_ClassProbability_7, &b, unusedExpr);
   b = obj_IsCached[28];
-  CompactClassificat_kpianhewy0xe(td, ud, assign_temp_CutPoint_4,
+  CompactClassificat_gkd2u4zdvpwa(td, ud, assign_temp_CutPoint_4,
     assign_temp_NanCutPoints_4, expl_temp_7, expl_temp_0, &expl_temp_1,
     unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_4);
-  predictOneWithCache_ouc3jhsamdo(X, cachedScore, &cachedWeights, combiner, td,
+  predictOneWithCache_o22p4vsubwb(X, cachedScore, &cachedWeights, combiner, td,
     ud, assign_temp_CutPoint_4, assign_temp_NanCutPoints_4, assign_temp_Cost,
     assign_temp_ClassProbability_4, &b, unusedExpr);
   b = obj_IsCached[29];
-  CompactClassifica_kpianhewy0xey(assign_temp_CutPredictorIndex_1,
+  CompactClassifica_gkd2u4zdvpwal(assign_temp_CutPredictorIndex_1,
     assign_temp_Children_1, assign_temp_CutPoint_7, assign_temp_NanCutPoints_7,
     expl_temp_a, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
     assign_temp_Cost, assign_temp_ClassProbability_7);
-  predictOneWithCa_ouc3jhsamdorgh(X, cachedScore, &cachedWeights, combiner,
+  predictOneWithCa_o22p4vsubwbfsd(X, cachedScore, &cachedWeights, combiner,
     assign_temp_CutPredictorIndex_1, assign_temp_Children_1,
     assign_temp_CutPoint_7, assign_temp_NanCutPoints_7, assign_temp_Cost,
     assign_temp_ClassProbability_7, &b, unusedExpr);
   b = obj_IsCached[30];
-  CompactClassific_kpianhewy0xey4(assign_temp_CutPredictorIndex,
+  CompactClassific_gkd2u4zdvpwala(assign_temp_CutPredictorIndex,
     assign_temp_Children, assign_temp_CutPoint, assign_temp_NanCutPoints,
     expl_temp, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
     assign_temp_Cost, assign_temp_ClassProbability);
-  predictOneWithCach_ouc3jhsamdor(X, cachedScore, &cachedWeights, combiner,
+  predictOneWithCach_o22p4vsubwbf(X, cachedScore, &cachedWeights, combiner,
     assign_temp_CutPredictorIndex, assign_temp_Children, assign_temp_CutPoint,
     assign_temp_NanCutPoints, assign_temp_Cost, assign_temp_ClassProbability, &b,
     unusedExpr);
   b = obj_IsCached[31];
-  CompactClassifi_kpianhewy0xey4g(assign_temp_CutPredictorIndex_2,
+  CompactClassifi_gkd2u4zdvpwalat(assign_temp_CutPredictorIndex_2,
     assign_temp_Children_2, assign_temp_CutPoint_8, assign_temp_NanCutPoints_8,
     expl_temp_b, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
     assign_temp_Cost, assign_temp_ClassProbability_8);
-  predictOneWithC_ouc3jhsamdorgh4(X, cachedScore, &cachedWeights, combiner,
+  predictOneWithC_o22p4vsubwbfsdz(X, cachedScore, &cachedWeights, combiner,
     assign_temp_CutPredictorIndex_2, assign_temp_Children_2,
     assign_temp_CutPoint_8, assign_temp_NanCutPoints_8, assign_temp_Cost,
     assign_temp_ClassProbability_8, &b, unusedExpr);
   b = obj_IsCached[32];
-  CompactClassificationTree_Com_g(d, e, assign_temp_CutPoint_3,
+  CompactClassificationTree_Com_k(d, e, assign_temp_CutPoint_3,
     assign_temp_NanCutPoints_3, expl_temp_6, expl_temp_0, &expl_temp_1,
     unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_3);
   MotorFaultD_predictOneWithCache(X, cachedScore, &cachedWeights, combiner, d, e,
@@ -11913,59 +12261,59 @@ static void CompactEnsemble_ensemblePredict(const boolean_T obj_IsCached[50],
   CompactClassificationTree_Com_o(jb, kb, assign_temp_CutPoint_5,
     assign_temp_NanCutPoints_5, expl_temp_8, expl_temp_0, &expl_temp_1,
     unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_5);
-  Motor_predictOneWithCache_ouc3j(X, cachedScore, &cachedWeights, combiner, jb,
+  Motor_predictOneWithCache_o22p4(X, cachedScore, &cachedWeights, combiner, jb,
     kb, assign_temp_CutPoint_5, assign_temp_NanCutPoints_5, assign_temp_Cost,
     assign_temp_ClassProbability_5, &b, unusedExpr);
   b = obj_IsCached[34];
-  CompactClassificationTree_Co_kq(vb, wb, assign_temp_CutPoint_9,
+  CompactClassificationTree_Com_e(vb, wb, assign_temp_CutPoint_9,
     assign_temp_NanCutPoints_9, expl_temp_c, expl_temp_0, &expl_temp_1,
     unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_9);
-  Mot_predictOneWithCache_ouc3jhs(X, cachedScore, &cachedWeights, combiner, vb,
+  Mot_predictOneWithCache_o22p4vs(X, cachedScore, &cachedWeights, combiner, vb,
     wb, assign_temp_CutPoint_9, assign_temp_NanCutPoints_9, assign_temp_Cost,
     assign_temp_ClassProbability_9, &b, unusedExpr);
   b = obj_IsCached[35];
-  CompactClassificationTree_Com_h(td, ud, assign_temp_CutPoint_4,
+  CompactClassificationTree_Co_ej(td, ud, assign_temp_CutPoint_4,
     assign_temp_NanCutPoints_4, expl_temp_7, expl_temp_0, &expl_temp_1,
     unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_4);
-  predictOneWithCache_ouc3jhsamdo(X, cachedScore, &cachedWeights, combiner, td,
+  predictOneWithCache_o22p4vsubwb(X, cachedScore, &cachedWeights, combiner, td,
     ud, assign_temp_CutPoint_4, assign_temp_NanCutPoints_4, assign_temp_Cost,
     assign_temp_ClassProbability_4, &b, unusedExpr);
   b = obj_IsCached[36];
-  CompactClassificationTree_Com_m(assign_temp_CutPredictorIndex_1,
+  CompactClassificationTree_Com_j(assign_temp_CutPredictorIndex_1,
     assign_temp_Children_1, assign_temp_CutPoint_7, assign_temp_NanCutPoints_7,
     expl_temp_a, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
     assign_temp_Cost, assign_temp_ClassProbability_7);
-  predictOneWithCa_ouc3jhsamdorgh(X, cachedScore, &cachedWeights, combiner,
+  predictOneWithCa_o22p4vsubwbfsd(X, cachedScore, &cachedWeights, combiner,
     assign_temp_CutPredictorIndex_1, assign_temp_Children_1,
     assign_temp_CutPoint_7, assign_temp_NanCutPoints_7, assign_temp_Cost,
     assign_temp_ClassProbability_7, &b, unusedExpr);
   b = obj_IsCached[37];
-  CompactClassificationTree_Co_m3(pb, qb, assign_temp_CutPoint_a,
+  CompactClassificationTree_Co_ea(pb, qb, assign_temp_CutPoint_a,
     assign_temp_NanCutPoints_a, expl_temp_d, expl_temp_0, &expl_temp_1,
     unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_a);
-  Moto_predictOneWithCache_ouc3jh(X, cachedScore, &cachedWeights, combiner, pb,
+  Moto_predictOneWithCache_o22p4v(X, cachedScore, &cachedWeights, combiner, pb,
     qb, assign_temp_CutPoint_a, assign_temp_NanCutPoints_a, assign_temp_Cost,
     assign_temp_ClassProbability_a, &b, unusedExpr);
   b = obj_IsCached[38];
-  CompactClassificationTree_Com_b(assign_temp_CutPredictorIndex_1,
+  CompactClassificationTree_Com_a(assign_temp_CutPredictorIndex_1,
     assign_temp_Children_1, assign_temp_CutPoint_7, assign_temp_NanCutPoints_7,
     expl_temp_a, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
     assign_temp_Cost, assign_temp_ClassProbability_7);
-  predictOneWithCa_ouc3jhsamdorgh(X, cachedScore, &cachedWeights, combiner,
+  predictOneWithCa_o22p4vsubwbfsd(X, cachedScore, &cachedWeights, combiner,
     assign_temp_CutPredictorIndex_1, assign_temp_Children_1,
     assign_temp_CutPoint_7, assign_temp_NanCutPoints_7, assign_temp_Cost,
     assign_temp_ClassProbability_7, &b, unusedExpr);
   b = obj_IsCached[39];
-  CompactClassificationTree_Com_d(assign_temp_CutPredictorIndex_1,
+  CompactClassificationTree_Com_c(assign_temp_CutPredictorIndex_1,
     assign_temp_Children_1, assign_temp_CutPoint_7, assign_temp_NanCutPoints_7,
     expl_temp_a, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
     assign_temp_Cost, assign_temp_ClassProbability_7);
-  predictOneWithCa_ouc3jhsamdorgh(X, cachedScore, &cachedWeights, combiner,
+  predictOneWithCa_o22p4vsubwbfsd(X, cachedScore, &cachedWeights, combiner,
     assign_temp_CutPredictorIndex_1, assign_temp_Children_1,
     assign_temp_CutPoint_7, assign_temp_NanCutPoints_7, assign_temp_Cost,
     assign_temp_ClassProbability_7, &b, unusedExpr);
   b = obj_IsCached[40];
-  CompactClassificationTree_Com_e(assign_temp_CutPredictorIndex_3,
+  CompactClassificationTree_Co_gt(assign_temp_CutPredictorIndex_3,
     assign_temp_Children_3, assign_temp_CutPoint_b, assign_temp_NanCutPoints_b,
     expl_temp_e, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
     assign_temp_Cost, assign_temp_ClassProbability_b);
@@ -11974,75 +12322,75 @@ static void CompactEnsemble_ensemblePredict(const boolean_T obj_IsCached[50],
     assign_temp_CutPoint_b, assign_temp_NanCutPoints_b, assign_temp_Cost,
     assign_temp_ClassProbability_b, &b, unusedExpr);
   b = obj_IsCached[41];
-  CompactClassificationTree_Com_c(assign_temp_CutPredictorIndex,
+  CompactClassificationTree_Com_i(assign_temp_CutPredictorIndex,
     assign_temp_Children, assign_temp_CutPoint, assign_temp_NanCutPoints,
     expl_temp, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
     assign_temp_Cost, assign_temp_ClassProbability);
-  predictOneWithCach_ouc3jhsamdor(X, cachedScore, &cachedWeights, combiner,
+  predictOneWithCach_o22p4vsubwbf(X, cachedScore, &cachedWeights, combiner,
     assign_temp_CutPredictorIndex, assign_temp_Children, assign_temp_CutPoint,
     assign_temp_NanCutPoints, assign_temp_Cost, assign_temp_ClassProbability, &b,
     unusedExpr);
   b = obj_IsCached[42];
-  CompactClassificationTree_Co_oc(pb, qb, assign_temp_CutPoint_a,
+  CompactClassificationTree_Com_h(pb, qb, assign_temp_CutPoint_a,
     assign_temp_NanCutPoints_a, expl_temp_d, expl_temp_0, &expl_temp_1,
     unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_a);
-  Moto_predictOneWithCache_ouc3jh(X, cachedScore, &cachedWeights, combiner, pb,
+  Moto_predictOneWithCache_o22p4v(X, cachedScore, &cachedWeights, combiner, pb,
     qb, assign_temp_CutPoint_a, assign_temp_NanCutPoints_a, assign_temp_Cost,
     assign_temp_ClassProbability_a, &b, unusedExpr);
   b = obj_IsCached[43];
-  CompactClassificationTree_Co_kf(assign_temp_CutPredictorIndex_1,
+  CompactClassificationTree_Com_n(assign_temp_CutPredictorIndex_1,
     assign_temp_Children_1, assign_temp_CutPoint_7, assign_temp_NanCutPoints_7,
     expl_temp_a, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
     assign_temp_Cost, assign_temp_ClassProbability_7);
-  predictOneWithCa_ouc3jhsamdorgh(X, cachedScore, &cachedWeights, combiner,
+  predictOneWithCa_o22p4vsubwbfsd(X, cachedScore, &cachedWeights, combiner,
     assign_temp_CutPredictorIndex_1, assign_temp_Children_1,
     assign_temp_CutPoint_7, assign_temp_NanCutPoints_7, assign_temp_Cost,
     assign_temp_ClassProbability_7, &b, unusedExpr);
   b = obj_IsCached[44];
-  CompactClassificationTree_Co_oe(assign_temp_CutPredictorIndex_2,
+  CompactClassificationTree_Co_kq(assign_temp_CutPredictorIndex_2,
     assign_temp_Children_2, assign_temp_CutPoint_8, assign_temp_NanCutPoints_8,
     expl_temp_b, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
     assign_temp_Cost, assign_temp_ClassProbability_8);
-  predictOneWithC_ouc3jhsamdorgh4(X, cachedScore, &cachedWeights, combiner,
+  predictOneWithC_o22p4vsubwbfsdz(X, cachedScore, &cachedWeights, combiner,
     assign_temp_CutPredictorIndex_2, assign_temp_Children_2,
     assign_temp_CutPoint_8, assign_temp_NanCutPoints_8, assign_temp_Cost,
     assign_temp_ClassProbability_8, &b, unusedExpr);
   b = obj_IsCached[45];
-  CompactClassificationTree_Co_hx(d, e, assign_temp_CutPoint_3,
+  CompactClassificationTree_Co_o2(d, e, assign_temp_CutPoint_3,
     assign_temp_NanCutPoints_3, expl_temp_6, expl_temp_0, &expl_temp_1,
     unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_3);
   MotorFaultD_predictOneWithCache(X, cachedScore, &cachedWeights, combiner, d, e,
     assign_temp_CutPoint_3, assign_temp_NanCutPoints_3, assign_temp_Cost,
     assign_temp_ClassProbability_3, &b, false, unusedExpr);
   b = obj_IsCached[46];
-  CompactClassificationTree_Com_f(assign_temp_CutPredictorIndex,
+  CompactClassificationTree_Com_b(assign_temp_CutPredictorIndex,
     assign_temp_Children, assign_temp_CutPoint, assign_temp_NanCutPoints,
     expl_temp, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
     assign_temp_Cost, assign_temp_ClassProbability);
-  predictOneWithCach_ouc3jhsamdor(X, cachedScore, &cachedWeights, combiner,
+  predictOneWithCach_o22p4vsubwbf(X, cachedScore, &cachedWeights, combiner,
     assign_temp_CutPredictorIndex, assign_temp_Children, assign_temp_CutPoint,
     assign_temp_NanCutPoints, assign_temp_Cost, assign_temp_ClassProbability, &b,
     unusedExpr);
   b = obj_IsCached[47];
-  CompactClassificationTree_Com_p(assign_temp_CutPredictorIndex_4,
+  CompactClassificationTree_Co_cr(assign_temp_CutPredictorIndex_4,
     assign_temp_Children_4, assign_temp_CutPoint_c, assign_temp_NanCutPoints_c,
     expl_temp_f, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
     assign_temp_Cost, assign_temp_ClassProbability_c);
-  MotorFaul_predictOneWithCache_k(X, cachedScore, &cachedWeights, combiner,
+  MotorFaul_predictOneWithCache_i(X, cachedScore, &cachedWeights, combiner,
     assign_temp_CutPredictorIndex_4, assign_temp_Children_4,
     assign_temp_CutPoint_c, assign_temp_NanCutPoints_c, assign_temp_Cost,
     assign_temp_ClassProbability_c, &b, unusedExpr);
   b = obj_IsCached[48];
-  CompactClassificationTree_Com_n(assign_temp_CutPredictorIndex,
+  CompactClassificationTree_Co_he(assign_temp_CutPredictorIndex,
     assign_temp_Children, assign_temp_CutPoint, assign_temp_NanCutPoints,
     expl_temp, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
     assign_temp_Cost, assign_temp_ClassProbability);
-  predictOneWithCach_ouc3jhsamdor(X, cachedScore, &cachedWeights, combiner,
+  predictOneWithCach_o22p4vsubwbf(X, cachedScore, &cachedWeights, combiner,
     assign_temp_CutPredictorIndex, assign_temp_Children, assign_temp_CutPoint,
     assign_temp_NanCutPoints, assign_temp_Cost, assign_temp_ClassProbability, &b,
     unusedExpr);
   b = obj_IsCached[49];
-  CompactClassificationTree_Com_j(d, e, assign_temp_CutPoint_3,
+  CompactClassificationTree_Co_ci(d, e, assign_temp_CutPoint_3,
     assign_temp_NanCutPoints_3, expl_temp_6, expl_temp_0, &expl_temp_1,
     unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_3);
   MotorFaultD_predictOneWithCache(X, cachedScore, &cachedWeights, combiner, d, e,
@@ -12050,35 +12398,4905 @@ static void CompactEnsemble_ensemblePredict(const boolean_T obj_IsCached[50],
     assign_temp_ClassProbability_3, &b, false, score);
 }
 
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static real_T MotorFaultDeploy_mean_o(const real_T x[2400])
+{
+  real_T b_y;
+  real_T bsum;
+  int32_T b_k;
+  int32_T counts;
+  int32_T k;
+  if (rtIsNaN(x[0])) {
+    b_y = 0.0;
+    counts = 0;
+  } else {
+    b_y = x[0];
+    counts = 1;
+  }
+
+  for (k = 0; k < 1023; k++) {
+    bsum = x[k + 1];
+    if (!rtIsNaN(bsum)) {
+      b_y += bsum;
+      counts++;
+    }
+  }
+
+  for (k = 0; k < 2; k++) {
+    int32_T hi;
+    int32_T xblockoffset;
+    xblockoffset = (k + 1) << 10;
+    bsum = x[xblockoffset];
+    if (rtIsNaN(bsum)) {
+      bsum = 0.0;
+    } else {
+      counts++;
+    }
+
+    if (k + 2 == 3) {
+      hi = 352;
+    } else {
+      hi = 1024;
+    }
+
+    for (b_k = 2; b_k <= hi; b_k++) {
+      int32_T xoffset;
+      xoffset = (xblockoffset + b_k) - 1;
+      if (!rtIsNaN(x[xoffset])) {
+        bsum += x[xoffset];
+        counts++;
+      }
+    }
+
+    b_y += bsum;
+  }
+
+  return b_y / (real_T)counts;
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static real_T MotorFaul_combineVectorElements(const real_T x[2400])
+{
+  real_T y;
+  int32_T b_k;
+  int32_T k;
+  y = x[0];
+  for (k = 0; k < 1023; k++) {
+    y += x[k + 1];
+  }
+
+  for (k = 0; k < 2; k++) {
+    real_T bsum;
+    int32_T hi;
+    int32_T xblockoffset;
+    xblockoffset = (k + 1) << 10;
+    bsum = x[xblockoffset];
+    if (k + 2 == 3) {
+      hi = 352;
+    } else {
+      hi = 1024;
+    }
+
+    for (b_k = 2; b_k <= hi; b_k++) {
+      bsum += x[(xblockoffset + b_k) - 1];
+    }
+
+    y += bsum;
+  }
+
+  return y;
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static real_T MotorFaultDeploy_std(const real_T x[2400])
+{
+  real_T b_x;
+  real_T t;
+  real_T xbar;
+  real_T y;
+  int32_T exitg1;
+  int32_T k;
+  xbar = MotorFaul_combineVectorElements(x) / 2400.0;
+  for (k = 0; k < 2400; k++) {
+    MotorFaultDeploy_B.b_x_k[k] = fabs(x[k] - xbar);
+  }
+
+  y = 0.0;
+  xbar = 3.312168642111238E-170;
+  for (k = 0; k < 2400; k++) {
+    b_x = MotorFaultDeploy_B.b_x_k[k];
+    if (b_x > xbar) {
+      t = xbar / b_x;
+      y = y * t * t + 1.0;
+      xbar = b_x;
+    } else {
+      t = b_x / xbar;
+      y += t * t;
+    }
+  }
+
+  y = xbar * sqrt(y);
+  if (rtIsNaN(y)) {
+    k = 0;
+    do {
+      exitg1 = 0;
+      if (k < 2400) {
+        if (rtIsNaN(MotorFaultDeploy_B.b_x_k[k])) {
+          exitg1 = 1;
+        } else {
+          k++;
+        }
+      } else {
+        y = (rtInf);
+        exitg1 = 1;
+      }
+    } while (exitg1 == 0);
+  }
+
+  y /= 48.979587585033826;
+  return y;
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static real_T MotorFaultDeploy_maximum_p(const real_T x[2400])
+{
+  real_T ex;
+  int32_T idx;
+  int32_T k;
+  if (!rtIsNaN(x[0])) {
+    idx = 1;
+  } else {
+    boolean_T exitg1;
+    idx = 0;
+    k = 2;
+    exitg1 = false;
+    while (!exitg1 && (k < 2401)) {
+      if (!rtIsNaN(x[k - 1])) {
+        idx = k;
+        exitg1 = true;
+      } else {
+        k++;
+      }
+    }
+  }
+
+  if (idx == 0) {
+    ex = x[0];
+  } else {
+    ex = x[idx - 1];
+    for (k = idx + 1; k < 2401; k++) {
+      real_T x_0;
+      x_0 = x[k - 1];
+      if (ex < x_0) {
+        ex = x_0;
+      }
+    }
+  }
+
+  return ex;
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void MotorFaultDeploy_minimum_j(const real_T x[3], real_T *ex, int32_T
+  *idx)
+{
+  int32_T b_idx;
+  int32_T k;
+  if (!rtIsNaN(x[0])) {
+    b_idx = 1;
+  } else {
+    boolean_T exitg1;
+    b_idx = 0;
+    k = 2;
+    exitg1 = false;
+    while (!exitg1 && (k < 4)) {
+      if (!rtIsNaN(x[k - 1])) {
+        b_idx = k;
+        exitg1 = true;
+      } else {
+        k++;
+      }
+    }
+  }
+
+  if (b_idx == 0) {
+    *ex = x[0];
+    *idx = 1;
+  } else {
+    *ex = x[b_idx - 1];
+    *idx = b_idx;
+    for (k = b_idx + 1; k < 4; k++) {
+      real_T x_0;
+      x_0 = x[k - 1];
+      if (*ex > x_0) {
+        *ex = x_0;
+        *idx = k;
+      }
+    }
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_pre_n(const real_T obj_CutPredictorIndex
+  [35], const real_T obj_Children[70], const real_T obj_CutPoint[35], const
+  boolean_T obj_NanCutPoints[35], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[105], const real_T Xin[10], real_T *labels, real_T
+  scores[3])
+{
+  real_T obj_ClassProbability_0[3];
+  real_T a__4;
+  int32_T i;
+  int32_T m;
+  boolean_T exitg1;
+  m = 0;
+  exitg1 = false;
+  while (!(exitg1 || (obj_CutPredictorIndex[m] == 0.0))) {
+    a__4 = Xin[(int32_T)obj_CutPredictorIndex[m] - 1];
+    if (rtIsNaN(a__4) || obj_NanCutPoints[m]) {
+      exitg1 = true;
+    } else if (a__4 < obj_CutPoint[m]) {
+      m = (int32_T)obj_Children[m << 1] - 1;
+    } else {
+      m = (int32_T)obj_Children[(m << 1) + 1] - 1;
+    }
+  }
+
+  for (i = 0; i < 3; i++) {
+    obj_ClassProbability_0[i] = (obj_Cost[3 * i + 1] * obj_ClassProbability[m +
+      35] + obj_Cost[3 * i] * obj_ClassProbability[m]) + obj_Cost[3 * i + 2] *
+      obj_ClassProbability[m + 70];
+    scores[i] = obj_ClassProbability[35 * i + m];
+  }
+
+  MotorFaultDeploy_minimum_j(obj_ClassProbability_0, &a__4, &m);
+  if (m < 0) {
+    m = 0;
+  }
+
+  *labels = (int8_T)((int8_T)(m - 1) + 1);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void MotorFaultDeploy_updateCache_k(const real_T learnerscore[3], real_T
+  cachedScore[3], real_T *cachedWeights, boolean_T *cached, const char_T
+  combinerName[15], real_T score[3])
+{
+  static const char_T b[128] = { '\x00', '\x01', '\x02', '\x03', '\x04', '\x05',
+    '\x06', '\a', '\b', '\t', '\n', '\v', '\f', '\r', '\x0e', '\x0f', '\x10',
+    '\x11', '\x12', '\x13', '\x14', '\x15', '\x16', '\x17', '\x18', '\x19',
+    '\x1a', '\x1b', '\x1c', '\x1d', '\x1e', '\x1f', ' ', '!', '\"', '#', '$',
+    '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/', '0', '1', '2', '3',
+    '4', '5', '6', '7', '8', '9', ':', ';', '<', '=', '>', '?', '@', 'a', 'b',
+    'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q',
+    'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '[', '\\', ']', '^', '_', '`',
+    'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o',
+    'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '{', '|', '}', '~',
+    '\x7f' };
+
+  static const char_T c[15] = { 'w', 'e', 'i', 'g', 'h', 't', 'e', 'd', 'a', 'v',
+    'e', 'r', 'a', 'g', 'e' };
+
+  score[0] = cachedScore[0];
+  score[1] = cachedScore[1];
+  score[2] = cachedScore[2];
+  if (!*cached) {
+    int32_T kstr;
+    boolean_T b_bool;
+    *cached = true;
+    cachedScore[0] += learnerscore[0];
+    cachedScore[1] += learnerscore[1];
+    cachedScore[2] += learnerscore[2];
+    (*cachedWeights)++;
+    b_bool = false;
+    kstr = 0;
+    int32_T exitg1;
+    do {
+      exitg1 = 0;
+      if (kstr < 15) {
+        if (b[(int32_T)combinerName[kstr]] != b[(int32_T)c[kstr]]) {
+          exitg1 = 1;
+        } else {
+          kstr++;
+        }
+      } else {
+        b_bool = true;
+        exitg1 = 1;
+      }
+    } while (exitg1 == 0);
+
+    if (b_bool) {
+      score[0] = cachedScore[0] / *cachedWeights;
+      score[1] = cachedScore[1] / *cachedWeights;
+      score[2] = cachedScore[2] / *cachedWeights;
+    } else {
+      score[0] = cachedScore[0];
+      score[1] = cachedScore[1];
+      score[2] = cachedScore[2];
+    }
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void MotorFaul_predictOneWithCache_j(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[35], const real_T weak_learner_Children[70],
+  const real_T weak_learner_CutPoint[35], const boolean_T
+  weak_learner_NanCutPoints[35], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[105], boolean_T *cached, boolean_T initCache,
+  real_T score[3])
+{
+  real_T b[3];
+  real_T a__2;
+  int32_T k;
+  boolean_T exitg1;
+  boolean_T y;
+  CompactClassificationTree_pre_n(weak_learner_CutPredictorIndex,
+    weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
+    weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
+  if (initCache) {
+    cachedScore[0] = 0.0;
+    cachedScore[1] = 0.0;
+    cachedScore[2] = 0.0;
+  } else {
+    y = false;
+    k = 0;
+    exitg1 = false;
+    while (!exitg1 && (k < 3)) {
+      if (rtIsNaN(cachedScore[k])) {
+        y = true;
+        exitg1 = true;
+      } else {
+        k++;
+      }
+    }
+
+    if (y) {
+      for (k = 0; k < 3; k++) {
+        if (rtIsNaN(cachedScore[k])) {
+          cachedScore[k] = 0.0;
+        }
+      }
+    }
+  }
+
+  MotorFaultDeploy_updateCache_k(b, cachedScore, cachedWeights, cached, combiner,
+    score);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_pr_na(const real_T obj_CutPredictorIndex
+  [33], const real_T obj_Children[66], const real_T obj_CutPoint[33], const
+  boolean_T obj_NanCutPoints[33], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[99], const real_T Xin[10], real_T *labels, real_T scores
+  [3])
+{
+  real_T obj_ClassProbability_0[3];
+  real_T a__4;
+  int32_T i;
+  int32_T m;
+  boolean_T exitg1;
+  m = 0;
+  exitg1 = false;
+  while (!(exitg1 || (obj_CutPredictorIndex[m] == 0.0))) {
+    a__4 = Xin[(int32_T)obj_CutPredictorIndex[m] - 1];
+    if (rtIsNaN(a__4) || obj_NanCutPoints[m]) {
+      exitg1 = true;
+    } else if (a__4 < obj_CutPoint[m]) {
+      m = (int32_T)obj_Children[m << 1] - 1;
+    } else {
+      m = (int32_T)obj_Children[(m << 1) + 1] - 1;
+    }
+  }
+
+  for (i = 0; i < 3; i++) {
+    obj_ClassProbability_0[i] = (obj_Cost[3 * i + 1] * obj_ClassProbability[m +
+      33] + obj_Cost[3 * i] * obj_ClassProbability[m]) + obj_Cost[3 * i + 2] *
+      obj_ClassProbability[m + 66];
+    scores[i] = obj_ClassProbability[33 * i + m];
+  }
+
+  MotorFaultDeploy_minimum_j(obj_ClassProbability_0, &a__4, &m);
+  if (m < 0) {
+    m = 0;
+  }
+
+  *labels = (int8_T)((int8_T)(m - 1) + 1);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void MotorFau_predictOneWithCache_jp(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[33], const real_T weak_learner_Children[66],
+  const real_T weak_learner_CutPoint[33], const boolean_T
+  weak_learner_NanCutPoints[33], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[99], boolean_T *cached, real_T score[3])
+{
+  real_T b[3];
+  real_T a__2;
+  int32_T k;
+  boolean_T exitg1;
+  boolean_T y;
+  CompactClassificationTree_pr_na(weak_learner_CutPredictorIndex,
+    weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
+    weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
+  y = false;
+  k = 0;
+  exitg1 = false;
+  while (!exitg1 && (k < 3)) {
+    if (rtIsNaN(cachedScore[k])) {
+      y = true;
+      exitg1 = true;
+    } else {
+      k++;
+    }
+  }
+
+  if (y) {
+    for (k = 0; k < 3; k++) {
+      if (rtIsNaN(cachedScore[k])) {
+        cachedScore[k] = 0.0;
+      }
+    }
+  }
+
+  MotorFaultDeploy_updateCache_k(b, cachedScore, cachedWeights, cached, combiner,
+    score);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_p_nap(const real_T obj_CutPredictorIndex
+  [25], const real_T obj_Children[50], const real_T obj_CutPoint[25], const
+  boolean_T obj_NanCutPoints[25], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[75], const real_T Xin[10], real_T *labels, real_T scores
+  [3])
+{
+  real_T obj_ClassProbability_0[3];
+  real_T a__4;
+  int32_T i;
+  int32_T m;
+  boolean_T exitg1;
+  m = 0;
+  exitg1 = false;
+  while (!(exitg1 || (obj_CutPredictorIndex[m] == 0.0))) {
+    a__4 = Xin[(int32_T)obj_CutPredictorIndex[m] - 1];
+    if (rtIsNaN(a__4) || obj_NanCutPoints[m]) {
+      exitg1 = true;
+    } else if (a__4 < obj_CutPoint[m]) {
+      m = (int32_T)obj_Children[m << 1] - 1;
+    } else {
+      m = (int32_T)obj_Children[(m << 1) + 1] - 1;
+    }
+  }
+
+  for (i = 0; i < 3; i++) {
+    obj_ClassProbability_0[i] = (obj_Cost[3 * i + 1] * obj_ClassProbability[m +
+      25] + obj_Cost[3 * i] * obj_ClassProbability[m]) + obj_Cost[3 * i + 2] *
+      obj_ClassProbability[m + 50];
+    scores[i] = obj_ClassProbability[25 * i + m];
+  }
+
+  MotorFaultDeploy_minimum_j(obj_ClassProbability_0, &a__4, &m);
+  if (m < 0) {
+    m = 0;
+  }
+
+  *labels = (int8_T)((int8_T)(m - 1) + 1);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void MotorFa_predictOneWithCache_jpy(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[25], const real_T weak_learner_Children[50],
+  const real_T weak_learner_CutPoint[25], const boolean_T
+  weak_learner_NanCutPoints[25], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[75], boolean_T *cached, real_T score[3])
+{
+  real_T b[3];
+  real_T a__2;
+  int32_T k;
+  boolean_T exitg1;
+  boolean_T y;
+  CompactClassificationTree_p_nap(weak_learner_CutPredictorIndex,
+    weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
+    weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
+  y = false;
+  k = 0;
+  exitg1 = false;
+  while (!exitg1 && (k < 3)) {
+    if (rtIsNaN(cachedScore[k])) {
+      y = true;
+      exitg1 = true;
+    } else {
+      k++;
+    }
+  }
+
+  if (y) {
+    for (k = 0; k < 3; k++) {
+      if (rtIsNaN(cachedScore[k])) {
+        cachedScore[k] = 0.0;
+      }
+    }
+  }
+
+  MotorFaultDeploy_updateCache_k(b, cachedScore, cachedWeights, cached, combiner,
+    score);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree__napl(const real_T obj_CutPredictorIndex
+  [45], const real_T obj_Children[90], const real_T obj_CutPoint[45], const
+  boolean_T obj_NanCutPoints[45], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[135], const real_T Xin[10], real_T *labels, real_T
+  scores[3])
+{
+  real_T obj_ClassProbability_0[3];
+  real_T a__4;
+  int32_T i;
+  int32_T m;
+  boolean_T exitg1;
+  m = 0;
+  exitg1 = false;
+  while (!(exitg1 || (obj_CutPredictorIndex[m] == 0.0))) {
+    a__4 = Xin[(int32_T)obj_CutPredictorIndex[m] - 1];
+    if (rtIsNaN(a__4) || obj_NanCutPoints[m]) {
+      exitg1 = true;
+    } else if (a__4 < obj_CutPoint[m]) {
+      m = (int32_T)obj_Children[m << 1] - 1;
+    } else {
+      m = (int32_T)obj_Children[(m << 1) + 1] - 1;
+    }
+  }
+
+  for (i = 0; i < 3; i++) {
+    obj_ClassProbability_0[i] = (obj_Cost[3 * i + 1] * obj_ClassProbability[m +
+      45] + obj_Cost[3 * i] * obj_ClassProbability[m]) + obj_Cost[3 * i + 2] *
+      obj_ClassProbability[m + 90];
+    scores[i] = obj_ClassProbability[45 * i + m];
+  }
+
+  MotorFaultDeploy_minimum_j(obj_ClassProbability_0, &a__4, &m);
+  if (m < 0) {
+    m = 0;
+  }
+
+  *labels = (int8_T)((int8_T)(m - 1) + 1);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void MotorF_predictOneWithCache_jpyz(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[45], const real_T weak_learner_Children[90],
+  const real_T weak_learner_CutPoint[45], const boolean_T
+  weak_learner_NanCutPoints[45], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[135], boolean_T *cached, real_T score[3])
+{
+  real_T b[3];
+  real_T a__2;
+  int32_T k;
+  boolean_T exitg1;
+  boolean_T y;
+  CompactClassificationTree__napl(weak_learner_CutPredictorIndex,
+    weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
+    weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
+  y = false;
+  k = 0;
+  exitg1 = false;
+  while (!exitg1 && (k < 3)) {
+    if (rtIsNaN(cachedScore[k])) {
+      y = true;
+      exitg1 = true;
+    } else {
+      k++;
+    }
+  }
+
+  if (y) {
+    for (k = 0; k < 3; k++) {
+      if (rtIsNaN(cachedScore[k])) {
+        cachedScore[k] = 0.0;
+      }
+    }
+  }
+
+  MotorFaultDeploy_updateCache_k(b, cachedScore, cachedWeights, cached, combiner,
+    score);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_naplr(const real_T obj_CutPredictorIndex
+  [27], const real_T obj_Children[54], const real_T obj_CutPoint[27], const
+  boolean_T obj_NanCutPoints[27], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[81], const real_T Xin[10], real_T *labels, real_T scores
+  [3])
+{
+  real_T obj_ClassProbability_0[3];
+  real_T a__4;
+  int32_T i;
+  int32_T m;
+  boolean_T exitg1;
+  m = 0;
+  exitg1 = false;
+  while (!(exitg1 || (obj_CutPredictorIndex[m] == 0.0))) {
+    a__4 = Xin[(int32_T)obj_CutPredictorIndex[m] - 1];
+    if (rtIsNaN(a__4) || obj_NanCutPoints[m]) {
+      exitg1 = true;
+    } else if (a__4 < obj_CutPoint[m]) {
+      m = (int32_T)obj_Children[m << 1] - 1;
+    } else {
+      m = (int32_T)obj_Children[(m << 1) + 1] - 1;
+    }
+  }
+
+  for (i = 0; i < 3; i++) {
+    obj_ClassProbability_0[i] = (obj_Cost[3 * i + 1] * obj_ClassProbability[m +
+      27] + obj_Cost[3 * i] * obj_ClassProbability[m]) + obj_Cost[3 * i + 2] *
+      obj_ClassProbability[m + 54];
+    scores[i] = obj_ClassProbability[27 * i + m];
+  }
+
+  MotorFaultDeploy_minimum_j(obj_ClassProbability_0, &a__4, &m);
+  if (m < 0) {
+    m = 0;
+  }
+
+  *labels = (int8_T)((int8_T)(m - 1) + 1);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void Motor_predictOneWithCache_jpyzw(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[27], const real_T weak_learner_Children[54],
+  const real_T weak_learner_CutPoint[27], const boolean_T
+  weak_learner_NanCutPoints[27], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[81], boolean_T *cached, real_T score[3])
+{
+  real_T b[3];
+  real_T a__2;
+  int32_T k;
+  boolean_T exitg1;
+  boolean_T y;
+  CompactClassificationTree_naplr(weak_learner_CutPredictorIndex,
+    weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
+    weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
+  y = false;
+  k = 0;
+  exitg1 = false;
+  while (!exitg1 && (k < 3)) {
+    if (rtIsNaN(cachedScore[k])) {
+      y = true;
+      exitg1 = true;
+    } else {
+      k++;
+    }
+  }
+
+  if (y) {
+    for (k = 0; k < 3; k++) {
+      if (rtIsNaN(cachedScore[k])) {
+        cachedScore[k] = 0.0;
+      }
+    }
+  }
+
+  MotorFaultDeploy_updateCache_k(b, cachedScore, cachedWeights, cached, combiner,
+    score);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTre_naplrq(const real_T obj_CutPredictorIndex
+  [29], const real_T obj_Children[58], const real_T obj_CutPoint[29], const
+  boolean_T obj_NanCutPoints[29], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[87], const real_T Xin[10], real_T *labels, real_T scores
+  [3])
+{
+  real_T obj_ClassProbability_0[3];
+  real_T a__4;
+  int32_T i;
+  int32_T m;
+  boolean_T exitg1;
+  m = 0;
+  exitg1 = false;
+  while (!(exitg1 || (obj_CutPredictorIndex[m] == 0.0))) {
+    a__4 = Xin[(int32_T)obj_CutPredictorIndex[m] - 1];
+    if (rtIsNaN(a__4) || obj_NanCutPoints[m]) {
+      exitg1 = true;
+    } else if (a__4 < obj_CutPoint[m]) {
+      m = (int32_T)obj_Children[m << 1] - 1;
+    } else {
+      m = (int32_T)obj_Children[(m << 1) + 1] - 1;
+    }
+  }
+
+  for (i = 0; i < 3; i++) {
+    obj_ClassProbability_0[i] = (obj_Cost[3 * i + 1] * obj_ClassProbability[m +
+      29] + obj_Cost[3 * i] * obj_ClassProbability[m]) + obj_Cost[3 * i + 2] *
+      obj_ClassProbability[m + 58];
+    scores[i] = obj_ClassProbability[29 * i + m];
+  }
+
+  MotorFaultDeploy_minimum_j(obj_ClassProbability_0, &a__4, &m);
+  if (m < 0) {
+    m = 0;
+  }
+
+  *labels = (int8_T)((int8_T)(m - 1) + 1);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void Moto_predictOneWithCache_jpyzwe(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[29], const real_T weak_learner_Children[58],
+  const real_T weak_learner_CutPoint[29], const boolean_T
+  weak_learner_NanCutPoints[29], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[87], boolean_T *cached, real_T score[3])
+{
+  real_T b[3];
+  real_T a__2;
+  int32_T k;
+  boolean_T exitg1;
+  boolean_T y;
+  CompactClassificationTre_naplrq(weak_learner_CutPredictorIndex,
+    weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
+    weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
+  y = false;
+  k = 0;
+  exitg1 = false;
+  while (!exitg1 && (k < 3)) {
+    if (rtIsNaN(cachedScore[k])) {
+      y = true;
+      exitg1 = true;
+    } else {
+      k++;
+    }
+  }
+
+  if (y) {
+    for (k = 0; k < 3; k++) {
+      if (rtIsNaN(cachedScore[k])) {
+        cachedScore[k] = 0.0;
+      }
+    }
+  }
+
+  MotorFaultDeploy_updateCache_k(b, cachedScore, cachedWeights, cached, combiner,
+    score);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTr_naplrqt(const real_T obj_CutPredictorIndex
+  [21], const real_T obj_Children[42], const real_T obj_CutPoint[21], const
+  boolean_T obj_NanCutPoints[21], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[63], const real_T Xin[10], real_T *labels, real_T scores
+  [3])
+{
+  real_T obj_ClassProbability_0[3];
+  real_T a__4;
+  int32_T i;
+  int32_T m;
+  boolean_T exitg1;
+  m = 0;
+  exitg1 = false;
+  while (!(exitg1 || (obj_CutPredictorIndex[m] == 0.0))) {
+    a__4 = Xin[(int32_T)obj_CutPredictorIndex[m] - 1];
+    if (rtIsNaN(a__4) || obj_NanCutPoints[m]) {
+      exitg1 = true;
+    } else if (a__4 < obj_CutPoint[m]) {
+      m = (int32_T)obj_Children[m << 1] - 1;
+    } else {
+      m = (int32_T)obj_Children[(m << 1) + 1] - 1;
+    }
+  }
+
+  for (i = 0; i < 3; i++) {
+    obj_ClassProbability_0[i] = (obj_Cost[3 * i + 1] * obj_ClassProbability[m +
+      21] + obj_Cost[3 * i] * obj_ClassProbability[m]) + obj_Cost[3 * i + 2] *
+      obj_ClassProbability[m + 42];
+    scores[i] = obj_ClassProbability[21 * i + m];
+  }
+
+  MotorFaultDeploy_minimum_j(obj_ClassProbability_0, &a__4, &m);
+  if (m < 0) {
+    m = 0;
+  }
+
+  *labels = (int8_T)((int8_T)(m - 1) + 1);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void Mot_predictOneWithCache_jpyzwef(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[21], const real_T weak_learner_Children[42],
+  const real_T weak_learner_CutPoint[21], const boolean_T
+  weak_learner_NanCutPoints[21], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[63], boolean_T *cached, real_T score[3])
+{
+  real_T b[3];
+  real_T a__2;
+  int32_T k;
+  boolean_T exitg1;
+  boolean_T y;
+  CompactClassificationTr_naplrqt(weak_learner_CutPredictorIndex,
+    weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
+    weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
+  y = false;
+  k = 0;
+  exitg1 = false;
+  while (!exitg1 && (k < 3)) {
+    if (rtIsNaN(cachedScore[k])) {
+      y = true;
+      exitg1 = true;
+    } else {
+      k++;
+    }
+  }
+
+  if (y) {
+    for (k = 0; k < 3; k++) {
+      if (rtIsNaN(cachedScore[k])) {
+        cachedScore[k] = 0.0;
+      }
+    }
+  }
+
+  MotorFaultDeploy_updateCache_k(b, cachedScore, cachedWeights, cached, combiner,
+    score);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationT_naplrqtl(const real_T obj_CutPredictorIndex
+  [31], const real_T obj_Children[62], const real_T obj_CutPoint[31], const
+  boolean_T obj_NanCutPoints[31], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[93], const real_T Xin[10], real_T *labels, real_T scores
+  [3])
+{
+  real_T obj_ClassProbability_0[3];
+  real_T a__4;
+  int32_T i;
+  int32_T m;
+  boolean_T exitg1;
+  m = 0;
+  exitg1 = false;
+  while (!(exitg1 || (obj_CutPredictorIndex[m] == 0.0))) {
+    a__4 = Xin[(int32_T)obj_CutPredictorIndex[m] - 1];
+    if (rtIsNaN(a__4) || obj_NanCutPoints[m]) {
+      exitg1 = true;
+    } else if (a__4 < obj_CutPoint[m]) {
+      m = (int32_T)obj_Children[m << 1] - 1;
+    } else {
+      m = (int32_T)obj_Children[(m << 1) + 1] - 1;
+    }
+  }
+
+  for (i = 0; i < 3; i++) {
+    obj_ClassProbability_0[i] = (obj_Cost[3 * i + 1] * obj_ClassProbability[m +
+      31] + obj_Cost[3 * i] * obj_ClassProbability[m]) + obj_Cost[3 * i + 2] *
+      obj_ClassProbability[m + 62];
+    scores[i] = obj_ClassProbability[31 * i + m];
+  }
+
+  MotorFaultDeploy_minimum_j(obj_ClassProbability_0, &a__4, &m);
+  if (m < 0) {
+    m = 0;
+  }
+
+  *labels = (int8_T)((int8_T)(m - 1) + 1);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void Mo_predictOneWithCache_jpyzwefn(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[31], const real_T weak_learner_Children[62],
+  const real_T weak_learner_CutPoint[31], const boolean_T
+  weak_learner_NanCutPoints[31], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[93], boolean_T *cached, real_T score[3])
+{
+  real_T b[3];
+  real_T a__2;
+  int32_T k;
+  boolean_T exitg1;
+  boolean_T y;
+  CompactClassificationT_naplrqtl(weak_learner_CutPredictorIndex,
+    weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
+    weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
+  y = false;
+  k = 0;
+  exitg1 = false;
+  while (!exitg1 && (k < 3)) {
+    if (rtIsNaN(cachedScore[k])) {
+      y = true;
+      exitg1 = true;
+    } else {
+      k++;
+    }
+  }
+
+  if (y) {
+    for (k = 0; k < 3; k++) {
+      if (rtIsNaN(cachedScore[k])) {
+        cachedScore[k] = 0.0;
+      }
+    }
+  }
+
+  MotorFaultDeploy_updateCache_k(b, cachedScore, cachedWeights, cached, combiner,
+    score);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassification_naplrqtlh(const real_T obj_CutPredictorIndex
+  [23], const real_T obj_Children[46], const real_T obj_CutPoint[23], const
+  boolean_T obj_NanCutPoints[23], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[69], const real_T Xin[10], real_T *labels, real_T scores
+  [3])
+{
+  real_T obj_ClassProbability_0[3];
+  real_T a__4;
+  int32_T i;
+  int32_T m;
+  boolean_T exitg1;
+  m = 0;
+  exitg1 = false;
+  while (!(exitg1 || (obj_CutPredictorIndex[m] == 0.0))) {
+    a__4 = Xin[(int32_T)obj_CutPredictorIndex[m] - 1];
+    if (rtIsNaN(a__4) || obj_NanCutPoints[m]) {
+      exitg1 = true;
+    } else if (a__4 < obj_CutPoint[m]) {
+      m = (int32_T)obj_Children[m << 1] - 1;
+    } else {
+      m = (int32_T)obj_Children[(m << 1) + 1] - 1;
+    }
+  }
+
+  for (i = 0; i < 3; i++) {
+    obj_ClassProbability_0[i] = (obj_Cost[3 * i + 1] * obj_ClassProbability[m +
+      23] + obj_Cost[3 * i] * obj_ClassProbability[m]) + obj_Cost[3 * i + 2] *
+      obj_ClassProbability[m + 46];
+    scores[i] = obj_ClassProbability[23 * i + m];
+  }
+
+  MotorFaultDeploy_minimum_j(obj_ClassProbability_0, &a__4, &m);
+  if (m < 0) {
+    m = 0;
+  }
+
+  *labels = (int8_T)((int8_T)(m - 1) + 1);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void M_predictOneWithCache_jpyzwefnb(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[23], const real_T weak_learner_Children[46],
+  const real_T weak_learner_CutPoint[23], const boolean_T
+  weak_learner_NanCutPoints[23], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[69], boolean_T *cached, real_T score[3])
+{
+  real_T b[3];
+  real_T a__2;
+  int32_T k;
+  boolean_T exitg1;
+  boolean_T y;
+  CompactClassification_naplrqtlh(weak_learner_CutPredictorIndex,
+    weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
+    weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
+  y = false;
+  k = 0;
+  exitg1 = false;
+  while (!exitg1 && (k < 3)) {
+    if (rtIsNaN(cachedScore[k])) {
+      y = true;
+      exitg1 = true;
+    } else {
+      k++;
+    }
+  }
+
+  if (y) {
+    for (k = 0; k < 3; k++) {
+      if (rtIsNaN(cachedScore[k])) {
+        cachedScore[k] = 0.0;
+      }
+    }
+  }
+
+  MotorFaultDeploy_updateCache_k(b, cachedScore, cachedWeights, cached, combiner,
+    score);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_Co_gn(real_T obj_CutPredictorIndex[33],
+  real_T obj_Children[66], real_T obj_CutPoint[33], boolean_T obj_NanCutPoints
+  [33], boolean_T obj_InfCutPoints[33], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[99])
+{
+  int32_T i;
+  static const real_T tmp[33] = { -0.35201830476404355, 0.0, 9.292933408740097,
+    2.86829968722897, 1.1382911358384367, 2.1491831849892327, 8.82816403362844,
+    207.99185181015292, 1.0827367186520593, 0.0, 0.021820086788640086, 0.0, 0.0,
+    0.0, 1.0081766790435729, 0.0, 1.4781213957378556, 0.5028885554266924, 0.0,
+    0.0, 0.0, 239.4399108365312, 0.0, 0.0, 2.3875598934974565, 0.0,
+    10.579553785911568, 1.0291985424435564, 0.0, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[33] = { false, true, false, false, false, false,
+    false, false, false, true, false, true, true, true, false, true, false,
+    false, true, true, true, false, true, true, false, true, false, false, true,
+    true, true, true, true };
+
+  static const real_T tmp_1[99] = { 0.32083333333333314, 0.0, 0.4873417721518985,
+    0.9251336898395722, 0.0937499999999998, 0.9853801169590644,
+    0.28125000000000006, 0.6315789473684209, 0.03968253968253966, 1.0,
+    0.9358974358974358, 1.0, 0.0, 1.0, 0.2631578947368421, 1.0,
+    0.03199999999999998, 0.948051948051948, 0.0, 1.0, 0.0, 0.12121212121212124,
+    0.0, 1.0, 0.8857142857142857, 0.0, 0.22222222222222238, 0.6923076923076923,
+    1.0, 1.0, 0.0, 0.0, 1.0, 0.3416666666666669, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.33750000000000013,
+    0.0, 0.5126582278481016, 0.0748663101604278, 0.9062500000000002,
+    0.014619883040935687, 0.71875, 0.36842105263157904, 0.9603174603174603, 0.0,
+    0.06410256410256418, 0.0, 1.0, 0.0, 0.7368421052631579, 0.0, 0.968,
+    0.05194805194805202, 1.0, 0.0, 1.0, 0.8787878787878788, 1.0, 0.0,
+    0.11428571428571437, 1.0, 0.7777777777777776, 0.3076923076923077, 0.0, 0.0,
+    1.0, 1.0, 0.0 };
+
+  static const int8_T c[33] = { 6, 0, 10, 4, 4, 1, 10, 8, 1, 0, 2, 0, 0, 0, 4, 0,
+    1, 9, 0, 0, 0, 8, 0, 0, 1, 0, 10, 7, 0, 0, 0, 0, 0 };
+
+  static const int8_T d[66] = { 2, 3, 0, 0, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+    15, 16, 17, 0, 0, 18, 19, 0, 0, 0, 0, 0, 0, 20, 21, 0, 0, 22, 23, 24, 25, 0,
+    0, 0, 0, 0, 0, 26, 27, 0, 0, 0, 0, 28, 29, 0, 0, 30, 31, 32, 33, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 33U * sizeof(real_T));
+  for (i = 0; i < 33; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 99U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 33; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 66; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 33; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.32083333333333336;
+  obj_Prior[1] = 0.3416666666666667;
+  obj_Prior[2] = 0.3375;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_C_gne(real_T obj_CutPredictorIndex[25],
+  real_T obj_Children[50], real_T obj_CutPoint[25], boolean_T obj_NanCutPoints
+  [25], boolean_T obj_InfCutPoints[25], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[75])
+{
+  int32_T i;
+  static const real_T tmp[25] = { 0.13360890391781266, 2.2811241228479133, 0.0,
+    0.9723355636507722, 8.806236481669528, 0.0, 9.679256178546266,
+    2.4608702530077067, 0.0, 2.19758821746564, 0.0, 2.3128817688667564, 0.0,
+    212.652007855342, 0.01964973597082879, 0.0, 0.0, 0.0, 226.2352481970895, 0.0,
+    8.708288401363706, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[25] = { false, false, true, false, false, true,
+    false, false, true, false, true, false, true, false, false, true, true, true,
+    false, true, false, true, true, true, true };
+
+  static const real_T tmp_1[75] = { 0.35583333333333383, 0.5175757575757579, 0.0,
+    0.6648250460405157, 0.2340425531914894, 1.0, 0.5999999999999991,
+    0.8461538461538459, 0.0, 0.9578947368421051, 0.0, 0.45454545454545453, 1.0,
+    0.9850746268656716, 0.5294117647058824, 1.0, 0.0, 1.0, 0.9611650485436894,
+    0.0, 0.6923076923076923, 0.0, 1.0, 1.0, 0.0, 0.3124999999999996, 0.0, 1.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.33166666666666667, 0.4824242424242421,
+    0.0, 0.33517495395948427, 0.7659574468085106, 0.0, 0.4000000000000008,
+    0.15384615384615402, 1.0, 0.04210526315789487, 1.0, 0.5454545454545454, 0.0,
+    0.014925373134328401, 0.47058823529411764, 0.0, 1.0, 0.0,
+    0.03883495145631066, 1.0, 0.30769230769230765, 1.0, 0.0, 0.0, 1.0 };
+
+  static const int8_T c[25] = { 2, 4, 0, 3, 10, 0, 10, 4, 0, 4, 0, 1, 0, 8, 2, 0,
+    0, 0, 8, 0, 10, 0, 0, 0, 0 };
+
+  static const int8_T d[50] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 0, 0, 10, 11, 12,
+    13, 0, 0, 14, 15, 0, 0, 16, 17, 0, 0, 18, 19, 20, 21, 0, 0, 0, 0, 0, 0, 22,
+    23, 0, 0, 24, 25, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 25U * sizeof(real_T));
+  for (i = 0; i < 25; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 75U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 25; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 50; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 25; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.35583333333333333;
+  obj_Prior[1] = 0.3125;
+  obj_Prior[2] = 0.33166666666666667;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree__gnex(real_T obj_CutPredictorIndex[17],
+  real_T obj_Children[34], real_T obj_CutPoint[17], boolean_T obj_NanCutPoints
+  [17], boolean_T obj_InfCutPoints[17], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[51])
+{
+  int32_T i;
+  static const real_T tmp[17] = { 1.1141973340137805, 9.305830444589635, 0.0,
+    2.2013542677380045, 9.925292565316994, 0.0, 8.539661957729152,
+    1.510866846801123, 0.0, 0.0, 2.921520719183943, 0.0, 0.0, 0.0,
+    3.0101349903732446, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[17] = { false, false, true, false, false, true,
+    false, false, true, true, false, true, true, true, false, true, true };
+
+  static const real_T tmp_1[51] = { 0.3433333333333336, 0.5162907268170429, 0.0,
+    0.9166666666666669, 0.09743589743589737, 1.0, 0.6822429906542056,
+    0.40425531914893625, 0.0, 1.0, 0.20930232558139547, 1.0, 0.0, 0.0,
+    0.8181818181818182, 1.0, 0.0, 0.3350000000000001, 0.0, 1.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3216666666666665,
+    0.4837092731829571, 0.0, 0.08333333333333316, 0.9025641025641027, 0.0,
+    0.31775700934579454, 0.5957446808510637, 1.0, 0.0, 0.7906976744186045, 0.0,
+    1.0, 1.0, 0.1818181818181818, 0.0, 1.0 };
+
+  static const int8_T c[17] = { 7, 10, 0, 4, 10, 0, 10, 1, 0, 0, 3, 0, 0, 0, 4,
+    0, 0 };
+
+  static const int8_T d[34] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 0, 0, 10, 11, 12,
+    13, 0, 0, 0, 0, 14, 15, 0, 0, 0, 0, 0, 0, 16, 17, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 17U * sizeof(real_T));
+  for (i = 0; i < 17; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 51U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 17; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 34; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 17; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.3433333333333333;
+  obj_Prior[1] = 0.335;
+  obj_Prior[2] = 0.32166666666666666;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificatio_naplrqtlhi(const real_T obj_CutPredictorIndex
+  [17], const real_T obj_Children[34], const real_T obj_CutPoint[17], const
+  boolean_T obj_NanCutPoints[17], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[51], const real_T Xin[10], real_T *labels, real_T scores
+  [3])
+{
+  real_T obj_ClassProbability_0[3];
+  real_T a__4;
+  int32_T i;
+  int32_T m;
+  boolean_T exitg1;
+  m = 0;
+  exitg1 = false;
+  while (!(exitg1 || (obj_CutPredictorIndex[m] == 0.0))) {
+    a__4 = Xin[(int32_T)obj_CutPredictorIndex[m] - 1];
+    if (rtIsNaN(a__4) || obj_NanCutPoints[m]) {
+      exitg1 = true;
+    } else if (a__4 < obj_CutPoint[m]) {
+      m = (int32_T)obj_Children[m << 1] - 1;
+    } else {
+      m = (int32_T)obj_Children[(m << 1) + 1] - 1;
+    }
+  }
+
+  for (i = 0; i < 3; i++) {
+    obj_ClassProbability_0[i] = (obj_Cost[3 * i + 1] * obj_ClassProbability[m +
+      17] + obj_Cost[3 * i] * obj_ClassProbability[m]) + obj_Cost[3 * i + 2] *
+      obj_ClassProbability[m + 34];
+    scores[i] = obj_ClassProbability[17 * i + m];
+  }
+
+  MotorFaultDeploy_minimum_j(obj_ClassProbability_0, &a__4, &m);
+  if (m < 0) {
+    m = 0;
+  }
+
+  *labels = (int8_T)((int8_T)(m - 1) + 1);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void predictOneWithCache_jpyzwefnbj(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[17], const real_T weak_learner_Children[34],
+  const real_T weak_learner_CutPoint[17], const boolean_T
+  weak_learner_NanCutPoints[17], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[51], boolean_T *cached, real_T score[3])
+{
+  real_T b[3];
+  real_T a__2;
+  int32_T k;
+  boolean_T exitg1;
+  boolean_T y;
+  CompactClassificatio_naplrqtlhi(weak_learner_CutPredictorIndex,
+    weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
+    weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
+  y = false;
+  k = 0;
+  exitg1 = false;
+  while (!exitg1 && (k < 3)) {
+    if (rtIsNaN(cachedScore[k])) {
+      y = true;
+      exitg1 = true;
+    } else {
+      k++;
+    }
+  }
+
+  if (y) {
+    for (k = 0; k < 3; k++) {
+      if (rtIsNaN(cachedScore[k])) {
+        cachedScore[k] = 0.0;
+      }
+    }
+  }
+
+  MotorFaultDeploy_updateCache_k(b, cachedScore, cachedWeights, cached, combiner,
+    score);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_gnexe(real_T obj_CutPredictorIndex[31],
+  real_T obj_Children[62], real_T obj_CutPoint[31], boolean_T obj_NanCutPoints
+  [31], boolean_T obj_InfCutPoints[31], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[93])
+{
+  int32_T i;
+  static const real_T tmp[31] = { 1.1088530839786763, 1.0254244617498665, 0.0,
+    3.059031181192455, 0.9723198582869388, 2.924520697282814, 0.0, 0.0,
+    9.292933408740097, 2.825643065557346, 0.0, 2.9314734858423517,
+    9.679256178546266, 0.0, 8.658561827869024, 8.650996908363707, 0.0,
+    1.5863940763399778, 0.0, 0.0, 0.0, 0.0, 1.0319688635348245, 0.0, 0.0,
+    237.52513099363603, 2.2462342814282037, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[31] = { false, false, true, false, false, false,
+    true, true, false, false, true, false, false, true, false, false, true,
+    false, true, true, true, true, false, true, true, false, false, true, true,
+    true, true };
+
+  static const real_T tmp_1[93] = { 0.32999999999999996, 0.5038167938931298, 0.0,
+    0.16304347826086973, 0.54899135446686, 0.31250000000000017, 0.0, 1.0,
+    0.49678456591639863, 0.10810810810810818, 1.0, 0.9463087248322146,
+    0.08333333333333359, 1.0, 0.0833333333333334, 0.9591836734693876, 0.0,
+    0.3750000000000001, 0.0, 1.0, 0.0, 1.0, 0.8823529411764707, 1.0, 0.0,
+    0.45000000000000007, 0.9878048780487804, 0.0, 1.0, 1.0, 0.0,
+    0.34500000000000025, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.32499999999999984, 0.49618320610687017, 0.0,
+    0.8369565217391303, 0.4510086455331401, 0.6874999999999998, 1.0, 0.0,
+    0.5032154340836014, 0.8918918918918918, 0.0, 0.053691275167785414,
+    0.9166666666666665, 0.0, 0.9166666666666666, 0.04081632653061238, 1.0,
+    0.6249999999999999, 1.0, 0.0, 1.0, 0.0, 0.11764705882352942, 0.0, 1.0, 0.55,
+    0.012195121951219521, 1.0, 0.0, 0.0, 1.0 };
+
+  static const int8_T c[31] = { 7, 7, 0, 4, 1, 3, 0, 0, 10, 5, 0, 3, 10, 0, 10,
+    10, 0, 4, 0, 0, 0, 0, 7, 0, 0, 8, 3, 0, 0, 0, 0 };
+
+  static const int8_T d[62] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 10, 11, 0, 0, 0, 0,
+    12, 13, 14, 15, 0, 0, 16, 17, 18, 19, 0, 0, 20, 21, 22, 23, 0, 0, 24, 25, 0,
+    0, 0, 0, 0, 0, 0, 0, 26, 27, 0, 0, 0, 0, 28, 29, 30, 31, 0, 0, 0, 0, 0, 0, 0,
+    0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 31U * sizeof(real_T));
+  for (i = 0; i < 31; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 93U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 31; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 62; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 31; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.33;
+  obj_Prior[1] = 0.345;
+  obj_Prior[2] = 0.325;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTre_gnexe4(real_T obj_CutPredictorIndex[31],
+  real_T obj_Children[62], real_T obj_CutPoint[31], boolean_T obj_NanCutPoints
+  [31], boolean_T obj_InfCutPoints[31], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[93])
+{
+  int32_T i;
+  static const real_T tmp[31] = { 1.1109774680412126, 9.292148139465922, 0.0,
+    1.0304504030903527, 1.1425139568732892, 8.595088148553007,
+    2.3223706692091124, 10.372393968278153, 1.517274815090492, 0.0,
+    2.924390028631521, 9.224123981410937, 0.020084883447680363, 0.0, 0.0,
+    9.807727609911861, 0.0, 2.2444754355321317, 0.5298525596290711, 0.0,
+    -0.01370440326295206, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[31] = { false, false, true, false, false, false,
+    false, false, false, true, false, false, false, true, true, false, true,
+    false, false, true, false, true, true, true, true, true, true, true, true,
+    true, true };
+
+  static const real_T tmp_1[93] = { 0.3341666666666667, 0.4860606060606058, 0.0,
+    0.9129353233830848, 0.08037825059101633, 0.6736842105263157,
+    0.9869706840390878, 0.619047619047619, 0.020997375328083965, 1.0,
+    0.26190476190476203, 0.9966666666666667, 0.5714285714285715, 1.0, 0.0,
+    0.1454545454545456, 0.0, 0.06250000000000004, 0.9000000000000001, 1.0,
+    0.6666666666666667, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0,
+    0.3124999999999996, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.3533333333333338, 0.5139393939393943, 0.0,
+    0.08706467661691529, 0.9196217494089837, 0.32631578947368434,
+    0.013029315960912098, 0.3809523809523811, 0.9790026246719161, 0.0,
+    0.7380952380952379, 0.003333333333333346, 0.42857142857142855, 0.0, 1.0,
+    0.8545454545454544, 1.0, 0.9375, 0.09999999999999999, 0.0,
+    0.3333333333333333, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0 };
+
+  static const int8_T c[31] = { 7, 10, 0, 7, 4, 10, 3, 10, 4, 0, 1, 10, 2, 0, 0,
+    10, 0, 3, 9, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T d[62] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+    15, 16, 17, 0, 0, 18, 19, 20, 21, 22, 23, 0, 0, 0, 0, 24, 25, 0, 0, 26, 27,
+    28, 29, 0, 0, 30, 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 31U * sizeof(real_T));
+  for (i = 0; i < 31; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 93U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 31; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 62; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 31; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.33416666666666667;
+  obj_Prior[1] = 0.3125;
+  obj_Prior[2] = 0.35333333333333333;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTr_gnexe4e(real_T obj_CutPredictorIndex[19],
+  real_T obj_Children[38], real_T obj_CutPoint[19], boolean_T obj_NanCutPoints
+  [19], boolean_T obj_InfCutPoints[19], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[57])
+{
+  int32_T i;
+  static const real_T tmp[19] = { 0.13360890391781266, 9.224376248453815, 0.0,
+    2.8004574053908877, 0.9696220368222984, 2.3847131675888287,
+    234.80961451226352, 0.0, 9.685858536031336, 0.0, 2.3937352329345547, 0.0,
+    0.0, 1.562931945501905, 0.0, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[19] = { false, false, true, false, false, false,
+    false, true, false, true, false, true, true, false, true, true, true, true,
+    true };
+
+  static const real_T tmp_1[57] = { 0.33333333333333337, 0.49627791563275425,
+    0.0, 0.9251870324189528, 0.0716049382716048, 0.9681697612732095, 0.25, 1.0,
+    0.050505050505050435, 1.0, 0.7818181818181816, 0.0, 1.0, 0.25974025974026,
+    0.0, 0.0, 1.0, 1.0, 0.0, 0.32833333333333325, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.3383333333333335, 0.5037220843672457, 0.0, 0.07481296758104726,
+    0.9283950617283951, 0.03183023872679042, 0.75, 0.0, 0.9494949494949496, 0.0,
+    0.21818181818181834, 1.0, 0.0, 0.7402597402597401, 1.0, 1.0, 0.0, 0.0, 1.0 };
+
+  static const int8_T c[19] = { 2, 10, 0, 1, 3, 4, 8, 0, 10, 0, 1, 0, 0, 4, 0, 0,
+    0, 0, 0 };
+
+  static const int8_T d[38] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 10, 11, 12, 13, 0,
+    0, 14, 15, 0, 0, 16, 17, 0, 0, 0, 0, 18, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 19U * sizeof(real_T));
+  for (i = 0; i < 19; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 57U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 19; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 38; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 19; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.3333333333333333;
+  obj_Prior[1] = 0.3283333333333333;
+  obj_Prior[2] = 0.3383333333333333;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificati_naplrqtlhie(const real_T obj_CutPredictorIndex
+  [19], const real_T obj_Children[38], const real_T obj_CutPoint[19], const
+  boolean_T obj_NanCutPoints[19], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[57], const real_T Xin[10], real_T *labels, real_T scores
+  [3])
+{
+  real_T obj_ClassProbability_0[3];
+  real_T a__4;
+  int32_T i;
+  int32_T m;
+  boolean_T exitg1;
+  m = 0;
+  exitg1 = false;
+  while (!(exitg1 || (obj_CutPredictorIndex[m] == 0.0))) {
+    a__4 = Xin[(int32_T)obj_CutPredictorIndex[m] - 1];
+    if (rtIsNaN(a__4) || obj_NanCutPoints[m]) {
+      exitg1 = true;
+    } else if (a__4 < obj_CutPoint[m]) {
+      m = (int32_T)obj_Children[m << 1] - 1;
+    } else {
+      m = (int32_T)obj_Children[(m << 1) + 1] - 1;
+    }
+  }
+
+  for (i = 0; i < 3; i++) {
+    obj_ClassProbability_0[i] = (obj_Cost[3 * i + 1] * obj_ClassProbability[m +
+      19] + obj_Cost[3 * i] * obj_ClassProbability[m]) + obj_Cost[3 * i + 2] *
+      obj_ClassProbability[m + 38];
+    scores[i] = obj_ClassProbability[19 * i + m];
+  }
+
+  MotorFaultDeploy_minimum_j(obj_ClassProbability_0, &a__4, &m);
+  if (m < 0) {
+    m = 0;
+  }
+
+  *labels = (int8_T)((int8_T)(m - 1) + 1);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void predictOneWithCache_jpyzwefnbjt(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[19], const real_T weak_learner_Children[38],
+  const real_T weak_learner_CutPoint[19], const boolean_T
+  weak_learner_NanCutPoints[19], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[57], boolean_T *cached, real_T score[3])
+{
+  real_T b[3];
+  real_T a__2;
+  int32_T k;
+  boolean_T exitg1;
+  boolean_T y;
+  CompactClassificati_naplrqtlhie(weak_learner_CutPredictorIndex,
+    weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
+    weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
+  y = false;
+  k = 0;
+  exitg1 = false;
+  while (!exitg1 && (k < 3)) {
+    if (rtIsNaN(cachedScore[k])) {
+      y = true;
+      exitg1 = true;
+    } else {
+      k++;
+    }
+  }
+
+  if (y) {
+    for (k = 0; k < 3; k++) {
+      if (rtIsNaN(cachedScore[k])) {
+        cachedScore[k] = 0.0;
+      }
+    }
+  }
+
+  MotorFaultDeploy_updateCache_k(b, cachedScore, cachedWeights, cached, combiner,
+    score);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationT_gnexe4eq(real_T obj_CutPredictorIndex[31],
+  real_T obj_Children[62], real_T obj_CutPoint[31], boolean_T obj_NanCutPoints
+  [31], boolean_T obj_InfCutPoints[31], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[93])
+{
+  int32_T i;
+  static const real_T tmp[31] = { 0.13360890391781266, 9.224376248453815, 0.0,
+    2.8009850762882564, 1.0827367186520593, 2.3128817688667564,
+    2.9951529038711575, 1.0182923166740911, 0.0193716897939957, 0.0,
+    2.3875128909191314, 0.0, 0.026727526903909987, 0.9421706981696536,
+    0.15207586986102484, 0.0, 1.0436137454424554, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 1.5584809574538185, 9.80987680002982, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[31] = { false, false, true, false, false, false,
+    false, false, false, true, false, true, false, false, false, true, false,
+    true, true, true, true, true, true, true, true, true, false, false, true,
+    true, true };
+
+  static const real_T tmp_1[93] = { 0.3274999999999999, 0.4974683544303797, 0.0,
+    0.9493333333333334, 0.08915662650602389, 0.9859550561797753,
+    0.2631578947368421, 0.5576923076923076, 0.022038567493112945, 1.0,
+    0.9180327868852458, 0.0, 0.8333333333333333, 0.2592592592592593, 0.88, 1.0,
+    0.01933701657458563, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0,
+    0.06542056074766352, 0.12068965517241391, 0.0, 1.0, 0.0, 0.3416666666666669,
+    0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.3308333333333333, 0.5025316455696203, 0.0, 0.050666666666666665,
+    0.910843373493976, 0.01404494382022472, 0.7368421052631579,
+    0.4423076923076924, 0.977961432506887, 0.0, 0.08196721311475419, 1.0,
+    0.16666666666666666, 0.7407407407407408, 0.12000000000000001, 0.0,
+    0.9806629834254142, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0,
+    0.9345794392523366, 0.8793103448275861, 1.0, 0.0, 1.0 };
+
+  static const int8_T c[31] = { 2, 10, 0, 1, 1, 1, 4, 3, 2, 0, 3, 0, 2, 3, 6, 0,
+    7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 10, 0, 0, 0 };
+
+  static const int8_T d[62] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+    15, 16, 17, 0, 0, 18, 19, 0, 0, 20, 21, 22, 23, 24, 25, 0, 0, 26, 27, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 29, 30, 31, 0, 0, 0, 0,
+    0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 31U * sizeof(real_T));
+  for (i = 0; i < 31; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 93U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 31; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 62; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 31; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.3275;
+  obj_Prior[1] = 0.3416666666666667;
+  obj_Prior[2] = 0.3308333333333333;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassification_gnexe4eq5(real_T obj_CutPredictorIndex[51],
+  real_T obj_Children[102], real_T obj_CutPoint[51], boolean_T obj_NanCutPoints
+  [51], boolean_T obj_InfCutPoints[51], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[153])
+{
+  int32_T i;
+  static const real_T tmp[51] = { 0.7524074195722035, 2.3299812780996643,
+    9.925664794495269, 255.69683971347496, 2.946133914800475, 0.0, 0.0,
+    9.56879145189843, 9.27742333230583, 2.924390028631521, 0.0,
+    0.1150055682708143, 1.0717421221451147, 0.0, 10.130438704202668,
+    2.3937352329345547, 3.0101349903732446, 0.019231552082560242, 0.0,
+    207.57154836223512, 0.0, 9.861814671778323, 0.0, 2.2556773510207995,
+    2.4220607670818644, 0.0, 0.0, 9.205937870406753, 9.29323721541239, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 265.8555376143694, 2.7353724182522337, 0.0, 0.0, 0.0,
+    3.0267561608543962, 0.0, 0.0, 8.959564591486824, 0.0, 0.0,
+    0.5001851238485603, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[51] = { false, false, false, false, false, true,
+    true, false, false, false, true, false, false, true, false, false, false,
+    false, true, false, true, false, true, false, false, true, true, false,
+    false, true, true, true, true, true, true, false, false, true, true, true,
+    false, true, true, false, true, true, false, true, true, true, true };
+
+  static const real_T tmp_1[153] = { 0.3325, 0.4938118811881187, 0.0,
+    0.6145454545454545, 0.23643410852713165, 0.0, 0.0, 0.7403189066059219,
+    0.11711711711711707, 0.3128205128205121, 0.0, 0.9724770642201834,
+    0.06249999999999995, 1.0, 0.05769230769230766, 0.2569832402234631, 0.9375,
+    0.9845201238390093, 0.0, 0.2916666666666667, 0.0, 0.3529411764705882, 0.0,
+    0.019607843137254923, 0.3515624999999999, 1.0, 0.0, 0.33333333333333337,
+    0.990625, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.875, 0.23076923076923087, 1.0, 0.0,
+    1.0, 0.8500000000000001, 1.0, 0.0, 0.36363636363636376, 0.0, 1.0,
+    0.5714285714285715, 1.0, 0.0, 1.0, 0.0, 0.3216666666666665,
+    0.004950495049504936, 0.9744897959183673, 0.007272727272727279, 0.0, 1.0,
+    0.0, 0.009111617312072901, 0.0, 0.0, 0.0, 0.0122324159021407, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3458333333333336, 0.5012376237623762,
+    0.025510204081632605, 0.3781818181818181, 0.7635658914728682, 0.0, 1.0,
+    0.2505694760820051, 0.882882882882883, 0.6871794871794878, 1.0,
+    0.015290519877675877, 0.9375000000000001, 0.0, 0.9423076923076923,
+    0.7430167597765368, 0.06249999999999999, 0.01547987616099075, 0.0,
+    0.7083333333333334, 1.0, 0.6470588235294117, 1.0, 0.9803921568627452,
+    0.6484375000000001, 0.0, 1.0, 0.6666666666666666, 0.009375000000000022, 0.0,
+    1.0, 1.0, 0.0, 0.0, 1.0, 0.125, 0.7692307692307692, 0.0, 1.0, 0.0,
+    0.14999999999999997, 0.0, 1.0, 0.6363636363636362, 1.0, 0.0,
+    0.42857142857142855, 0.0, 1.0, 0.0, 1.0 };
+
+  static const int8_T c[51] = { 9, 4, 10, 8, 3, 0, 0, 10, 10, 1, 0, 2, 3, 0, 10,
+    1, 4, 2, 0, 8, 0, 10, 0, 3, 1, 0, 0, 10, 10, 0, 0, 0, 0, 0, 0, 8, 3, 0, 0, 0,
+    5, 0, 0, 10, 0, 0, 9, 0, 0, 0, 0 };
+
+  static const int8_T d[102] = { 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 0, 0, 0, 0, 12,
+    13, 14, 15, 16, 17, 0, 0, 18, 19, 20, 21, 0, 0, 22, 23, 24, 25, 26, 27, 28,
+    29, 0, 0, 30, 31, 0, 0, 32, 33, 0, 0, 34, 35, 36, 37, 0, 0, 0, 0, 38, 39, 40,
+    41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 42, 43, 44, 45, 0, 0, 0, 0, 0, 0, 46,
+    47, 0, 0, 0, 0, 48, 49, 0, 0, 0, 0, 50, 51, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 51U * sizeof(real_T));
+  for (i = 0; i < 51; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 153U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 51; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 102; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 51; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.3325;
+  obj_Prior[1] = 0.32166666666666666;
+  obj_Prior[2] = 0.3458333333333333;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificat_naplrqtlhieu(const real_T obj_CutPredictorIndex
+  [51], const real_T obj_Children[102], const real_T obj_CutPoint[51], const
+  boolean_T obj_NanCutPoints[51], const real_T obj_Cost[9], const real_T
+  obj_ClassProbability[153], const real_T Xin[10], real_T *labels, real_T
+  scores[3])
+{
+  real_T obj_ClassProbability_0[3];
+  real_T a__4;
+  int32_T i;
+  int32_T m;
+  boolean_T exitg1;
+  m = 0;
+  exitg1 = false;
+  while (!(exitg1 || (obj_CutPredictorIndex[m] == 0.0))) {
+    a__4 = Xin[(int32_T)obj_CutPredictorIndex[m] - 1];
+    if (rtIsNaN(a__4) || obj_NanCutPoints[m]) {
+      exitg1 = true;
+    } else if (a__4 < obj_CutPoint[m]) {
+      m = (int32_T)obj_Children[m << 1] - 1;
+    } else {
+      m = (int32_T)obj_Children[(m << 1) + 1] - 1;
+    }
+  }
+
+  for (i = 0; i < 3; i++) {
+    obj_ClassProbability_0[i] = (obj_Cost[3 * i + 1] * obj_ClassProbability[m +
+      51] + obj_Cost[3 * i] * obj_ClassProbability[m]) + obj_Cost[3 * i + 2] *
+      obj_ClassProbability[m + 102];
+    scores[i] = obj_ClassProbability[51 * i + m];
+  }
+
+  MotorFaultDeploy_minimum_j(obj_ClassProbability_0, &a__4, &m);
+  if (m < 0) {
+    m = 0;
+  }
+
+  *labels = (int8_T)((int8_T)(m - 1) + 1);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void predictOneWithCach_jpyzwefnbjt0(const real_T X[10], real_T
+  cachedScore[3], real_T *cachedWeights, const char_T combiner[15], const real_T
+  weak_learner_CutPredictorIndex[51], const real_T weak_learner_Children[102],
+  const real_T weak_learner_CutPoint[51], const boolean_T
+  weak_learner_NanCutPoints[51], const real_T weak_learner_Cost[9], const real_T
+  weak_learner_ClassProbability[153], boolean_T *cached, real_T score[3])
+{
+  real_T b[3];
+  real_T a__2;
+  int32_T k;
+  boolean_T exitg1;
+  boolean_T y;
+  CompactClassificat_naplrqtlhieu(weak_learner_CutPredictorIndex,
+    weak_learner_Children, weak_learner_CutPoint, weak_learner_NanCutPoints,
+    weak_learner_Cost, weak_learner_ClassProbability, X, &a__2, b);
+  y = false;
+  k = 0;
+  exitg1 = false;
+  while (!exitg1 && (k < 3)) {
+    if (rtIsNaN(cachedScore[k])) {
+      y = true;
+      exitg1 = true;
+    } else {
+      k++;
+    }
+  }
+
+  if (y) {
+    for (k = 0; k < 3; k++) {
+      if (rtIsNaN(cachedScore[k])) {
+        cachedScore[k] = 0.0;
+      }
+    }
+  }
+
+  MotorFaultDeploy_updateCache_k(b, cachedScore, cachedWeights, cached, combiner,
+    score);
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificatio_gnexe4eq5x(real_T obj_CutPredictorIndex[25],
+  real_T obj_Children[50], real_T obj_CutPoint[25], boolean_T obj_NanCutPoints
+  [25], boolean_T obj_InfCutPoints[25], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[75])
+{
+  int32_T i;
+  static const real_T tmp[25] = { -0.3537642023158249, 0.0, 2.2811241228479133,
+    259.9899214982819, 8.544553492799327, 9.569052257509373, 1.1518800028098202,
+    0.0, 8.806236481669528, 2.1322110418554283, 9.679150340738417, 0.0, 0.0,
+    2.6499725290493563, 0.0, 0.0, 2.176156332872819, 210.4668835469273, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[25] = { false, true, false, false, false, false,
+    false, true, false, false, false, true, true, false, true, true, false,
+    false, true, true, true, true, true, true, true };
+
+  static const real_T tmp_1[75] = { 0.3016666666666661, 0.0, 0.458227848101265,
+    0.58235294117647, 0.23214285714285718, 0.7118226600985211,
+    0.0769230769230769, 1.0, 0.03153153153153158, 0.9691780821917807,
+    0.05263157894736837, 1.0, 0.0, 0.4375, 0.0, 1.0, 0.5, 0.4615384615384615,
+    0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.3416666666666669, 1.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.3566666666666672, 0.0, 0.5417721518987351,
+    0.41764705882353004, 0.7678571428571429, 0.28817733990147887,
+    0.9230769230769231, 0.0, 0.9684684684684685, 0.030821917808219284,
+    0.9473684210526316, 0.0, 1.0, 0.5625, 1.0, 0.0, 0.5, 0.5384615384615384, 1.0,
+    1.0, 0.0, 1.0, 0.0, 0.0, 1.0 };
+
+  static const int8_T c[25] = { 6, 0, 4, 8, 10, 10, 3, 0, 10, 3, 10, 0, 0, 1, 0,
+    0, 3, 8, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T d[50] = { 2, 3, 0, 0, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 0,
+    0, 14, 15, 16, 17, 18, 19, 0, 0, 0, 0, 20, 21, 0, 0, 0, 0, 22, 23, 24, 25, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 25U * sizeof(real_T));
+  for (i = 0; i < 25; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 75U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 25; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 50; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 25; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.3016666666666667;
+  obj_Prior[1] = 0.3416666666666667;
+  obj_Prior[2] = 0.3566666666666667;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificati_gnexe4eq5xh(real_T obj_CutPredictorIndex[23],
+  real_T obj_Children[46], real_T obj_CutPoint[23], boolean_T obj_NanCutPoints
+  [23], boolean_T obj_InfCutPoints[23], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[69])
+{
+  int32_T i;
+  static const real_T tmp[23] = { 0.13460875486096524, 201.19722832608886, 0.0,
+    9.789637758203497, 9.223526329417794, 2.8771765153760755, 0.0,
+    221.80492291446487, 1.0081766790435729, 0.0, 0.0, 8.257427306941421, 0.0,
+    0.0, 1.4779408084940728, 0.0, 1.6178984215644148, 9.807727609911861, 0.0,
+    0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[23] = { false, false, true, false, false, false,
+    true, false, false, true, true, false, true, true, false, true, false, false,
+    true, true, true, true, true };
+
+  static const real_T tmp_1[69] = { 0.34833333333333366, 0.516687268232386, 0.0,
+    0.8339350180505414, 0.3515037593984963, 0.9956896551724138, 0.0,
+    0.8586387434554976, 0.0674486803519063, 1.0, 0.0, 0.5344827586206896, 1.0,
+    1.0, 0.03927492447129919, 1.0, 0.15625000000000008, 0.15662650602409656, 0.0,
+    1.0, 0.0, 1.0, 0.0, 0.3258333333333332, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.3258333333333332, 0.483312731767614, 0.0, 0.16606498194945862,
+    0.6484962406015037, 0.0043103448275862155, 1.0, 0.14136125654450238,
+    0.9325513196480937, 0.0, 1.0, 0.46551724137931033, 0.0, 0.0,
+    0.9607250755287007, 0.0, 0.8437499999999999, 0.8433734939759033, 1.0, 0.0,
+    1.0, 0.0, 1.0 };
+
+  static const int8_T c[23] = { 2, 8, 0, 10, 10, 4, 0, 8, 4, 0, 0, 10, 0, 0, 3,
+    0, 1, 10, 0, 0, 0, 0, 0 };
+
+  static const int8_T d[46] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 10, 11, 0, 0, 12,
+    13, 14, 15, 0, 0, 0, 0, 16, 17, 0, 0, 0, 0, 18, 19, 0, 0, 20, 21, 22, 23, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 23U * sizeof(real_T));
+  for (i = 0; i < 23; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 69U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 23; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 46; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 23; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.3483333333333334;
+  obj_Prior[1] = 0.32583333333333336;
+  obj_Prior[2] = 0.32583333333333336;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificat_gnexe4eq5xht(real_T obj_CutPredictorIndex[45],
+  real_T obj_Children[90], real_T obj_CutPoint[45], boolean_T obj_NanCutPoints
+  [45], boolean_T obj_InfCutPoints[45], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[135])
+{
+  int32_T i;
+  static const real_T tmp[45] = { 0.13460875486096524, 200.79403359949305, 0.0,
+    182.07041799459768, 0.9692581873147478, 0.0, 187.59975733371667, 0.0,
+    2.1393951435261256, 1.9759465171347381, 10.080877554760658,
+    255.69683971347496, 2.4101800250727656, 0.0, 0.0, 0.17403077166124772, 0.0,
+    1.4294399052398654, 2.1151393747311507, 0.0, 266.3443078657572, 0.0, 0.0,
+    251.78013173166488, 1.8194948311104893, 0.0, 2.187651728430436,
+    254.97262930120522, 0.0, 0.0, 0.0, 9.569052257509373, 0.0, 282.5056948988867,
+    0.0, 2.8004252187547856, 0.0, 0.0, 0.0, 0.0, 0.0, 8.959564591486824, 0.0,
+    0.0, 0.0 };
+
+  static const boolean_T tmp_0[45] = { false, false, true, false, false, true,
+    false, true, false, false, false, false, false, true, true, false, true,
+    false, false, true, false, true, true, false, false, true, false, false,
+    true, true, true, false, true, false, true, false, true, true, true, true,
+    true, false, true, true, true };
+
+  static const real_T tmp_1[135] = { 0.3016666666666661, 0.45137157107231823,
+    0.0, 0.8087649402390439, 0.2885662431941923, 1.0, 0.6097560975609756, 1.0,
+    0.24324324324324315, 0.12820512820512828, 0.8333333333333331,
+    0.3295880149812733, 0.15139442231075703, 1.0, 0.0, 0.9722222222222222, 0.0,
+    0.5724137931034484, 0.04098360655737699, 0.0, 0.24836601307189501, 1.0, 0.0,
+    0.20833333333333348, 0.7525773195876287, 0.0, 0.625, 0.383838383838384, 0.0,
+    0.0, 1.0, 0.6129032258064515, 1.0, 0.25000000000000006, 1.0,
+    0.2906976744186048, 1.0, 1.0, 0.0, 1.0, 0.0, 0.7575757575757575, 0.0, 1.0,
+    0.0, 0.33166666666666667, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.36666666666666736, 0.5486284289276818, 0.0,
+    0.19123505976095614, 0.7114337568058078, 0.0, 0.3902439024390245, 0.0,
+    0.7567567567567568, 0.8717948717948716, 0.16666666666666685,
+    0.6704119850187268, 0.8486055776892429, 0.0, 1.0, 0.02777777777777781, 1.0,
+    0.4275862068965515, 0.959016393442623, 1.0, 0.7516339869281049, 0.0, 1.0,
+    0.7916666666666665, 0.24742268041237134, 1.0, 0.37499999999999994,
+    0.6161616161616161, 1.0, 1.0, 0.0, 0.3870967741935485, 0.0,
+    0.7499999999999999, 0.0, 0.7093023255813952, 0.0, 0.0, 1.0, 0.0, 1.0,
+    0.2424242424242425, 1.0, 0.0, 1.0 };
+
+  static const int8_T c[45] = { 2, 8, 0, 8, 1, 0, 8, 0, 3, 4, 10, 8, 3, 0, 0, 6,
+    0, 3, 3, 0, 8, 0, 0, 8, 4, 0, 4, 8, 0, 0, 0, 10, 0, 8, 0, 3, 0, 0, 0, 0, 0,
+    10, 0, 0, 0 };
+
+  static const int8_T d[90] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 0, 0, 10, 11, 0, 0,
+    12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 0, 0, 0, 0, 22, 23, 0, 0, 24, 25, 26,
+    27, 0, 0, 28, 29, 0, 0, 0, 0, 30, 31, 32, 33, 0, 0, 34, 35, 36, 37, 0, 0, 0,
+    0, 0, 0, 38, 39, 0, 0, 40, 41, 0, 0, 42, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    44, 45, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 45U * sizeof(real_T));
+  for (i = 0; i < 45; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 135U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 45; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 90; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 45; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.3016666666666667;
+  obj_Prior[1] = 0.33166666666666667;
+  obj_Prior[2] = 0.36666666666666664;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassifica_gnexe4eq5xhts(real_T obj_CutPredictorIndex[19],
+  real_T obj_Children[38], real_T obj_CutPoint[19], boolean_T obj_NanCutPoints
+  [19], boolean_T obj_InfCutPoints[19], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[57])
+{
+  int32_T i;
+  static const real_T tmp[19] = { 0.1250014433673732, 2.2074228051888194, 0.0,
+    9.678861178168638, 8.8333853730066, 9.231492726563282, 0.9476505149479906,
+    2.3939735915231473, 0.0, 0.0, 1.4946250147893543, 0.0, 0.0,
+    8.316582600458773, 0.0, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[19] = { false, false, true, false, false, false,
+    false, false, true, true, false, true, true, false, true, true, true, true,
+    true };
+
+  static const real_T tmp_1[57] = { 0.31916666666666643, 0.48727735368956715,
+    0.0, 0.6180422264875236, 0.23018867924528297, 0.9593749999999998,
+    0.0746268656716418, 0.9242424242424242, 0.0, 1.0, 0.6749999999999999, 1.0,
+    0.0, 0.5454545454545455, 1.0, 1.0, 0.0, 1.0, 0.0, 0.34500000000000025, 0.0,
+    1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.33583333333333343, 0.5127226463104329, 0.0, 0.38195777351247634,
+    0.769811320754717, 0.040625000000000126, 0.9253731343283581,
+    0.07575757575757584, 1.0, 0.0, 0.32500000000000007, 0.0, 1.0,
+    0.45454545454545453, 0.0, 0.0, 1.0, 0.0, 1.0 };
+
+  static const int8_T c[19] = { 2, 1, 0, 10, 10, 10, 3, 3, 0, 0, 1, 0, 0, 10, 0,
+    0, 0, 0, 0 };
+
+  static const int8_T d[38] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+    15, 0, 0, 0, 0, 16, 17, 0, 0, 0, 0, 18, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 19U * sizeof(real_T));
+  for (i = 0; i < 19; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 57U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 19; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 38; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 19; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.3191666666666667;
+  obj_Prior[1] = 0.34500000000000003;
+  obj_Prior[2] = 0.3358333333333334;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassific_gnexe4eq5xhtsj(real_T obj_CutPredictorIndex[29],
+  real_T obj_Children[58], real_T obj_CutPoint[29], boolean_T obj_NanCutPoints
+  [29], boolean_T obj_InfCutPoints[29], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[87])
+{
+  int32_T i;
+  static const real_T tmp[29] = { -0.3543213767326082, 0.0, 9.230193450059172,
+    2.8033693179180306, 1.1390379669469601, 2.3128817688667564, 234.793061066681,
+    207.9895509178176, 1.517274815090492, 0.0, 214.1570812173905, 0.0, 0.0, 0.0,
+    263.5415376186148, 1.426642385309111, 0.0, 0.0, 8.539625130193475, 0.0, 0.0,
+    0.0, 0.5109815347848399, 0.0, 0.0, 10.665403498019236, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[29] = { false, true, false, false, false, false,
+    false, false, false, true, false, true, true, true, false, false, true, true,
+    false, true, true, true, false, true, true, false, true, true, true };
+
+  static const real_T tmp_1[87] = { 0.3475000000000003, 0.0, 0.5232120451693857,
+    0.9170731707317075, 0.10594315245478032, 0.9731903485254692,
+    0.3513513513513514, 0.6382978723404253, 0.03235294117647064, 1.0,
+    0.8484848484848484, 0.0, 1.0, 1.0, 0.4516129032258065, 0.18965517241379323,
+    0.0, 1.0, 0.5454545454545454, 0.0, 1.0, 0.0, 0.7333333333333333, 1.0, 0.0,
+    0.7857142857142858, 0.0, 1.0, 0.0, 0.33583333333333343, 1.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3166666666666664, 0.0,
+    0.4767879548306143, 0.0829268292682925, 0.8940568475452197,
+    0.02680965147453081, 0.6486486486486486, 0.3617021276595746,
+    0.9676470588235294, 0.0, 0.15151515151515166, 1.0, 0.0, 0.0,
+    0.5483870967741936, 0.8103448275862066, 1.0, 0.0, 0.45454545454545453, 1.0,
+    0.0, 1.0, 0.2666666666666666, 0.0, 1.0, 0.21428571428571427, 1.0, 0.0, 1.0 };
+
+  static const int8_T c[29] = { 6, 0, 10, 3, 4, 1, 8, 8, 4, 0, 8, 0, 0, 0, 8, 1,
+    0, 0, 10, 0, 0, 0, 9, 0, 0, 10, 0, 0, 0 };
+
+  static const int8_T d[58] = { 2, 3, 0, 0, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+    15, 16, 17, 0, 0, 18, 19, 0, 0, 0, 0, 0, 0, 20, 21, 22, 23, 0, 0, 0, 0, 24,
+    25, 0, 0, 0, 0, 0, 0, 26, 27, 0, 0, 0, 0, 28, 29, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 29U * sizeof(real_T));
+  for (i = 0; i < 29; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 87U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 29; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 58; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 29; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.3475;
+  obj_Prior[1] = 0.3358333333333333;
+  obj_Prior[2] = 0.31666666666666665;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassifi_gnexe4eq5xhtsjp(real_T obj_CutPredictorIndex[25],
+  real_T obj_Children[50], real_T obj_CutPoint[25], boolean_T obj_NanCutPoints
+  [25], boolean_T obj_InfCutPoints[25], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[75])
+{
+  int32_T i;
+  static const real_T tmp[25] = { 9.561974759101414, 1.1109774680412126,
+    0.9477392422334829, 2.1987436552503645, 0.0, 0.0, 9.679256178546266, 0.0,
+    181.62160532116087, 9.610253338416634, 0.0, 0.0, 2.3978824434938044, 0.0,
+    0.0, 2.1394730316895973, 210.1658658957057, 0.0, 0.0, 2.8675503914487894,
+    0.0, 2.6346193664550737, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[25] = { false, false, false, false, true, true,
+    false, true, false, false, true, true, false, true, true, false, false, true,
+    true, false, true, false, true, true, true };
+
+  static const real_T tmp_1[75] = { 0.3241666666666665, 0.4529914529914527,
+    0.04724409448818895, 0.8833333333333336, 0.0, 1.0, 0.021563342318059286, 1.0,
+    0.6620689655172417, 0.2962962962962963, 0.0, 1.0, 0.4787234042553192, 0.0,
+    1.0, 0.04545454545454546, 0.6111111111111109, 1.0, 0.0, 0.3488372093023257,
+    1.0, 0.6818181818181819, 0.0, 0.0, 1.0, 0.3325, 0.4871794871794876, 0.0, 0.0,
+    1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3433333333333336, 0.05982905982905966,
+    0.952755905511811, 0.11666666666666645, 0.0, 0.0, 0.9784366576819408, 0.0,
+    0.3379310344827583, 0.7037037037037037, 1.0, 0.0, 0.5212765957446809, 1.0,
+    0.0, 0.9545454545454546, 0.38888888888888895, 0.0, 1.0, 0.6511627906976742,
+    0.0, 0.3181818181818182, 1.0, 1.0, 0.0 };
+
+  static const int8_T c[25] = { 10, 7, 3, 4, 0, 0, 10, 0, 8, 10, 0, 0, 1, 0, 0,
+    3, 8, 0, 0, 4, 0, 3, 0, 0, 0 };
+
+  static const int8_T d[50] = { 2, 3, 4, 5, 6, 7, 8, 9, 0, 0, 0, 0, 10, 11, 0, 0,
+    12, 13, 14, 15, 0, 0, 0, 0, 16, 17, 0, 0, 0, 0, 18, 19, 20, 21, 0, 0, 0, 0,
+    22, 23, 0, 0, 24, 25, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 25U * sizeof(real_T));
+  for (i = 0; i < 25; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 75U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 25; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 50; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 25; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.32416666666666666;
+  obj_Prior[1] = 0.3325;
+  obj_Prior[2] = 0.3433333333333333;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_Com_l(real_T obj_CutPredictorIndex[25],
+  real_T obj_Children[50], real_T obj_CutPoint[25], boolean_T obj_NanCutPoints
+  [25], boolean_T obj_InfCutPoints[25], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[75])
+{
+  int32_T i;
+  static const real_T tmp[25] = { 1.1109774680412126, 9.292148139465922, 0.0,
+    2.86829968722897, 1.0581642432777074, 2.384598905301833, 234.8070064161846,
+    1.4435507921039692, 9.981675832834311, 0.0, 0.020476382514107206, 0.0, 0.0,
+    9.80987680002982, 0.0, 0.0, 0.0, 2.4533056528454846, 2.4611971861350823, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[25] = { false, false, true, false, false, false,
+    false, false, false, true, false, true, true, false, true, true, true, false,
+    false, true, true, true, true, true, true };
+
+  static const real_T tmp_1[75] = { 0.3108333333333329, 0.4831606217616577, 0.0,
+    0.9175824175824175, 0.09558823529411749, 0.9670658682634731,
+    0.36666666666666664, 0.02153846153846159, 0.3855421686746989, 1.0,
+    0.8405797101449274, 0.0, 1.0, 0.1250000000000001, 0.0, 1.0, 0.0,
+    0.9298245614035087, 0.41666666666666663, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0,
+    0.3566666666666672, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3325,
+    0.5168393782383424, 0.0, 0.08241758241758247, 0.9044117647058825,
+    0.03293413173652701, 0.6333333333333333, 0.9784615384615383,
+    0.6144578313253012, 0.0, 0.15942028985507264, 1.0, 0.0, 0.8749999999999998,
+    1.0, 0.0, 1.0, 0.07017543859649131, 0.5833333333333334, 0.0, 1.0, 1.0, 0.0,
+    1.0, 0.0 };
+
+  static const int8_T c[25] = { 7, 10, 0, 4, 7, 4, 8, 1, 10, 0, 2, 0, 0, 10, 0,
+    0, 0, 4, 4, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T d[50] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+    15, 16, 17, 0, 0, 18, 19, 0, 0, 0, 0, 20, 21, 0, 0, 0, 0, 0, 0, 22, 23, 24,
+    25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 25U * sizeof(real_T));
+  for (i = 0; i < 25; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 75U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 25; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 50; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 25; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.31083333333333335;
+  obj_Prior[1] = 0.3566666666666667;
+  obj_Prior[2] = 0.3325;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_Co_jt(real_T obj_CutPredictorIndex[23],
+  real_T obj_Children[46], real_T obj_CutPoint[23], boolean_T obj_NanCutPoints
+  [23], boolean_T obj_InfCutPoints[23], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[69])
+{
+  int32_T i;
+  static const real_T tmp[23] = { 1.111289542205076, 9.305830444589635, 0.0,
+    2.2006392377359623, 0.9699361351153313, 0.0, 8.806300086149156, 0.0,
+    1.5181785970813864, 8.544951035983177, 0.0, 1.4938055026517634, 0.0, 0.0,
+    1.0272614711572876, 9.840271491374336, 10.579553785911568, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[23] = { false, false, true, false, false, true,
+    false, true, false, false, true, false, true, true, false, false, false,
+    true, true, true, true, true, true };
+
+  static const real_T tmp_1[69] = { 0.3341666666666667, 0.5031367628607278, 0.0,
+    0.9077669902912624, 0.07012987012987008, 1.0, 0.6666666666666666, 1.0,
+    0.05039787798408487, 0.9156626506024096, 0.0, 0.20430107526881744, 0.0, 1.0,
+    0.588235294117647, 0.13157894736842118, 0.5294117647058824, 1.0, 0.0, 1.0,
+    0.0, 1.0, 0.0, 0.33583333333333343, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.32999999999999996, 0.4968632371392722, 0.0, 0.09223300970873768,
+    0.92987012987013, 0.0, 0.3333333333333335, 0.0, 0.9496021220159152,
+    0.08433734939759047, 1.0, 0.7956989247311826, 1.0, 0.0, 0.4117647058823529,
+    0.8684210526315788, 0.47058823529411764, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0 };
+
+  static const int8_T c[23] = { 7, 10, 0, 4, 3, 0, 10, 0, 4, 10, 0, 4, 0, 0, 7,
+    10, 10, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T d[46] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 0, 0, 10, 11, 0, 0,
+    12, 13, 14, 15, 0, 0, 16, 17, 0, 0, 0, 0, 18, 19, 20, 21, 22, 23, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 23U * sizeof(real_T));
+  for (i = 0; i < 23; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 69U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 23; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 46; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 23; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.33416666666666667;
+  obj_Prior[1] = 0.3358333333333333;
+  obj_Prior[2] = 0.33;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_Com_p(real_T obj_CutPredictorIndex[27],
+  real_T obj_Children[54], real_T obj_CutPoint[27], boolean_T obj_NanCutPoints
+  [27], boolean_T obj_InfCutPoints[27], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[81])
+{
+  int32_T i;
+  static const real_T tmp[27] = { -0.3508035782514354, 0.0, 9.224373226263262,
+    2.801061141998142, 1.1407746272472488, 2.32225407810418, 2.9215806797020667,
+    1.0764984446545345, 9.561930455222182, 0.0, 8.544553492799327, 0.0,
+    0.022231800468885822, 0.9692581873147478, 1.0211851828270633,
+    9.524801652320537, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[27] = { false, true, false, false, false, false,
+    false, false, false, true, false, true, false, false, false, false, true,
+    true, true, true, true, true, true, true, true, true, true };
+
+  static const real_T tmp_1[81] = { 0.32333333333333314, 0.0, 0.4886649874055413,
+    0.9436997319034852, 0.0855106888361043, 0.9768115942028985,
+    0.5357142857142857, 0.537037037037037, 0.01907356948228882, 1.0,
+    0.8490566037735847, 0.0, 0.9375, 0.16, 0.8620689655172413,
+    0.18421052631578957, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 1.0,
+    0.3383333333333335, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.3383333333333335, 0.0, 0.5113350125944587, 0.056300268096514734,
+    0.9144893111638958, 0.023188405797101474, 0.4642857142857143,
+    0.462962962962963, 0.9809264305177111, 0.0, 0.15094339622641523, 1.0,
+    0.06249999999999999, 0.84, 0.13793103448275865, 0.8157894736842104, 1.0, 0.0,
+    1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0 };
+
+  static const int8_T c[27] = { 6, 0, 10, 3, 4, 1, 3, 4, 10, 0, 10, 0, 2, 1, 1,
+    10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T d[54] = { 2, 3, 0, 0, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+    15, 16, 17, 0, 0, 18, 19, 0, 0, 20, 21, 22, 23, 24, 25, 26, 27, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 27U * sizeof(real_T));
+  for (i = 0; i < 27; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 81U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 27; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 54; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 27; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.3233333333333333;
+  obj_Prior[1] = 0.3383333333333333;
+  obj_Prior[2] = 0.3383333333333333;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_Com_d(real_T obj_CutPredictorIndex[31],
+  real_T obj_Children[62], real_T obj_CutPoint[31], boolean_T obj_NanCutPoints
+  [31], boolean_T obj_InfCutPoints[31], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[93])
+{
+  int32_T i;
+  static const real_T tmp[31] = { -0.35511532575619853, 0.0, 201.31283413441153,
+    2.620582903318795, 283.85287115158025, 9.835323947967229, 201.28516934623497,
+    9.23049111839774, 0.0, 0.0, 0.0, 2.9148174389892323, 0.0, 221.80492291446487,
+    1.0081766790435729, 0.15463976485557085, 0.0, 214.63895872808206, 0.0, 0.0,
+    1.4818928048867872, 0.0, 0.0, 2.803638278909362, 0.0, 9.973237553085355, 0.0,
+    0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[31] = { false, true, false, false, false, false,
+    false, false, true, true, true, false, true, false, false, false, true,
+    false, true, true, false, true, true, false, true, false, true, true, true,
+    true, true };
+
+  static const real_T tmp_1[93] = { 0.33916666666666684, 0.0, 0.5132408575031528,
+    0.8197278911564624, 0.3326653306613232, 0.8619402985074626,
+    0.3846153846153846, 0.4462365591397855, 0.0, 1.0, 0.0, 0.15789473684210525,
+    1.0, 0.9050632911392407, 0.10747663551401869, 0.6, 0.0, 0.6511627906976742,
+    1.0, 1.0, 0.054455445544554476, 1.0, 0.0, 0.8235294117647057, 0.0,
+    0.2340425531914895, 0.0, 1.0, 0.0, 1.0, 0.0, 0.33916666666666684, 1.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.3216666666666665, 0.0, 0.48675914249684715, 0.1802721088435376,
+    0.6673346693386768, 0.13805970149253746, 0.6153846153846154,
+    0.5537634408602145, 1.0, 0.0, 1.0, 0.8421052631578947, 0.0,
+    0.09493670886075929, 0.8925233644859812, 0.39999999999999997, 1.0,
+    0.3488372093023257, 0.0, 0.0, 0.9455445544554456, 0.0, 1.0,
+    0.17647058823529418, 1.0, 0.7659574468085105, 1.0, 0.0, 1.0, 0.0, 1.0 };
+
+  static const int8_T c[31] = { 6, 0, 8, 4, 8, 10, 8, 10, 0, 0, 0, 5, 0, 8, 4, 6,
+    0, 8, 0, 0, 1, 0, 0, 3, 0, 10, 0, 0, 0, 0, 0 };
+
+  static const int8_T d[62] = { 2, 3, 0, 0, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+    15, 0, 0, 0, 0, 0, 0, 16, 17, 0, 0, 18, 19, 20, 21, 22, 23, 0, 0, 24, 25, 0,
+    0, 0, 0, 26, 27, 0, 0, 0, 0, 28, 29, 0, 0, 30, 31, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 31U * sizeof(real_T));
+  for (i = 0; i < 31; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 93U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 31; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 62; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 31; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.33916666666666667;
+  obj_Prior[1] = 0.33916666666666667;
+  obj_Prior[2] = 0.32166666666666666;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_Co_g0(real_T obj_CutPredictorIndex[31],
+  real_T obj_Children[62], real_T obj_CutPoint[31], boolean_T obj_NanCutPoints
+  [31], boolean_T obj_InfCutPoints[31], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[93])
+{
+  int32_T i;
+  static const real_T tmp[31] = { 0.1284108347039896, 9.224376248453815, 0.0,
+    2.3223512103635766, 1.0636814971474053, 0.0, 8.544699041695408,
+    1.5589562014285512, 0.026432587156705826, 0.0, 238.93149571664026,
+    1.4938055026517634, 0.0, 10.222243012320488, 0.9697295191116275, 0.0, 0.0,
+    1.0596424877467823, 10.65898612519184, 0.0, 0.0, 0.0, 10.231047390439176,
+    1.0104090400620411, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[31] = { false, false, true, false, false, true,
+    false, false, false, true, false, false, true, false, false, true, true,
+    false, false, true, true, true, false, false, true, true, true, true, true,
+    true, true };
+
+  static const real_T tmp_1[93] = { 0.3366666666666668, 0.5050000000000001, 0.0,
+    0.92, 0.08999999999999987, 1.0, 0.6321839080459769, 0.03672316384180793, 0.5,
+    1.0, 0.2727272727272729, 0.19117647058823548, 0.0, 0.7, 0.125, 0.0, 1.0,
+    0.06818181818181823, 0.41666666666666663, 1.0, 0.0, 1.0, 0.06666666666666667,
+    0.6, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.33333333333333337, 0.0, 1.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.32999999999999996, 0.4949999999999999, 0.0, 0.07999999999999986,
+    0.9100000000000001, 0.0, 0.3678160919540231, 0.9632768361581919, 0.5, 0.0,
+    0.7272727272727272, 0.8088235294117645, 1.0, 0.30000000000000004, 0.875, 1.0,
+    0.0, 0.9318181818181817, 0.5833333333333334, 0.0, 1.0, 0.0,
+    0.9333333333333333, 0.4, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0 };
+
+  static const int8_T c[31] = { 2, 10, 0, 3, 7, 0, 10, 4, 6, 0, 8, 4, 0, 10, 3,
+    0, 0, 3, 10, 0, 0, 0, 10, 3, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T d[62] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 0, 0, 10, 11, 12,
+    13, 14, 15, 0, 0, 16, 17, 18, 19, 0, 0, 20, 21, 22, 23, 0, 0, 0, 0, 24, 25,
+    26, 27, 0, 0, 0, 0, 0, 0, 28, 29, 30, 31, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 31U * sizeof(real_T));
+  for (i = 0; i < 31; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 93U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 31; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 62; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 31; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.33666666666666667;
+  obj_Prior[1] = 0.3333333333333333;
+  obj_Prior[2] = 0.33;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_Co_bl(real_T obj_CutPredictorIndex[25],
+  real_T obj_Children[50], real_T obj_CutPoint[25], boolean_T obj_NanCutPoints
+  [25], boolean_T obj_InfCutPoints[25], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[75])
+{
+  int32_T i;
+  static const real_T tmp[25] = { -0.3543213767326082, 0.0, 2.130520995248585,
+    9.573401943619684, 2.946012206210087, 0.0, 0.9422330392230123,
+    2.9935472286382576, 0.0, 0.0, 1.0828800520827715, 3.054375950266576, 0.0,
+    1.113305436543487, 0.0, 8.539540388384932, 8.66557797337329, 0.0,
+    10.473564964508501, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[25] = { false, true, false, false, false, true,
+    false, false, true, true, false, false, true, false, true, false, false,
+    true, false, true, true, true, true, true, true };
+
+  static const real_T tmp_1[75] = { 0.31333333333333296, 0.0,
+    0.48267008985879295, 0.6189473684210517, 0.2697368421052634, 1.0,
+    0.07653061224489793, 0.32283464566929104, 0.0, 1.0, 0.042328042328042326,
+    0.28033472803347237, 1.0, 0.2962962962962963, 0.0, 0.20765027322404317,
+    0.5178571428571428, 0.0, 0.8, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0,
+    0.3508333333333337, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.33583333333333343, 0.0, 0.517329910141207, 0.3810526315789483,
+    0.7302631578947367, 0.0, 0.923469387755102, 0.677165354330709, 1.0, 0.0,
+    0.9576719576719578, 0.7196652719665276, 0.0, 0.7037037037037037, 1.0,
+    0.7923497267759568, 0.48214285714285715, 1.0, 0.19999999999999998, 0.0, 1.0,
+    0.0, 1.0, 0.0, 1.0 };
+
+  static const int8_T c[25] = { 6, 0, 1, 10, 1, 0, 1, 4, 0, 0, 1, 5, 0, 4, 0, 10,
+    10, 0, 10, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T d[50] = { 2, 3, 0, 0, 4, 5, 6, 7, 8, 9, 0, 0, 10, 11, 12,
+    13, 0, 0, 0, 0, 14, 15, 16, 17, 0, 0, 18, 19, 0, 0, 20, 21, 22, 23, 0, 0, 24,
+    25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 25U * sizeof(real_T));
+  for (i = 0; i < 25; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 75U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 25; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 50; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 25; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.31333333333333335;
+  obj_Prior[1] = 0.35083333333333333;
+  obj_Prior[2] = 0.3358333333333333;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_Co_cj(real_T obj_CutPredictorIndex[33],
+  real_T obj_Children[66], real_T obj_CutPoint[33], boolean_T obj_NanCutPoints
+  [33], boolean_T obj_InfCutPoints[33], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[99])
+{
+  int32_T i;
+  static const real_T tmp[33] = { -0.35199925403856913, 0.0, 9.292148139465922,
+    2.865021794750181, 1.0830956620610308, 2.3223713350504, 234.79468357524445,
+    208.12786306661872, 1.4404474018237896, 0.0, 2.3938251299743545, 0.0, 0.0,
+    0.0, 0.9475430326586615, 1.0510616712467262, 0.6468197880585094, 0.0, 0.0,
+    0.0, 0.0, 10.59318215616291, 1.4276018817656586, 0.0, 0.20845016598733845,
+    0.0, 0.0, 0.0, 1.517274815090492, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[33] = { false, true, false, false, false, false,
+    false, false, false, true, false, true, true, true, false, false, false,
+    true, true, true, true, false, false, true, false, true, true, true, false,
+    true, true, true, true };
+
+  static const real_T tmp_1[99] = { 0.363333333333334, 0.0, 0.5291262135922336,
+    0.9503722084367247, 0.1258907363420425, 0.9843342036553525, 0.3,
+    0.6379310344827585, 0.04407713498622592, 1.0, 0.9142857142857143, 0.0, 1.0,
+    1.0, 0.3823529411764706, 0.22058823529411786, 0.003389830508474589, 0.0, 1.0,
+    1.0, 0.0, 0.4375, 0.027777777777777804, 0.0, 0.07692307692307693, 1.0, 0.0,
+    0.0, 0.5000000000000001, 1.0, 0.0, 1.0, 0.0, 0.31333333333333296, 1.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.32333333333333314, 0.0, 0.4708737864077664, 0.04962779156327535,
+    0.8741092636579575, 0.015665796344647497, 0.7000000000000001,
+    0.36206896551724155, 0.9559228650137742, 0.0, 0.08571428571428581, 1.0, 0.0,
+    0.0, 0.6176470588235293, 0.7794117647058822, 0.9966101694915255, 1.0, 0.0,
+    0.0, 1.0, 0.5625, 0.9722222222222222, 1.0, 0.923076923076923, 0.0, 1.0, 1.0,
+    0.5, 0.0, 1.0, 0.0, 1.0 };
+
+  static const int8_T c[33] = { 6, 0, 10, 4, 3, 1, 8, 8, 1, 0, 3, 0, 0, 0, 3, 7,
+    9, 0, 0, 0, 0, 10, 3, 0, 6, 0, 0, 0, 4, 0, 0, 0, 0 };
+
+  static const int8_T d[66] = { 2, 3, 0, 0, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+    15, 16, 17, 0, 0, 18, 19, 0, 0, 0, 0, 0, 0, 20, 21, 22, 23, 24, 25, 0, 0, 0,
+    0, 0, 0, 0, 0, 26, 27, 28, 29, 0, 0, 30, 31, 0, 0, 0, 0, 0, 0, 32, 33, 0, 0,
+    0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 33U * sizeof(real_T));
+  for (i = 0; i < 33; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 99U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 33; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 66; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 33; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.36333333333333334;
+  obj_Prior[1] = 0.31333333333333335;
+  obj_Prior[2] = 0.3233333333333333;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_Co_lj(real_T obj_CutPredictorIndex[23],
+  real_T obj_Children[46], real_T obj_CutPoint[23], boolean_T obj_NanCutPoints
+  [23], boolean_T obj_InfCutPoints[23], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[69])
+{
+  int32_T i;
+  static const real_T tmp[23] = { 0.13360890391781266, 9.306706460588597, 0.0,
+    2.86829968722897, 283.8475795830599, 9.224376248453815, 2.924390028631521,
+    9.925065654659175, 0.0, 2.3116383557990403, 1.6583994740529104, 0.0, 0.0,
+    1.5110043878017405, 0.0, 0.0, 2.4537602123251503, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0 };
+
+  static const boolean_T tmp_0[23] = { false, false, true, false, false, false,
+    false, false, true, false, false, true, true, false, true, true, false, true,
+    true, true, true, true, true };
+
+  static const real_T tmp_1[69] = { 0.33166666666666667, 0.49440993788819865,
+    0.0, 0.9271356783919599, 0.0712530712530711, 0.9627659574468086,
+    0.3181818181818182, 0.10545454545454563, 0.0, 0.9805555555555555, 0.5625,
+    0.0, 1.0, 0.30851063829787245, 0.0, 1.0, 0.8833333333333332, 1.0, 0.0, 1.0,
+    0.0, 0.0, 1.0, 0.3291666666666666, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.33916666666666684, 0.5055900621118014, 0.0, 0.07286432160804009,
+    0.9287469287469289, 0.03723404255319147, 0.6818181818181819,
+    0.8945454545454544, 1.0, 0.01944444444444444, 0.4375, 1.0, 0.0,
+    0.6914893617021275, 1.0, 0.0, 0.11666666666666678, 0.0, 1.0, 0.0, 1.0, 1.0,
+    0.0 };
+
+  static const int8_T c[23] = { 2, 10, 0, 4, 8, 10, 1, 10, 0, 3, 4, 0, 0, 1, 0,
+    0, 4, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T d[46] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+    15, 0, 0, 16, 17, 18, 19, 0, 0, 0, 0, 20, 21, 0, 0, 0, 0, 22, 23, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 23U * sizeof(real_T));
+  for (i = 0; i < 23; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 69U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 23; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 46; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 23; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.33166666666666667;
+  obj_Prior[1] = 0.32916666666666666;
+  obj_Prior[2] = 0.33916666666666667;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_Co_lk(real_T obj_CutPredictorIndex[25],
+  real_T obj_Children[50], real_T obj_CutPoint[25], boolean_T obj_NanCutPoints
+  [25], boolean_T obj_InfCutPoints[25], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[75])
+{
+  int32_T i;
+  static const real_T tmp[25] = { 0.1284108347039896, 2.132133153691956, 0.0,
+    0.9692581873147478, 2.802471984153243, 0.0, 1.97320438859555,
+    2.6375744495104456, 8.806300086149156, 9.679256178546266, 9.531788068198509,
+    8.387667500373826, 0.0, 0.0, 0.0, 9.569007953630141, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 1.3135682282983931, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[25] = { false, false, true, false, false, true,
+    false, false, false, false, false, false, true, true, true, false, true,
+    true, true, true, true, true, false, true, true };
+
+  static const real_T tmp_1[75] = { 0.33333333333333337, 0.5018820577164367, 0.0,
+    0.6267190569744592, 0.28125000000000006, 1.0, 0.5711060948081258,
+    0.37563451776649676, 0.07692307692307697, 0.5080645161290321,
+    0.9014084507042252, 0.3011363636363631, 1.0, 1.0, 0.0, 0.9742268041237112,
+    0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.6666666666666666, 1.0, 0.0,
+    0.33583333333333343, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.3308333333333333, 0.4981179422835633, 0.0, 0.37328094302554077,
+    0.7187499999999999, 0.0, 0.42889390519187415, 0.6243654822335032,
+    0.9230769230769231, 0.4919354838709678, 0.09859154929577475,
+    0.698863636363637, 0.0, 0.0, 1.0, 0.025773195876288662, 1.0, 0.0, 1.0, 0.0,
+    1.0, 0.0, 0.3333333333333333, 0.0, 1.0 };
+
+  static const int8_T c[25] = { 2, 3, 0, 1, 4, 0, 3, 1, 10, 10, 10, 10, 0, 0, 0,
+    10, 0, 0, 0, 0, 0, 0, 3, 0, 0 };
+
+  static const int8_T d[50] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 0, 0, 10, 11, 12,
+    13, 14, 15, 16, 17, 18, 19, 20, 21, 0, 0, 0, 0, 0, 0, 22, 23, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 24, 25, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 25U * sizeof(real_T));
+  for (i = 0; i < 25; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 75U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 25; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 50; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 25; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.3333333333333333;
+  obj_Prior[1] = 0.3358333333333333;
+  obj_Prior[2] = 0.3308333333333333;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_Co_n0(real_T obj_CutPredictorIndex[25],
+  real_T obj_Children[50], real_T obj_CutPoint[25], boolean_T obj_NanCutPoints
+  [25], boolean_T obj_InfCutPoints[25], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[75])
+{
+  int32_T i;
+  static const real_T tmp[25] = { 1.1181669879141625, 200.88601287161094, 0.0,
+    2.549746847719531, 9.223458606838737, 9.835323947967229, 0.0,
+    221.740273755605, 0.9428316347887862, 0.0, 0.0, 2.8003819731471014, 0.0, 0.0,
+    1.0428531405014967, 8.257427306941421, 0.0, 0.0, 9.569052257509373, 0.0,
+    1.6181699921124317, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[25] = { false, false, true, false, false, false,
+    true, false, false, true, true, false, true, true, false, false, true, true,
+    false, true, false, true, true, true, true };
+
+  static const real_T tmp_1[75] = { 0.3216666666666665, 0.4837092731829571, 0.0,
+    0.8358778625954197, 0.3115671641791045, 0.8795180722891565, 0.0,
+    0.7978142076502738, 0.05949008498583576, 1.0, 0.0, 0.4126984126984128, 1.0,
+    1.0, 0.037681159420289906, 0.7027027027027026, 0.0, 0.0, 0.09219858156028353,
+    1.0, 0.3529411764705882, 1.0, 0.0, 1.0, 0.0, 0.3350000000000001, 0.0, 1.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3433333333333336, 0.5162907268170429,
+    0.0, 0.16412213740458023, 0.6884328358208955, 0.12048192771084347, 1.0,
+    0.20218579234972622, 0.9405099150141641, 0.0, 1.0, 0.5873015873015872, 0.0,
+    0.0, 0.96231884057971, 0.29729729729729737, 1.0, 1.0, 0.9078014184397165,
+    0.0, 0.6470588235294117, 0.0, 1.0, 0.0, 1.0 };
+
+  static const int8_T c[25] = { 7, 8, 0, 3, 10, 10, 0, 8, 1, 0, 0, 1, 0, 0, 7,
+    10, 0, 0, 10, 0, 1, 0, 0, 0, 0 };
+
+  static const int8_T d[50] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 10, 11, 0, 0, 12,
+    13, 14, 15, 0, 0, 0, 0, 16, 17, 0, 0, 0, 0, 18, 19, 20, 21, 0, 0, 0, 0, 22,
+    23, 0, 0, 24, 25, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 25U * sizeof(real_T));
+  for (i = 0; i < 25; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 75U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 25; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 50; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 25; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.32166666666666666;
+  obj_Prior[1] = 0.335;
+  obj_Prior[2] = 0.3433333333333333;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_Co_ha(real_T obj_CutPredictorIndex[23],
+  real_T obj_Children[46], real_T obj_CutPoint[23], boolean_T obj_NanCutPoints
+  [23], boolean_T obj_InfCutPoints[23], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[69])
+{
+  int32_T i;
+  static const real_T tmp[23] = { 1.1109774680412126, 9.231227964185674,
+    0.606264371304185, 2.8031986402244513, 1.1390379669469601, 0.0, 0.0,
+    2.3223512103635766, 2.924450409469493, 10.36995633359006, 1.4777445484249094,
+    0.0, 2.4584855153828222, 0.0, 0.0, 0.0, 0.0, 9.82715838397763, 0.0, 0.0, 0.0,
+    0.0, 0.0 };
+
+  static const boolean_T tmp_0[23] = { false, false, false, false, false, true,
+    true, false, false, false, false, true, false, true, true, true, true, false,
+    true, true, true, true, true };
+
+  static const real_T tmp_1[69] = { 0.33583333333333343, 0.49629629629629624,
+    0.002564102564102558, 0.9362244897959184, 0.08373205741626774, 1.0, 0.0,
+    0.9754768392370572, 0.36, 0.6944444444444443, 0.026178010471204154, 1.0,
+    0.8499999999999999, 0.0, 1.0, 1.0, 0.0, 0.12987012987013002, 0.0, 0.0, 1.0,
+    1.0, 0.0, 0.3241666666666665, 0.0, 0.9974358974358973, 0.0, 0.0, 0.0, 1.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.3400000000000002, 0.5037037037037038, 0.0, 0.06377551020408155,
+    0.9162679425837323, 0.0, 0.0, 0.02452316076294277, 0.64, 0.30555555555555564,
+    0.9738219895287957, 0.0, 0.15000000000000016, 1.0, 0.0, 0.0, 1.0,
+    0.87012987012987, 1.0, 1.0, 0.0, 0.0, 1.0 };
+
+  static const int8_T c[23] = { 7, 10, 9, 3, 4, 0, 0, 3, 1, 10, 1, 0, 4, 0, 0, 0,
+    0, 10, 0, 0, 0, 0, 0 };
+
+  static const int8_T d[46] = { 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 0, 0, 0, 0, 12,
+    13, 14, 15, 16, 17, 18, 19, 0, 0, 20, 21, 0, 0, 0, 0, 0, 0, 0, 0, 22, 23, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 23U * sizeof(real_T));
+  for (i = 0; i < 23; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 69U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 23; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 46; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 23; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.3358333333333333;
+  obj_Prior[1] = 0.32416666666666666;
+  obj_Prior[2] = 0.34;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_Co_cw(real_T obj_CutPredictorIndex[21],
+  real_T obj_Children[42], real_T obj_CutPoint[21], boolean_T obj_NanCutPoints
+  [21], boolean_T obj_InfCutPoints[21], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[63])
+{
+  int32_T i;
+  static const real_T tmp[21] = { -0.3537642023158249, 0.0, 201.19722832608886,
+    3.2051787258304563, 1.0384039843550519, 9.803465110921172, 0.0, 0.0,
+    2.1392860696184623, 0.0, 0.0, 9.569052257509373, 8.833448977486228, 0.0,
+    0.9693718614450284, 2.4645693805410946, 0.0, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[21] = { false, true, false, false, false, false,
+    true, true, false, true, true, false, false, true, false, false, true, true,
+    true, true, true };
+
+  static const real_T tmp_1[63] = { 0.3350000000000001, 0.0, 0.5006226650062267,
+    0.8489208633093523, 0.31619047619047636, 0.8613138686131385, 0.0, 1.0,
+    0.2673469387755105, 1.0, 0.0, 0.4024390243902434, 0.13114754098360662, 1.0,
+    0.006756756756756741, 0.8421052631578946, 0.0, 1.0, 0.0, 0.0, 1.0,
+    0.3308333333333333, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3341666666666667, 0.0,
+    0.49937733499377335, 0.15107913669064765, 0.6838095238095236,
+    0.13868613138686148, 1.0, 0.0, 0.7326530612244896, 0.0, 1.0,
+    0.5975609756097565, 0.8688524590163934, 0.0, 0.9932432432432432,
+    0.15789473684210537, 1.0, 0.0, 1.0, 1.0, 0.0 };
+
+  static const int8_T c[21] = { 6, 0, 8, 5, 4, 10, 0, 0, 1, 0, 0, 10, 10, 0, 1,
+    4, 0, 0, 0, 0, 0 };
+
+  static const int8_T d[42] = { 2, 3, 0, 0, 4, 5, 6, 7, 8, 9, 10, 11, 0, 0, 0, 0,
+    12, 13, 0, 0, 0, 0, 14, 15, 16, 17, 0, 0, 18, 19, 20, 21, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 21U * sizeof(real_T));
+  for (i = 0; i < 21; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 63U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 21; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 42; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 21; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.335;
+  obj_Prior[1] = 0.3308333333333333;
+  obj_Prior[2] = 0.33416666666666667;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_Co_pp(real_T obj_CutPredictorIndex[27],
+  real_T obj_Children[54], real_T obj_CutPoint[27], boolean_T obj_NanCutPoints
+  [27], boolean_T obj_InfCutPoints[27], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[81])
+{
+  int32_T i;
+  static const real_T tmp[27] = { 1.11178076655644, 2.207513081788888, 0.0,
+    9.6849546869785, 8.806300086149156, 2.2006392377359623, 1.013481916733125,
+    2.4608702530077067, 0.0, 1.5480363111548758, 2.176156332872819, 0.0,
+    0.21266239911474297, 2.311594132697694, 0.0, 0.0, 1.6059639299329025, 0.0,
+    0.0, 0.0, 0.28061180254524054, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[27] = { false, false, true, false, false, false,
+    false, false, true, false, false, true, false, false, true, true, false,
+    true, true, true, false, true, true, true, true, true, true };
+
+  static const real_T tmp_1[81] = { 0.3458333333333336, 0.5067155067155068, 0.0,
+    0.6486988847583643, 0.23487544483985767, 0.9441340782122905,
+    0.06111111111111106, 0.8918918918918918, 0.0, 0.9646017699115044,
+    0.5789473684210525, 1.0, 0.0058823529411764644, 0.5555555555555556, 1.0, 1.0,
+    0.9130434782608697, 0.0, 1.0, 0.0, 0.14285714285714285, 1.0, 0.0, 0.0, 1.0,
+    1.0, 0.0, 0.3174999999999997, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.3366666666666668, 0.49328449328449314, 0.0, 0.3513011152416357,
+    0.7651245551601423, 0.05586592178770955, 0.938888888888889,
+    0.10810810810810824, 1.0, 0.03539823008849564, 0.42105263157894735, 0.0,
+    0.9941176470588236, 0.4444444444444445, 0.0, 0.0, 0.0869565217391303, 1.0,
+    0.0, 1.0, 0.8571428571428571, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0 };
+
+  static const int8_T c[27] = { 7, 3, 0, 10, 10, 4, 4, 4, 0, 3, 3, 0, 6, 3, 0, 0,
+    1, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T d[54] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+    15, 0, 0, 16, 17, 18, 19, 0, 0, 20, 21, 22, 23, 0, 0, 0, 0, 24, 25, 0, 0, 0,
+    0, 0, 0, 26, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 27U * sizeof(real_T));
+  for (i = 0; i < 27; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 81U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 27; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 54; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 27; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.3458333333333333;
+  obj_Prior[1] = 0.3175;
+  obj_Prior[2] = 0.33666666666666667;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_Co_de(real_T obj_CutPredictorIndex[21],
+  real_T obj_Children[42], real_T obj_CutPoint[21], boolean_T obj_NanCutPoints
+  [21], boolean_T obj_InfCutPoints[21], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[63])
+{
+  int32_T i;
+  static const real_T tmp[21] = { 0.12514571981995834, 2.132133153691956, 0.0,
+    9.569052257509373, 3.027130540898809, 0.0, 1.0829462389307811,
+    174.48773486901908, 0.0, 10.36995633359006, 0.0, 0.0, 1.0270187216596396,
+    0.0, 0.0, 8.828100429148812, 8.54451666526365, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[21] = { false, false, true, false, false, true,
+    false, false, true, false, true, true, false, true, true, false, false, true,
+    true, true, true };
+
+  static const real_T tmp_1[63] = { 0.3241666666666665, 0.4899244332493701, 0.0,
+    0.6262425447316098, 0.25429553264604815, 1.0, 0.10900473933649288,
+    0.31489361702127594, 0.0, 0.6388888888888888, 0.0, 1.0, 0.17435897435897402,
+    1.0, 0.0, 0.33783783783783794, 0.07438016528925612, 1.0, 0.0, 1.0, 0.0,
+    0.3383333333333335, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.33750000000000013,
+    0.5100755667506299, 0.0, 0.37375745526839027, 0.7457044673539518, 0.0,
+    0.8909952606635071, 0.6851063829787241, 1.0, 0.36111111111111116, 1.0, 0.0,
+    0.8256410256410259, 0.0, 1.0, 0.662162162162162, 0.9256198347107438, 0.0,
+    1.0, 0.0, 1.0 };
+
+  static const int8_T c[21] = { 2, 3, 0, 10, 4, 0, 3, 8, 0, 10, 0, 0, 7, 0, 0,
+    10, 10, 0, 0, 0, 0 };
+
+  static const int8_T d[42] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 0, 0, 10, 11, 12,
+    13, 0, 0, 14, 15, 0, 0, 0, 0, 16, 17, 0, 0, 0, 0, 18, 19, 20, 21, 0, 0, 0, 0,
+    0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 21U * sizeof(real_T));
+  for (i = 0; i < 21; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 63U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 21; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 42; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 21; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.32416666666666666;
+  obj_Prior[1] = 0.3383333333333333;
+  obj_Prior[2] = 0.3375;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_Co_gj(real_T obj_CutPredictorIndex[21],
+  real_T obj_Children[42], real_T obj_CutPoint[21], boolean_T obj_NanCutPoints
+  [21], boolean_T obj_InfCutPoints[21], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[63])
+{
+  int32_T i;
+  static const real_T tmp[21] = { 1.11178076655644, 9.224373226263262, 0.0,
+    2.8675503914487894, 9.92544192570017, 2.32225407810418, 1.024232638559675,
+    1.511062601186398, 0.0, 0.0, 0.021581429812874003, 2.989776953819427, 0.0,
+    0.0, 0.0, 2.3875598934974565, 0.0, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[21] = { false, false, true, false, false, false,
+    false, false, true, true, false, false, true, true, true, false, true, true,
+    true, true, true };
+
+  static const real_T tmp_1[63] = { 0.35166666666666707, 0.5171568627450984, 0.0,
+    0.9365853658536587, 0.09359605911330035, 0.981675392670157,
+    0.32142857142857145, 0.3423423423423425, 0.0, 1.0, 0.8870967741935483,
+    0.45000000000000007, 0.0, 1.0, 0.0, 0.9482758620689654, 0.0, 0.0, 1.0, 0.0,
+    1.0, 0.3199999999999998, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.32833333333333325,
+    0.48284313725490163, 0.0, 0.06341463414634133, 0.9064039408866997,
+    0.018324607329842906, 0.6785714285714286, 0.6576576576576576, 1.0, 0.0,
+    0.11290322580645172, 0.55, 1.0, 0.0, 1.0, 0.05172413793103453, 1.0, 1.0, 0.0,
+    1.0, 0.0 };
+
+  static const int8_T c[21] = { 7, 10, 0, 4, 10, 1, 7, 3, 0, 0, 2, 4, 0, 0, 0, 1,
+    0, 0, 0, 0, 0 };
+
+  static const int8_T d[42] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+    15, 0, 0, 0, 0, 16, 17, 18, 19, 0, 0, 0, 0, 0, 0, 20, 21, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 21U * sizeof(real_T));
+  for (i = 0; i < 21; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 63U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 21; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 42; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 21; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.3516666666666667;
+  obj_Prior[1] = 0.32;
+  obj_Prior[2] = 0.3283333333333333;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_Co_gv(real_T obj_CutPredictorIndex[27],
+  real_T obj_Children[54], real_T obj_CutPoint[27], boolean_T obj_NanCutPoints
+  [27], boolean_T obj_InfCutPoints[27], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[81])
+{
+  int32_T i;
+  static const real_T tmp[27] = { 0.1451661382505707, 9.306706460588597, 0.0,
+    2.86829968722897, 1.1407746272472488, 2.1394730316895973, 234.6723801583451,
+    1.0150210174042322, 9.561974759101414, 0.0, 8.539625130193475, 0.0, 0.0, 0.0,
+    1.113305436543487, 1.0379227501203776, 1.0827367186520593, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 206.57273168395844, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[27] = { false, false, true, false, false, false,
+    false, false, false, true, false, true, true, true, false, false, false,
+    true, true, true, true, true, true, false, true, true, true };
+
+  static const real_T tmp_1[81] = { 0.3458333333333336, 0.5048661800486619, 0.0,
+    0.9178743961352659, 0.08578431372549003, 0.9589743589743591, 0.25, 0.6,
+    0.029891304347826077, 1.0, 0.8222222222222221, 0.0, 1.0, 1.0,
+    0.42857142857142855, 0.2500000000000001, 0.006024096385542178, 1.0, 0.0, 0.0,
+    1.0, 0.0, 1.0, 0.5, 0.0, 1.0, 0.0, 0.31499999999999967, 0.0, 1.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.33916666666666684, 0.4951338199513381,
+    0.0, 0.08212560386473411, 0.91421568627451, 0.04102564102564098, 0.75,
+    0.40000000000000013, 0.970108695652174, 0.0, 0.177777777777778, 1.0, 0.0,
+    0.0, 0.5714285714285714, 0.7499999999999999, 0.9939759036144579, 0.0, 1.0,
+    1.0, 0.0, 1.0, 0.0, 0.5000000000000001, 1.0, 0.0, 1.0 };
+
+  static const int8_T c[27] = { 2, 10, 0, 4, 4, 3, 8, 4, 10, 0, 10, 0, 0, 0, 4,
+    7, 1, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0 };
+
+  static const int8_T d[54] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+    15, 16, 17, 0, 0, 18, 19, 0, 0, 0, 0, 0, 0, 20, 21, 22, 23, 24, 25, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 26, 27, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 27U * sizeof(real_T));
+  for (i = 0; i < 27; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 81U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 27; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 54; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 27; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.3458333333333333;
+  obj_Prior[1] = 0.315;
+  obj_Prior[2] = 0.33916666666666667;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_Co_pa(real_T obj_CutPredictorIndex[35],
+  real_T obj_Children[70], real_T obj_CutPoint[35], boolean_T obj_NanCutPoints
+  [35], boolean_T obj_InfCutPoints[35], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[105])
+{
+  int32_T i;
+  static const real_T tmp[35] = { -0.3797104313870286, 0.0, 2.2794954773697804,
+    0.972119438107639, 3.033031748537292, 0.0, 1.021437954245018,
+    171.60254358148222, 8.545119256928768, 0.0, 259.9899214982819, 0.0,
+    8.806040055254027, 0.0, 2.995958314764893, 9.679256178546266, 0.0,
+    2.3917923643069003, 0.0, 0.0, 2.9885977598810647, 2.132133153691956, 0.0,
+    0.0, 0.0, 0.0, 0.0, 9.572909984358514, 2.176299785888614, 0.0,
+    1.0569149926037338, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[35] = { false, true, false, false, false, true,
+    false, false, false, true, false, true, false, true, false, false, true,
+    false, true, true, false, false, true, true, true, true, true, false, false,
+    true, false, true, true, true, true };
+
+  static const real_T tmp_1[105] = { 0.34666666666666696, 0.0,
+    0.5154894671623299, 0.6431226765799257, 0.26022304832713744, 1.0,
+    0.5733333333333327, 0.17415730337078605, 0.42857142857142866, 0.0,
+    0.5986078886310896, 1.0, 0.08695652173913025, 1.0, 0.037037037037037084,
+    0.7456647398843925, 0.0, 0.7777777777777778, 0.0, 0.0, 0.16666666666666669,
+    0.934782608695652, 0.0, 0.0, 1.0, 1.0, 0.0, 0.9683794466403162,
+    0.5652173913043479, 1.0, 0.7241379310344827, 0.0, 1.0, 0.0, 1.0,
+    0.3274999999999999, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3258333333333332, 0.0,
+    0.4845105328376701, 0.3568773234200744, 0.7397769516728625, 0.0,
+    0.4266666666666673, 0.825842696629214, 0.5714285714285714, 1.0,
+    0.40139211136891034, 0.0, 0.9130434782608698, 0.0, 0.962962962962963,
+    0.2543352601156074, 1.0, 0.2222222222222222, 1.0, 1.0, 0.8333333333333333,
+    0.065217391304348, 1.0, 1.0, 0.0, 0.0, 1.0, 0.031620553359683876,
+    0.4347826086956522, 0.0, 0.27586206896551724, 1.0, 0.0, 1.0, 0.0 };
+
+  static const int8_T c[35] = { 6, 0, 4, 1, 5, 0, 3, 8, 10, 0, 8, 0, 10, 0, 4,
+    10, 0, 3, 0, 0, 1, 3, 0, 0, 0, 0, 0, 10, 3, 0, 7, 0, 0, 0, 0 };
+
+  static const int8_T d[70] = { 2, 3, 0, 0, 4, 5, 6, 7, 8, 9, 0, 0, 10, 11, 12,
+    13, 14, 15, 0, 0, 16, 17, 0, 0, 18, 19, 0, 0, 20, 21, 22, 23, 0, 0, 24, 25,
+    0, 0, 0, 0, 26, 27, 28, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 31, 32, 33, 0,
+    0, 34, 35, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 35U * sizeof(real_T));
+  for (i = 0; i < 35; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 105U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 35; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 70; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 35; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.3466666666666667;
+  obj_Prior[1] = 0.3275;
+  obj_Prior[2] = 0.3258333333333333;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_Com_f(real_T obj_CutPredictorIndex[27],
+  real_T obj_Children[54], real_T obj_CutPoint[27], boolean_T obj_NanCutPoints
+  [27], boolean_T obj_InfCutPoints[27], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[81])
+{
+  int32_T i;
+  static const real_T tmp[27] = { 0.13360890391781266, 200.79403359949305, 0.0,
+    9.789531920395646, 1.0397693952070517, 0.0272082358332921, 0.0, 0.0,
+    266.3462106818078, 0.0, 0.0, 9.223526329417794, 0.0, 2.86829968722897,
+    1.4439472823462287, 221.80492291446487, 2.924450409469493,
+    1.4270154231135999, 0.0, 214.27885028860368, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0 };
+
+  static const boolean_T tmp_0[27] = { false, false, true, false, false, false,
+    true, true, false, true, true, false, true, false, false, false, false,
+    false, true, false, true, true, true, true, true, true, true };
+
+  static const real_T tmp_1[81] = { 0.3400000000000002, 0.4921592279855246, 0.0,
+    0.8273381294964027, 0.32304900181488183, 0.9956709956709957, 0.0, 1.0,
+    0.26719056974459743, 1.0, 0.0, 0.38309859154929665, 0.0, 0.83448275862069,
+    0.07142857142857147, 0.9322033898305085, 0.40740740740740744,
+    0.28846153846153866, 0.0, 0.7575757575757575, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0,
+    0.0, 0.3091666666666662, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.3508333333333337, 0.5078407720144754, 0.0, 0.17266187050359727,
+    0.6769509981851181, 0.004329004329004338, 1.0, 0.0, 0.7328094302554026, 0.0,
+    1.0, 0.6169014084507034, 1.0, 0.1655172413793101, 0.9285714285714285,
+    0.06779661016949146, 0.5925925925925927, 0.7115384615384613, 1.0,
+    0.2424242424242425, 0.0, 1.0, 0.0, 1.0, 0.0, 0.0, 1.0 };
+
+  static const int8_T c[27] = { 2, 8, 0, 10, 4, 2, 0, 0, 8, 0, 0, 10, 0, 4, 3, 8,
+    1, 3, 0, 8, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T d[54] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 10, 11, 0, 0, 0, 0,
+    12, 13, 0, 0, 0, 0, 14, 15, 0, 0, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 0,
+    0, 26, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 27U * sizeof(real_T));
+  for (i = 0; i < 27; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 81U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 27; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 54; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 27; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.34;
+  obj_Prior[1] = 0.30916666666666665;
+  obj_Prior[2] = 0.35083333333333333;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_Co_o4(real_T obj_CutPredictorIndex[31],
+  real_T obj_Children[62], real_T obj_CutPoint[31], boolean_T obj_NanCutPoints
+  [31], boolean_T obj_InfCutPoints[31], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[93])
+{
+  int32_T i;
+  static const real_T tmp[31] = { 1.1088530839786763, 9.292148139465922,
+    0.11016240646859886, 2.800822820729299, 1.0828800520827715, 0.0, 0.0,
+    2.3222731129883636, 2.9944189705488813, 207.99185181015292,
+    0.01936918836256723, 0.0, 8.544553492799327, 0.0, 2.994250575511324, 0.0,
+    10.357864972870786, 9.425688419217071, 9.561930455222182, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 9.524797718363523, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[31] = { false, false, false, false, false, true,
+    true, false, false, false, false, true, false, true, false, true, false,
+    false, false, true, true, true, true, true, true, true, true, false, true,
+    true, true };
+
+  static const real_T tmp_1[93] = { 0.3141666666666663, 0.4839124839124836,
+    0.0023640661938534187, 0.9342465753424657, 0.08495145631067944, 1.0, 0.0,
+    0.976401179941003, 0.3846153846153846, 0.5952380952380952,
+    0.02702702702702701, 1.0, 0.8688524590163933, 0.0, 0.8333333333333333, 1.0,
+    0.3703703703703704, 0.6666666666666666, 0.021798365122615796, 1.0, 0.0, 1.0,
+    0.0, 1.0, 0.0, 0.0, 1.0, 0.18181818181818196, 0.0, 0.0, 1.0,
+    0.35166666666666707, 0.0, 0.9976359338061466, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3341666666666667, 0.5160875160875165,
+    0.0, 0.06575342465753427, 0.9150485436893206, 0.0, 0.0, 0.023598820058997088,
+    0.6153846153846154, 0.40476190476190493, 0.9729729729729729, 0.0,
+    0.13114754098360668, 1.0, 0.16666666666666669, 0.0, 0.6296296296296297,
+    0.33333333333333337, 0.9782016348773842, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0,
+    0.0, 0.8181818181818181, 1.0, 1.0, 0.0 };
+
+  static const int8_T c[31] = { 7, 10, 2, 1, 1, 0, 0, 1, 4, 8, 2, 0, 10, 0, 5, 0,
+    10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0, 0 };
+
+  static const int8_T d[62] = { 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 0, 0, 0, 0, 12,
+    13, 14, 15, 16, 17, 18, 19, 0, 0, 20, 21, 0, 0, 22, 23, 0, 0, 24, 25, 26, 27,
+    28, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 31, 0, 0, 0, 0,
+    0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 31U * sizeof(real_T));
+  for (i = 0; i < 31; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 93U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 31; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 62; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 31; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.31416666666666665;
+  obj_Prior[1] = 0.3516666666666667;
+  obj_Prior[2] = 0.33416666666666667;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactClassificationTree_Co_ba(real_T obj_CutPredictorIndex[19],
+  real_T obj_Children[38], real_T obj_CutPoint[19], boolean_T obj_NanCutPoints
+  [19], boolean_T obj_InfCutPoints[19], int32_T obj_ClassNamesLength[3],
+  c_classreg_learning_coderutil_T *obj_ScoreTransform, real_T obj_Prior[3],
+  boolean_T obj_ClassLogicalIndices[3], real_T obj_Cost[9], real_T
+  obj_ClassProbability[57])
+{
+  int32_T i;
+  static const real_T tmp[19] = { 0.12430467894213318, 2.132133153691956, 0.0,
+    9.569007953630141, 8.806236481669528, 0.0, 0.9693718614450284,
+    2.387642110181759, 0.0, 0.0, 9.679150340738417, 2.32225407810418, 0.0,
+    1.3132378479357352, 0.0, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T tmp_0[19] = { false, false, true, false, false, true,
+    false, false, true, true, false, false, true, false, true, true, true, true,
+    true };
+
+  static const real_T tmp_1[57] = { 0.32666666666666655, 0.4943253467843631, 0.0,
+    0.6200787401574798, 0.27017543859649124, 1.0, 0.09389671361502351,
+    0.8953488372093021, 0.0, 1.0, 0.03500000000000002, 0.7, 1.0,
+    0.3043478260869565, 0.0, 1.0, 0.0, 1.0, 0.0, 0.33916666666666684, 0.0, 1.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.3341666666666667, 0.505674653215637, 0.0, 0.37992125984252023,
+    0.7298245614035088, 0.0, 0.9061032863849765, 0.10465116279069778, 1.0, 0.0,
+    0.965, 0.30000000000000004, 0.0, 0.6956521739130435, 1.0, 0.0, 1.0, 0.0, 1.0
+  };
+
+  static const int8_T c[19] = { 2, 3, 0, 10, 10, 0, 1, 3, 0, 0, 10, 1, 0, 1, 0,
+    0, 0, 0, 0 };
+
+  static const int8_T d[38] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 0, 0, 10, 11, 12,
+    13, 0, 0, 0, 0, 14, 15, 16, 17, 0, 0, 18, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T h[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  memcpy(&obj_CutPoint[0], &tmp[0], 19U * sizeof(real_T));
+  for (i = 0; i < 19; i++) {
+    obj_NanCutPoints[i] = tmp_0[i];
+  }
+
+  memcpy(&obj_ClassProbability[0], &tmp_1[0], 57U * sizeof(real_T));
+  obj_ClassNamesLength[0] = 1;
+  obj_ClassLogicalIndices[0] = true;
+  obj_ClassNamesLength[1] = 1;
+  obj_ClassLogicalIndices[1] = true;
+  obj_ClassNamesLength[2] = 1;
+  obj_ClassLogicalIndices[2] = true;
+  *obj_ScoreTransform = Identity;
+  for (i = 0; i < 19; i++) {
+    obj_CutPredictorIndex[i] = c[i];
+  }
+
+  for (i = 0; i < 38; i++) {
+    obj_Children[i] = d[i];
+  }
+
+  for (i = 0; i < 19; i++) {
+    obj_InfCutPoints[i] = false;
+  }
+
+  obj_Prior[0] = 0.32666666666666666;
+  obj_Prior[1] = 0.33916666666666667;
+  obj_Prior[2] = 0.33416666666666667;
+  for (i = 0; i < 9; i++) {
+    obj_Cost[i] = h[i];
+  }
+}
+
+/* Function for MATLAB Function: '<Root>/ElectricalDetector' */
+static void CompactEnsemble_ensemblePredi_j(const boolean_T obj_IsCached[50],
+  const real_T X[10], real_T score[3])
+{
+  real_T assign_temp_ClassProbability_4[153];
+  real_T assign_temp_ClassProbability_6[135];
+  real_T assign_temp_ClassProbability_a[105];
+  real_T assign_temp_Children_1[102];
+  real_T assign_temp_ClassProbability[99];
+  real_T assign_temp_ClassProbability_2[93];
+  real_T kb[90];
+  real_T assign_temp_ClassProbability_7[87];
+  real_T assign_temp_ClassProbability_8[81];
+  real_T assign_temp_ClassProbability_0[75];
+  real_T e[70];
+  real_T assign_temp_ClassProbability_5[69];
+  real_T r[66];
+  real_T assign_temp_ClassProbability_9[63];
+  real_T pc[62];
+  real_T dc[58];
+  real_T assign_temp_ClassProbability_3[57];
+  real_T qb[54];
+  real_T assign_temp_ClassProbability_1[51];
+  real_T assign_temp_CutPoint_4[51];
+  real_T x[50];
+  real_T cd[46];
+  real_T assign_temp_CutPoint_6[45];
+  real_T jb[45];
+  real_T jc[42];
+  real_T assign_temp_Children_0[38];
+  real_T assign_temp_CutPoint_a[35];
+  real_T d[35];
+  real_T assign_temp_Children[34];
+  real_T assign_temp_CutPoint[33];
+  real_T q[33];
+  real_T assign_temp_CutPoint_2[31];
+  real_T oc[31];
+  real_T assign_temp_CutPoint_7[29];
+  real_T cc[29];
+  real_T assign_temp_CutPoint_8[27];
+  real_T pb[27];
+  real_T assign_temp_CutPoint_0[25];
+  real_T w[25];
+  real_T assign_temp_CutPoint_5[23];
+  real_T bd[23];
+  real_T assign_temp_CutPoint_9[21];
+  real_T ic[21];
+  real_T assign_temp_CutPoint_3[19];
+  real_T assign_temp_CutPredictorIndex_0[19];
+  real_T assign_temp_CutPoint_1[17];
+  real_T assign_temp_CutPredictorIndex[17];
+  real_T assign_temp_Cost[9];
+  real_T cachedScore[3];
+  real_T cachedWeights;
+  c_classreg_learning_coderutil_T expl_temp_1;
+  int32_T expl_temp_0[3];
+  int32_T i;
+  boolean_T assign_temp_NanCutPoints_4[51];
+  boolean_T expl_temp_7[51];
+  boolean_T assign_temp_NanCutPoints_6[45];
+  boolean_T expl_temp_9[45];
+  boolean_T assign_temp_NanCutPoints_a[35];
+  boolean_T expl_temp_d[35];
+  boolean_T assign_temp_NanCutPoints[33];
+  boolean_T expl_temp[33];
+  boolean_T assign_temp_NanCutPoints_2[31];
+  boolean_T expl_temp_5[31];
+  boolean_T assign_temp_NanCutPoints_7[29];
+  boolean_T expl_temp_a[29];
+  boolean_T assign_temp_NanCutPoints_8[27];
+  boolean_T expl_temp_b[27];
+  boolean_T assign_temp_NanCutPoints_0[25];
+  boolean_T expl_temp_3[25];
+  boolean_T assign_temp_NanCutPoints_5[23];
+  boolean_T expl_temp_8[23];
+  boolean_T assign_temp_NanCutPoints_9[21];
+  boolean_T expl_temp_c[21];
+  boolean_T assign_temp_NanCutPoints_3[19];
+  boolean_T expl_temp_6[19];
+  boolean_T assign_temp_NanCutPoints_1[17];
+  boolean_T expl_temp_4[17];
+  boolean_T expl_temp_2[3];
+  boolean_T b;
+  static const int8_T i_0[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
+  static const int8_T d_0[35] = { 2, 10, 0, 3, 7, 1, 8, 1, 1, 0, 10, 0, 0, 1, 0,
+    0, 3, 0, 0, 7, 3, 0, 6, 0, 7, 0, 10, 0, 0, 0, 9, 0, 0, 0, 0 };
+
+  static const int8_T e_0[70] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 10, 11, 12, 13,
+    14, 15, 16, 17, 0, 0, 18, 19, 0, 0, 0, 0, 20, 21, 0, 0, 0, 0, 22, 23, 0, 0,
+    0, 0, 24, 25, 26, 27, 0, 0, 28, 29, 0, 0, 30, 31, 0, 0, 32, 33, 0, 0, 0, 0,
+    0, 0, 34, 35, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const char_T combiner[15] = { 'W', 'e', 'i', 'g', 'h', 't', 'e', 'd',
+    'A', 'v', 'e', 'r', 'a', 'g', 'e' };
+
+  static const real_T c[35] = { 0.13460875486096524, 9.305830444589635, 0.0,
+    2.8031986402244513, 1.0674560471090628, 2.1392860696184623, 234.793061066681,
+    1.4777445484249094, 0.947428726950736, 0.0, 8.54451666526365, 0.0, 0.0,
+    1.4271753999176573, 0.0, 0.0, 1.034001678580573, 0.0, 0.0,
+    1.0625525760462686, 1.4322056790758741, 0.0, 0.07859170157669286, 0.0,
+    1.0628971567273682, 0.0, 10.665012288691019, 0.0, 0.0, 0.0,
+    0.4932383849085732, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T f[35] = { false, false, true, false, false, false,
+    false, false, false, true, false, true, true, false, true, true, false, true,
+    true, false, false, true, false, true, false, true, false, true, true, true,
+    false, true, true, true, true };
+
+  static const real_T g[105] = { 0.3166666666666664, 0.48655569782330316, 0.0,
+    0.8994845360824743, 0.07888040712468183, 0.952112676056338,
+    0.33333333333333337, 0.03966005665722383, 0.4250000000000001, 1.0,
+    0.7848101265822782, 0.0, 1.0, 0.1891891891891894, 0.0, 1.0,
+    0.2333333333333334, 1.0, 0.0, 0.03703703703703708, 0.6, 0.0, 0.4375, 0.0,
+    0.16666666666666666, 1.0, 0.3846153846153846, 1.0, 0.0, 1.0,
+    0.0909090909090909, 1.0, 0.0, 1.0, 0.0, 0.349166666666667, 0.0, 1.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.3341666666666667, 0.5134443021766968, 0.0, 0.10051546391752572,
+    0.9211195928753182, 0.04788732394366202, 0.6666666666666666,
+    0.9603399433427762, 0.575, 0.0, 0.21518987341772175, 1.0, 0.0,
+    0.8108108108108106, 1.0, 0.0, 0.7666666666666666, 0.0, 1.0,
+    0.962962962962963, 0.4, 1.0, 0.5625, 1.0, 0.8333333333333333, 0.0,
+    0.6153846153846154, 0.0, 1.0, 0.0, 0.9090909090909091, 0.0, 1.0, 0.0, 1.0 };
+
+  static const int8_T k[35] = { 6, 0, 3, 9, 10, 10, 10, 1, 0, 1, 4, 10, 4, 1, 0,
+    0, 3, 0, 10, 0, 7, 3, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T l[70] = { 2, 3, 0, 0, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14,
+    15, 0, 0, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 0, 0, 0, 0, 26, 27, 0, 0,
+    28, 29, 0, 0, 30, 31, 32, 33, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 34, 35, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const real_T j[35] = { -0.3537642023158249, 0.0, 2.2127771460637486,
+    0.5120723873657096, 8.806300086149156, 9.569052257509373, 9.62406379039075,
+    2.3938427344947635, 0.0, 2.1321167858530043, 1.0114245931330221,
+    9.293374095780383, 1.0686192821794953, 2.32225407810418, 0.0, 0.0,
+    2.1683299345705698, 0.0, 9.685447440551428, 0.0, 1.042795685970371,
+    0.970128744279337, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0603259285419093, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T m[35] = { false, true, false, false, false, false,
+    false, false, true, false, false, false, false, false, true, true, false,
+    true, false, true, false, false, true, true, true, true, true, false, true,
+    true, true, true, true, true, true };
+
+  static const real_T n[105] = { 0.3166666666666664, 0.0, 0.4797979797979794,
+    0.5962616822429905, 0.23735408560311275, 0.64142538975501,
+    0.36046511627906985, 0.8591549295774646, 0.0, 0.9787985865724381,
+    0.06626506024096374, 0.9666666666666667, 0.035714285714285754,
+    0.47368421052631576, 1.0, 1.0, 0.5, 1.0, 0.012738853503184686, 1.0,
+    0.6666666666666667, 0.4000000000000001, 0.0, 1.0, 0.0, 0.0, 1.0,
+    0.16666666666666666, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.3400000000000002,
+    1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.3433333333333336, 0.0, 0.5202020202020207,
+    0.4037383177570096, 0.7626459143968873, 0.3585746102449901,
+    0.6395348837209301, 0.14084507042253536, 1.0, 0.02120141342756191,
+    0.9337349397590363, 0.033333333333333354, 0.9642857142857143,
+    0.5263157894736842, 0.0, 0.0, 0.5, 0.0, 0.9872611464968152, 0.0,
+    0.33333333333333337, 0.6000000000000001, 1.0, 0.0, 1.0, 1.0, 0.0,
+    0.8333333333333333, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0 };
+
+  static const int8_T q_0[33] = { 2, 10, 0, 1, 1, 4, 8, 8, 7, 0, 1, 0, 0, 0, 8,
+    0, 7, 0, 0, 0, 0, 0, 5, 2, 3, 0, 0, 0, 3, 10, 0, 0, 0 };
+
+  static const int8_T r_0[66] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 10, 11, 12, 13,
+    14, 15, 16, 17, 0, 0, 18, 19, 0, 0, 0, 0, 0, 0, 20, 21, 0, 0, 22, 23, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 24, 25, 26, 27, 28, 29, 0, 0, 0, 0, 0, 0, 30, 31, 32,
+    33, 0, 0, 0, 0, 0, 0 };
+
+  static const real_T p[33] = { 0.13360890391781266, 9.224376248453815, 0.0,
+    2.803129322699013, 1.0736897167811716, 2.3859022274339647, 234.6723801583451,
+    207.99185181015292, 1.0428531405014967, 0.0, 2.3938830848478623, 0.0, 0.0,
+    0.0, 263.5407418631336, 0.0, 1.0436445771355267, 0.0, 0.0, 0.0, 0.0, 0.0,
+    2.764592560869315, 0.03119834122695859, 1.4275661258452126, 0.0, 0.0, 0.0,
+    1.434270917126272, 10.665404398100916, 0.0, 0.0, 0.0 };
+
+  static const boolean_T s[33] = { false, false, true, false, false, false,
+    false, false, false, true, false, true, true, true, false, true, false, true,
+    true, true, true, true, false, false, false, true, true, true, false, false,
+    true, true, true };
+
+  static const real_T t[99] = { 0.3433333333333336, 0.5182389937106922, 0.0,
+    0.9348370927318297, 0.09848484848484838, 0.9731182795698924,
+    0.40740740740740744, 0.509090909090909, 0.03225806451612908, 1.0,
+    0.8245614035087718, 0.0, 1.0, 1.0, 0.28947368421052644, 0.0,
+    0.09999999999999995, 0.0, 1.0, 0.0, 1.0, 1.0, 0.05714285714285711,
+    0.21428571428571427, 0.03296703296703297, 1.0, 0.0, 0.0, 0.06976744186046516,
+    0.7499999999999999, 0.0, 1.0, 0.0, 0.33750000000000013, 0.0, 1.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.31916666666666643, 0.4817610062893078, 0.0, 0.06516290726817031,
+    0.9015151515151516, 0.026881720430107506, 0.5925925925925927,
+    0.4909090909090909, 0.967741935483871, 0.0, 0.17543859649122823, 1.0, 0.0,
+    0.0, 0.7105263157894736, 1.0, 0.9, 1.0, 0.0, 1.0, 0.0, 0.0,
+    0.9428571428571428, 0.7857142857142858, 0.967032967032967, 0.0, 1.0, 1.0,
+    0.9302325581395348, 0.25, 1.0, 0.0, 1.0 };
+
+  static const int8_T w_0[25] = { 6, 0, 10, 3, 1, 0, 8, 8, 4, 0, 10, 0, 3, 10, 0,
+    0, 4, 0, 0, 0, 0, 0, 10, 0, 0 };
+
+  static const int8_T x_0[50] = { 2, 3, 0, 0, 4, 5, 6, 7, 8, 9, 0, 0, 10, 11, 12,
+    13, 14, 15, 0, 0, 16, 17, 0, 0, 18, 19, 20, 21, 0, 0, 0, 0, 22, 23, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 24, 25, 0, 0, 0, 0 };
+
+  static const real_T v[25] = { -0.3537642023158249, 0.0, 9.305830444589635,
+    2.131019736349559, 1.0827367186520593, 0.0, 201.19722832608886,
+    206.83773192070367, 1.5181785970813864, 0.0, 8.544553492799327, 0.0,
+    0.9696220368222984, 9.79683242205153, 0.0, 0.0, 2.9932392733905533, 0.0, 0.0,
+    0.0, 0.0, 0.0, 8.887160857441081, 0.0, 0.0 };
+
+  static const boolean_T y[25] = { false, true, false, false, false, true, false,
+    false, false, true, false, true, false, false, true, true, false, true, true,
+    true, true, true, false, true, true };
+
+  static const real_T ab[75] = { 0.3325, 0.0, 0.5121951219512197,
+    0.9039408866995076, 0.08579088471849866, 1.0, 0.6976744186046513,
+    0.6341463414634145, 0.01807228915662654, 1.0, 0.5517241379310345, 1.0,
+    0.4230769230769231, 0.09090909090909101, 0.0, 1.0, 0.2641509433962266, 1.0,
+    0.0, 1.0, 0.0, 0.0, 0.9333333333333333, 1.0, 0.0, 0.3508333333333337, 1.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3166666666666664, 0.0,
+    0.48780487804878025, 0.09605911330049245, 0.9142091152815013, 0.0,
+    0.30232558139534865, 0.36585365853658547, 0.9819277108433735, 0.0,
+    0.44827586206896564, 0.0, 0.576923076923077, 0.9090909090909091, 1.0, 0.0,
+    0.7358490566037734, 0.0, 1.0, 0.0, 1.0, 1.0, 0.06666666666666665, 0.0, 1.0 };
+
+  static const int8_T db[35] = { 6, 0, 4, 10, 8, 4, 1, 0, 3, 3, 10, 0, 0, 3, 0,
+    0, 1, 0, 0, 3, 1, 0, 0, 0, 3, 0, 9, 0, 4, 0, 0, 3, 0, 0, 0 };
+
+  static const int8_T eb[70] = { 2, 3, 0, 0, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 0,
+    0, 14, 15, 16, 17, 18, 19, 0, 0, 0, 0, 20, 21, 0, 0, 0, 0, 22, 23, 0, 0, 0,
+    0, 24, 25, 26, 27, 0, 0, 0, 0, 0, 0, 28, 29, 0, 0, 30, 31, 0, 0, 32, 33, 0,
+    0, 0, 0, 34, 35, 0, 0, 0, 0, 0, 0 };
+
+  static const real_T cb[35] = { -0.3522089548379009, 0.0, 2.2794954773697804,
+    9.6849546869785, 171.9093328681921, 2.2006392377359623, 0.9692581873147478,
+    0.0, 2.946133914800475, 1.5480363111548758, 8.701096097954242, 0.0, 0.0,
+    2.924460736764691, 0.0, 0.0, 1.6004976244329148, 0.0, 0.0,
+    2.4109250648987306, 2.931932468007499, 0.0, 0.0, 0.0, 2.4205501683662085,
+    0.0, 0.5390214714826573, 0.0, 2.8065293023525255, 0.0, 0.0,
+    2.6545518079800807, 0.0, 0.0, 0.0 };
+
+  static const boolean_T fb[35] = { false, true, false, false, false, false,
+    false, true, false, false, false, true, true, false, true, true, false, true,
+    true, false, false, true, true, true, false, true, false, true, false, true,
+    true, false, true, true, true };
+
+  static const real_T gb[105] = { 0.3416666666666669, 0.0, 0.5137844611528825,
+    0.657142857142857, 0.23809523809523805, 0.9622093023255812,
+    0.07734806629834247, 1.0, 0.14049586776859507, 0.9846625766871165,
+    0.5555555555555556, 1.0, 0.0, 0.19653179190751396, 0.0, 1.0,
+    0.9657534246575343, 1.0, 0.0, 0.14285714285714257, 0.9166666666666666, 0.0,
+    1.0, 0.0, 0.212962962962963, 1.0, 0.5000000000000001, 1.0,
+    0.12371134020618563, 1.0, 0.0, 0.23529411764705896, 0.0, 0.0, 1.0,
+    0.3350000000000001, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.32333333333333314, 0.0,
+    0.4862155388471175, 0.3428571428571431, 0.7619047619047619,
+    0.03779069767441866, 0.9226519337016575, 0.0, 0.8595041322314049,
+    0.01533742331288347, 0.4444444444444445, 0.0, 1.0, 0.803468208092486, 1.0,
+    0.0, 0.034246575342465675, 0.0, 1.0, 0.8571428571428575, 0.08333333333333333,
+    1.0, 0.0, 1.0, 0.787037037037037, 0.0, 0.5, 0.0, 0.8762886597938144, 0.0,
+    1.0, 0.764705882352941, 1.0, 1.0, 0.0 };
+
+  static const int8_T jb_0[45] = { 7, 3, 0, 8, 10, 5, 0, 7, 4, 0, 8, 10, 4, 0, 1,
+    8, 8, 3, 0, 0, 7, 1, 0, 0, 2, 3, 10, 0, 0, 3, 1, 0, 0, 0, 8, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0 };
+
+  static const int8_T kb_0[90] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 10, 11, 0, 0,
+    12, 13, 14, 15, 0, 0, 16, 17, 18, 19, 20, 21, 0, 0, 22, 23, 24, 25, 26, 27,
+    28, 29, 0, 0, 0, 0, 30, 31, 32, 33, 0, 0, 0, 0, 34, 35, 36, 37, 38, 39, 0, 0,
+    0, 0, 40, 41, 42, 43, 0, 0, 0, 0, 0, 0, 44, 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const real_T ib[45] = { 1.1109774680412126, 1.4324858647214467, 0.0,
+    287.7400404287654, 9.223636380475329, 2.7668618293093523, 0.0,
+    1.0271134217451727, 1.4971094226074189, 0.0, 199.5576732063355,
+    8.833448977486228, 2.392910118493772, 0.0, 1.4777445484249094,
+    194.5157319490243, 235.41105505920115, 2.388907770912672, 0.0, 0.0,
+    1.0302093925264717, 1.463747383156739, 0.0, 0.0, 0.020125247657139494,
+    0.9326589794180721, 10.372654545092256, 0.0, 0.0, 2.3939330653665127,
+    2.3875855224028966, 0.0, 0.0, 0.0, 195.71896528765558, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T lb[45] = { false, false, true, false, false, false,
+    true, false, false, true, false, false, false, true, false, false, false,
+    false, true, true, false, false, true, true, false, false, false, true, true,
+    false, false, true, true, true, false, true, true, true, true, true, true,
+    true, true, true, true };
+
+  static const real_T mb[135] = { 0.3475000000000003, 0.5271807838179525, 0.0,
+    0.7991266375545854, 0.4163701067615657, 0.8433179723502305, 0.0,
+    0.9023437499999999, 0.009803921568627487, 0.0, 0.8551401869158879,
+    0.7017543859649121, 0.9597989949748744, 1.0, 0.006557377049180353,
+    0.9496402877697843, 0.6799999999999998, 0.9302325581395348, 0.0, 1.0,
+    0.7777777777777777, 0.15384615384615385, 0.0, 1.0, 0.8727272727272726,
+    0.3103448275862069, 0.9130434782608695, 0.0, 1.0, 0.9259259259259259,
+    0.33333333333333337, 0.0, 1.0, 1.0, 0.631578947368421, 1.0, 0.0, 1.0, 0.0,
+    0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.34083333333333354, 0.0, 1.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.31166666666666626,
+    0.4728192161820475, 0.0, 0.20087336244541465, 0.5836298932384343,
+    0.15668202764976946, 1.0, 0.09765625000000015, 0.9901960784313725, 1.0,
+    0.14485981308411205, 0.2982456140350879, 0.04020100502512564, 0.0,
+    0.9934426229508198, 0.050359712230215736, 0.3200000000000002,
+    0.06976744186046517, 1.0, 0.0, 0.22222222222222232, 0.8461538461538461, 1.0,
+    0.0, 0.12727272727272737, 0.6896551724137931, 0.08695652173913052, 1.0, 0.0,
+    0.0740740740740741, 0.6666666666666667, 1.0, 0.0, 0.0, 0.3684210526315789,
+    0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0 };
+
+  static const int8_T pb_0[27] = { 6, 0, 4, 8, 10, 10, 0, 0, 10, 1, 4, 8, 0, 1,
+    8, 0, 3, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T qb_0[54] = { 2, 3, 0, 0, 4, 5, 6, 7, 8, 9, 10, 11, 0, 0, 0,
+    0, 12, 13, 14, 15, 16, 17, 18, 19, 0, 0, 20, 21, 22, 23, 0, 0, 24, 25, 0, 0,
+    0, 0, 0, 0, 26, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const real_T ob[27] = { -0.3529702532922346, 0.0, 2.2776527873912955,
+    287.7182385958211, 8.539661957729152, 9.685858536031336, 0.0, 0.0,
+    8.834555229671569, 2.1392860696184623, 1.012963693804129, 238.79434062512888,
+    0.0, 1.5480445757810397, 191.31093692487156, 0.0, 0.9696220368222984, 0.0,
+    0.0, 0.0, 1.606100249862549, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T rb[27] = { false, true, false, false, false, false,
+    true, true, false, false, false, false, true, false, false, true, false,
+    true, true, true, false, true, true, true, true, true, true };
+
+  static const real_T sb[81] = { 0.33583333333333343, 0.0, 0.4920634920634919,
+    0.6259689922480616, 0.2640264026402642, 0.709890109890109, 0.0, 1.0,
+    0.038793103448275926, 0.9456193353474318, 0.08064516129032248,
+    0.3333333333333333, 0.0, 0.9703947368421051, 0.6666666666666666, 1.0,
+    0.008695652173913031, 0.0, 1.0, 1.0, 0.9262295081967213, 1.0, 0.0, 1.0, 0.0,
+    0.0, 1.0, 0.3174999999999997, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.34666666666666696, 0.0, 0.5079365079365081, 0.37403100775193837,
+    0.7359735973597359, 0.29010989010989097, 1.0, 0.0, 0.9612068965517241,
+    0.05438066465256813, 0.9193548387096775, 0.6666666666666666, 1.0,
+    0.029605263157894846, 0.3333333333333333, 0.0, 0.9913043478260869, 1.0, 0.0,
+    0.0, 0.0737704918032786, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0 };
+
+  static const int8_T vb[25] = { 2, 3, 0, 10, 3, 8, 3, 10, 8, 0, 10, 0, 0, 0, 0,
+    0, 6, 0, 0, 8, 8, 0, 0, 0, 0 };
+
+  static const int8_T wb[50] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 10, 11, 12, 13,
+    14, 15, 16, 17, 0, 0, 18, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 21, 0, 0, 0,
+    0, 22, 23, 24, 25, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const real_T ub[25] = { 0.16256738338558754, 2.1393951435261256, 0.0,
+    9.679256178546266, 2.7106635288176593, 219.25985870570074,
+    0.9696220368222984, 8.539661957729152, 254.97299513241, 0.0,
+    9.573223952732857, 0.0, 0.0, 0.0, 0.0, 0.0, 0.014759130209773694, 0.0, 0.0,
+    267.08297746857363, 266.3443078657572, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T xb[25] = { false, false, true, false, false, false,
+    false, false, false, true, false, true, true, true, true, true, false, true,
+    true, false, false, true, true, true, true };
+
+  static const real_T yb[75] = { 0.35000000000000037, 0.49469964664310945, 0.0,
+    0.6324626865671641, 0.258785942492013, 0.9760479041916168,
+    0.06435643564356437, 0.341121495327102, 0.08080808080808081, 1.0,
+    0.9365079365079366, 1.0, 0.0, 1.0, 0.0, 0.0, 0.19047619047619063, 1.0, 0.0,
+    0.4666666666666667, 0.037037037037037056, 1.0, 0.0, 1.0, 0.0,
+    0.2924999999999992, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.35750000000000054, 0.5053003533568906, 0.0, 0.3675373134328359,
+    0.7412140575079869, 0.02395209580838328, 0.9356435643564356,
+    0.6588785046728981, 0.9191919191919192, 0.0, 0.0634920634920634, 0.0, 1.0,
+    0.0, 1.0, 1.0, 0.8095238095238094, 0.0, 1.0, 0.5333333333333333,
+    0.962962962962963, 0.0, 1.0, 0.0, 1.0 };
+
+  static const int8_T cc_0[29] = { 7, 4, 9, 8, 4, 0, 0, 8, 0, 10, 0, 0, 10, 10,
+    0, 3, 8, 0, 1, 0, 0, 3, 0, 0, 0, 3, 0, 0, 0 };
+
+  static const int8_T dc_0[58] = { 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 0, 0, 0, 0,
+    12, 13, 0, 0, 14, 15, 0, 0, 0, 0, 16, 17, 18, 19, 0, 0, 20, 21, 22, 23, 0, 0,
+    24, 25, 0, 0, 0, 0, 26, 27, 0, 0, 0, 0, 0, 0, 28, 29, 0, 0, 0, 0, 0, 0 };
+
+  static const real_T bc[29] = { 1.1088530839786763, 2.2776527873912955,
+    0.606264371304185, 287.5890301582434, 3.0101349903732446, 0.0, 0.0,
+    182.41883533561202, 0.0, 8.895140526584003, 0.0, 0.0, 9.569002260223858,
+    8.539661957729152, 0.0, 2.132133153691956, 270.10916122854735, 0.0,
+    2.6561478684864546, 0.0, 0.0, 1.0738474071807285, 0.0, 0.0, 0.0,
+    1.0340860397732272, 0.0, 0.0, 0.0 };
+
+  static const boolean_T ec[29] = { false, false, false, false, false, true,
+    true, false, true, false, true, true, false, false, true, false, false, true,
+    false, true, true, false, true, true, true, false, true, true, true };
+
+  static const real_T fc[87] = { 0.33166666666666667, 0.49255583126550856,
+    0.0025380710659898414, 0.6302681992337162, 0.2394366197183099, 1.0, 0.0,
+    0.7262693156732886, 0.0, 0.29437229437229384, 0.0, 1.0, 0.6487252124645885,
+    0.8395061728395061, 0.0, 0.9585253456221198, 0.15441176470588217, 1.0, 0.48,
+    1.0, 0.0, 0.06504065040650399, 1.0, 0.0, 1.0, 0.3076923076923077, 0.0, 0.0,
+    1.0, 0.3274999999999999, 0.0, 0.9974619289340101, 0.0, 0.0, 0.0, 1.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.34083333333333354, 0.5074441687344915, 0.0,
+    0.3697318007662838, 0.7605633802816901, 0.0, 0.0, 0.2737306843267115, 1.0,
+    0.7056277056277063, 1.0, 0.0, 0.35127478753541164, 0.160493827160494, 1.0,
+    0.04147465437788023, 0.8455882352941179, 0.0, 0.5199999999999999, 0.0, 1.0,
+    0.934959349593496, 0.0, 1.0, 0.0, 0.6923076923076923, 1.0, 1.0, 0.0 };
+
+  static const int8_T ic_0[21] = { 6, 0, 10, 3, 3, 0, 10, 0, 3, 0, 8, 10, 10, 0,
+    0, 0, 0, 10, 0, 0, 0 };
+
+  static const int8_T jc_0[42] = { 2, 3, 0, 0, 4, 5, 6, 7, 8, 9, 0, 0, 10, 11, 0,
+    0, 12, 13, 0, 0, 14, 15, 16, 17, 18, 19, 0, 0, 0, 0, 0, 0, 0, 0, 20, 21, 0,
+    0, 0, 0, 0, 0 };
+
+  static const real_T hc[21] = { -0.3537642023158249, 0.0, 9.305830444589635,
+    2.1394730316895973, 0.9696220368222984, 0.0, 8.539625130193475, 0.0,
+    1.0609872703021979, 0.0, 240.78233091964017, 10.228446154322237,
+    9.561974759101414, 0.0, 0.0, 0.0, 0.0, 9.51144447686669, 0.0, 0.0, 0.0 };
+
+  static const boolean_T kc[21] = { false, true, false, false, false, true,
+    false, true, false, true, false, false, false, true, true, true, true, false,
+    true, true, true };
+
+  static const real_T lc[63] = { 0.33333333333333337, 0.0, 0.4987531172069825,
+    0.9012048192771087, 0.06718346253229968, 1.0, 0.6339285714285713, 1.0,
+    0.037333333333333316, 1.0, 0.1276595744680852, 0.36363636363636365,
+    0.016997167138810203, 0.0, 1.0, 1.0, 0.0, 0.18750000000000006, 0.0, 0.0, 1.0,
+    0.33166666666666667, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3350000000000001, 0.0,
+    0.5012468827930174, 0.09879518072289137, 0.9328165374677003, 0.0,
+    0.36607142857142866, 0.0, 0.9626666666666667, 0.0, 0.8723404255319148,
+    0.6363636363636364, 0.9830028328611898, 1.0, 0.0, 0.0, 1.0,
+    0.8124999999999999, 1.0, 1.0, 0.0 };
+
+  static const int8_T oc_0[31] = { 7, 10, 0, 7, 10, 10, 0, 8, 0, 5, 0, 0, 3, 8,
+    3, 0, 0, 0, 2, 0, 0, 7, 7, 4, 0, 0, 9, 0, 0, 0, 0 };
+
+  static const int8_T pc_0[62] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 10, 11, 0, 0,
+    12, 13, 0, 0, 14, 15, 0, 0, 0, 0, 16, 17, 18, 19, 20, 21, 0, 0, 0, 0, 0, 0,
+    22, 23, 0, 0, 0, 0, 24, 25, 26, 27, 28, 29, 0, 0, 0, 0, 30, 31, 0, 0, 0, 0,
+    0, 0, 0, 0 };
+
+  static const real_T nc[31] = { 1.1141973340137805, 9.305722116009317, 0.0,
+    1.0328776503266477, 9.925292565316994, 8.806300086149156, 0.0,
+    199.54672631373174, 0.0, 3.172891006388043, 0.0, 0.0, 1.511062601186398,
+    214.15499851615715, 2.39188050479327, 0.0, 0.0, 0.0, 0.020476638716766277,
+    0.0, 0.0, 1.029243723298621, 1.0271637173110397, 2.5936119558988753, 0.0,
+    0.0, 0.4935531149088872, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T qc[31] = { false, false, true, false, false, false,
+    true, false, true, false, true, true, false, false, false, true, true, true,
+    false, true, true, false, false, false, true, true, false, true, true, true,
+    true };
+
+  static const real_T rc[93] = { 0.34500000000000025, 0.5142857142857146, 0.0,
+    0.9022004889975551, 0.11363636363636354, 0.7368421052631583, 1.0,
+    0.44554455445544555, 0.0, 0.910569105691057, 0.0, 1.0, 0.3488372093023257,
+    0.9391304347826088, 0.5, 1.0, 0.0, 1.0, 0.8541666666666665, 0.0, 1.0,
+    0.9459459459459459, 0.5454545454545454, 0.875, 1.0, 1.0, 0.16666666666666669,
+    0.0, 1.0, 1.0, 0.0, 0.3291666666666666, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3258333333333332,
+    0.48571428571428543, 0.0, 0.09779951100244481, 0.8863636363636365,
+    0.2631578947368417, 0.0, 0.5544554455445544, 1.0, 0.089430894308943, 1.0,
+    0.0, 0.6511627906976742, 0.06086956521739125, 0.5, 0.0, 1.0, 0.0,
+    0.14583333333333343, 1.0, 0.0, 0.0540540540540541, 0.45454545454545453,
+    0.125, 0.0, 0.0, 0.8333333333333333, 1.0, 0.0, 0.0, 1.0 };
+
+  static const int8_T uc[33] = { 6, 0, 8, 10, 4, 9, 0, 0, 4, 0, 0, 1, 0, 10, 0,
+    3, 7, 8, 0, 1, 0, 8, 0, 3, 0, 0, 0, 0, 7, 10, 0, 0, 0 };
+
+  static const int8_T vc[66] = { 2, 3, 0, 0, 4, 5, 6, 7, 8, 9, 10, 11, 0, 0, 0,
+    0, 12, 13, 0, 0, 0, 0, 14, 15, 0, 0, 16, 17, 0, 0, 18, 19, 20, 21, 22, 23, 0,
+    0, 24, 25, 0, 0, 26, 27, 0, 0, 28, 29, 0, 0, 0, 0, 0, 0, 0, 0, 30, 31, 32,
+    33, 0, 0, 0, 0, 0, 0 };
+
+  static const real_T tc[33] = { -0.3537642023158249, 0.0, 200.79403359949305,
+    9.803465110921172, 1.0347467483936703, 0.6905787841149189, 0.0, 0.0,
+    3.0101349903732446, 0.0, 0.0, 2.924390028631521, 0.0, 9.229618429154542, 0.0,
+    2.801061141998142, 1.0984603712402783, 221.733063043895, 0.0,
+    1.478136058679524, 0.0, 214.1570812173905, 0.0, 1.4294399052398654, 0.0, 0.0,
+    0.0, 0.0, 1.0593333159363763, 10.65891290554924, 0.0, 0.0, 0.0 };
+
+  static const boolean_T wc[33] = { false, true, false, false, false, false,
+    true, true, false, true, true, false, true, false, true, false, false, false,
+    true, false, true, false, true, false, true, true, true, true, false, false,
+    true, true, true };
+
+  static const real_T xc[99] = { 0.33916666666666684, 0.0, 0.4969474969474969,
+    0.8532818532818531, 0.3321428571428568, 0.9954954954954955, 0.0, 1.0,
+    0.2793834296724472, 1.0, 0.0, 0.30655391120507486, 0.0, 0.2807017543859656,
+    1.0, 0.8125000000000002, 0.03525641025641039, 0.9069767441860467, 0.0,
+    0.03215434083601298, 1.0, 0.5862068965517241, 1.0, 0.12048192771084351, 0.0,
+    1.0, 0.0, 0.0, 0.5555555555555556, 0.6666666666666666, 0.0, 1.0, 0.0,
+    0.3174999999999997, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.3433333333333336, 0.0, 0.5030525030525032,
+    0.1467181467181468, 0.6678571428571431, 0.004504504504504511, 1.0, 0.0,
+    0.7206165703275528, 0.0, 1.0, 0.6934460887949251, 1.0, 0.7192982456140344,
+    0.0, 0.1874999999999997, 0.9647435897435896, 0.09302325581395338, 1.0,
+    0.9678456591639869, 0.0, 0.4137931034482758, 0.0, 0.8795180722891565, 1.0,
+    0.0, 1.0, 1.0, 0.4444444444444445, 0.3333333333333333, 1.0, 0.0, 1.0 };
+
+  static const int8_T bd_0[23] = { 6, 0, 4, 8, 1, 10, 0, 10, 0, 10, 8, 3, 0, 0,
+    1, 0, 0, 10, 0, 0, 0, 0, 0 };
+
+  static const int8_T cd_0[46] = { 2, 3, 0, 0, 4, 5, 6, 7, 8, 9, 10, 11, 0, 0,
+    12, 13, 0, 0, 14, 15, 16, 17, 18, 19, 0, 0, 0, 0, 20, 21, 0, 0, 0, 0, 22, 23,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const real_T ad[23] = { -0.3529702532922346, 0.0, 2.2794954773697804,
+    287.000065038074, 2.946012206210087, 9.679256178546266, 0.0,
+    8.828100429148812, 0.0, 9.231492726563282, 270.10610732235654,
+    2.3939330653665127, 0.0, 0.0, 1.511014839488664, 0.0, 0.0, 8.316582600458773,
+    0.0, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T dd[23] = { false, true, false, false, false, false,
+    true, false, true, false, false, false, true, true, false, true, true, false,
+    true, true, true, true, true };
+
+  static const real_T ed[69] = { 0.3533333333333338, 0.0, 0.5183374083129588,
+    0.6275229357798165, 0.30036630036630024, 0.7154811715481166, 0.0,
+    0.36283185840707893, 0.0, 0.9431818181818181, 0.07936507936507926,
+    0.8913043478260869, 0.0, 1.0, 0.6491228070175437, 0.0, 1.0,
+    0.5833333333333334, 1.0, 1.0, 0.0, 1.0, 0.0, 0.3183333333333331, 1.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.32833333333333325, 0.0, 0.4816625916870412,
+    0.37247706422018345, 0.6996336996336997, 0.2845188284518834, 1.0,
+    0.637168141592921, 1.0, 0.05681818181818189, 0.9206349206349208,
+    0.10869565217391311, 1.0, 0.0, 0.35087719298245634, 1.0, 0.0,
+    0.41666666666666663, 0.0, 0.0, 1.0, 0.0, 1.0 };
+
+  static const int8_T hd[23] = { 2, 10, 0, 3, 1, 1, 1, 0, 3, 0, 3, 0, 9, 10, 0,
+    10, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T id[46] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 10, 11, 12, 13, 0,
+    0, 14, 15, 0, 0, 16, 17, 0, 0, 18, 19, 20, 21, 0, 0, 22, 23, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const real_T gd[23] = { 0.13360890391781266, 9.305722116009317, 0.0,
+    2.8031986402244513, 0.9473150528204553, 2.139365535526792, 2.924390028631521,
+    0.0, 1.443698287240648, 0.0, 2.3939330653665127, 0.0, 0.5298525596290711,
+    9.8401089000259, 0.0, 8.387302706881052, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T jd[23] = { false, false, true, false, false, false,
+    false, true, false, true, false, true, false, false, true, false, true, true,
+    true, true, true, true, true };
+
+  static const real_T kd[69] = { 0.3291666666666666, 0.4993678887484197, 0.0,
+    0.8926829268292685, 0.07611548556430442, 0.9517426273458445,
+    0.29729729729729737, 1.0, 0.04347826086956522, 1.0, 0.7977528089887639, 0.0,
+    0.7857142857142857, 0.16000000000000006, 0.0, 0.41935483870967744, 1.0, 1.0,
+    0.0, 1.0, 0.0, 1.0, 0.0, 0.34083333333333354, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.32999999999999996, 0.5006321112515802, 0.0, 0.10731707317073154,
+    0.9238845144356955, 0.048257372654155486, 0.7027027027027026, 0.0,
+    0.9565217391304348, 0.0, 0.20224719101123617, 1.0, 0.21428571428571427,
+    0.8399999999999999, 1.0, 0.5806451612903226, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0,
+    1.0 };
+
+  static const int8_T nd[35] = { 6, 0, 1, 3, 3, 0, 3, 4, 0, 3, 0, 0, 4, 8, 8, 0,
+    0, 10, 1, 0, 8, 0, 0, 2, 10, 4, 0, 0, 10, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T od[70] = { 2, 3, 0, 0, 4, 5, 6, 7, 8, 9, 0, 0, 10, 11, 12,
+    13, 0, 0, 14, 15, 0, 0, 0, 0, 16, 17, 18, 19, 20, 21, 0, 0, 0, 0, 22, 23, 24,
+    25, 0, 0, 26, 27, 0, 0, 0, 0, 28, 29, 30, 31, 32, 33, 0, 0, 0, 0, 34, 35, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const real_T md[35] = { -0.3537642023158249, 0.0, 2.710214045799864,
+    0.9727425606064579, 2.9484438519049525, 0.0, 2.6485259020719063,
+    2.9931799884152763, 0.0, 2.281093139863569, 0.0, 0.0, 3.0059727219517485,
+    201.01931117784127, 171.8712737617349, 0.0, 0.0, 9.83521811015938,
+    1.9414323727498723, 0.0, 214.1549923556148, 0.0, 0.0, 0.01938125954172264,
+    9.010273555620145, 2.5639643949303927, 0.0, 0.0, 9.573170789969456, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0 };
+
+  static const boolean_T pd[35] = { false, true, false, false, false, true,
+    false, false, true, false, true, true, false, false, false, true, true,
+    false, false, true, false, true, true, false, false, false, true, true,
+    false, true, true, true, true, true, true };
+
+  static const real_T qd[105] = { 0.31499999999999967, 0.0, 0.48337595907928355,
+    0.5580693815987946, 0.06722689075630245, 1.0, 0.5157024793388432,
+    0.13793103448275876, 0.0, 0.4939550949913644, 1.0, 0.0, 0.8888888888888888,
+    0.5560344827586202, 0.24347826086956517, 1.0, 0.0, 0.877450980392157,
+    0.3038461538461536, 1.0, 0.10309278350515466, 1.0, 0.0, 0.2191011235955051,
+    0.4878048780487805, 0.3448275862068965, 0.0, 1.0, 0.20114942528735583, 1.0,
+    0.0, 1.0, 0.0, 1.0, 0.0, 0.34833333333333366, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.3366666666666668, 0.0, 0.5166240409207165, 0.44193061840120546,
+    0.9327731092436975, 0.0, 0.48429752066115683, 0.8620689655172412, 1.0,
+    0.5060449050086355, 0.0, 1.0, 0.1111111111111111, 0.4439655172413798,
+    0.7565217391304349, 0.0, 1.0, 0.12254901960784306, 0.6961538461538465, 0.0,
+    0.8969072164948454, 0.0, 1.0, 0.780898876404495, 0.5121951219512195,
+    0.6551724137931034, 1.0, 0.0, 0.7988505747126442, 0.0, 1.0, 0.0, 1.0, 0.0,
+    1.0 };
+
+  static const int8_T td[27] = { 2, 10, 0, 3, 1, 3, 3, 3, 1, 0, 8, 0, 2, 3, 0,
+    10, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const int8_T ud[54] = { 2, 3, 4, 5, 0, 0, 6, 7, 8, 9, 10, 11, 12, 13,
+    14, 15, 16, 17, 0, 0, 18, 19, 0, 0, 20, 21, 22, 23, 0, 0, 24, 25, 0, 0, 0, 0,
+    26, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+  static const real_T sd[27] = { 0.1295549620997273, 9.224376248453815, 0.0,
+    2.8031986402244513, 1.0827367186520593, 2.3129678337495125,
+    2.9217540143454768, 1.021437954245018, 1.478136058679524, 0.0,
+    214.1549923556148, 0.0, 0.026727526903909987, 0.9696220368222984, 0.0,
+    9.796882419337043, 0.0, 0.0, 2.532437908506698, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0 };
+
+  static const boolean_T vd[27] = { false, false, true, false, false, false,
+    false, false, false, true, false, true, false, false, true, false, true,
+    true, false, true, true, true, true, true, true, true, true };
+
+  static const real_T wd[81] = { 0.3441666666666669, 0.49879227053140096, 0.0,
+    0.9238329238329239, 0.08788598574821829, 0.9634464751958225,
+    0.2916666666666667, 0.5999999999999999, 0.02659574468085104, 1.0,
+    0.7812499999999999, 0.0, 0.7777777777777778, 0.39999999999999997, 1.0,
+    0.12987012987013002, 0.0, 1.0, 0.3333333333333333, 1.0, 0.0, 1.0, 0.0, 1.0,
+    0.0, 0.0, 1.0, 0.30999999999999955, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.3458333333333336, 0.501207729468599, 0.0,
+    0.07616707616707602, 0.9121140142517816, 0.03655352480417751,
+    0.7083333333333334, 0.40000000000000013, 0.9734042553191489, 0.0,
+    0.2187500000000002, 1.0, 0.2222222222222222, 0.6, 0.0, 0.87012987012987, 1.0,
+    0.0, 0.6666666666666666, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0 };
+
+  real_T unusedExpr[3];
+  cachedScore[0] = 0.0;
+  cachedScore[1] = 0.0;
+  cachedScore[2] = 0.0;
+  cachedWeights = 0.0;
+  b = false;
+  for (i = 0; i < 9; i++) {
+    assign_temp_Cost[i] = i_0[i];
+  }
+
+  for (i = 0; i < 35; i++) {
+    d[i] = d_0[i];
+  }
+
+  for (i = 0; i < 70; i++) {
+    e[i] = e_0[i];
+  }
+
+  MotorFaul_predictOneWithCache_j(X, cachedScore, &cachedWeights, combiner, d, e,
+    c, f, assign_temp_Cost, g, &b, true, unusedExpr);
+  b = obj_IsCached[1];
+  for (i = 0; i < 35; i++) {
+    d[i] = k[i];
+  }
+
+  for (i = 0; i < 70; i++) {
+    e[i] = l[i];
+  }
+
+  MotorFaul_predictOneWithCache_j(X, cachedScore, &cachedWeights, combiner, d, e,
+    j, m, assign_temp_Cost, n, &b, false, unusedExpr);
+  b = obj_IsCached[2];
+  for (i = 0; i < 33; i++) {
+    q[i] = q_0[i];
+  }
+
+  for (i = 0; i < 66; i++) {
+    r[i] = r_0[i];
+  }
+
+  MotorFau_predictOneWithCache_jp(X, cachedScore, &cachedWeights, combiner, q, r,
+    p, s, assign_temp_Cost, t, &b, unusedExpr);
+  b = obj_IsCached[3];
+  for (i = 0; i < 25; i++) {
+    w[i] = w_0[i];
+  }
+
+  for (i = 0; i < 50; i++) {
+    x[i] = x_0[i];
+  }
+
+  MotorFa_predictOneWithCache_jpy(X, cachedScore, &cachedWeights, combiner, w, x,
+    v, y, assign_temp_Cost, ab, &b, unusedExpr);
+  b = obj_IsCached[4];
+  for (i = 0; i < 35; i++) {
+    d[i] = db[i];
+  }
+
+  for (i = 0; i < 70; i++) {
+    e[i] = eb[i];
+  }
+
+  MotorFaul_predictOneWithCache_j(X, cachedScore, &cachedWeights, combiner, d, e,
+    cb, fb, assign_temp_Cost, gb, &b, false, unusedExpr);
+  b = obj_IsCached[5];
+  for (i = 0; i < 45; i++) {
+    jb[i] = jb_0[i];
+  }
+
+  for (i = 0; i < 90; i++) {
+    kb[i] = kb_0[i];
+  }
+
+  MotorF_predictOneWithCache_jpyz(X, cachedScore, &cachedWeights, combiner, jb,
+    kb, ib, lb, assign_temp_Cost, mb, &b, unusedExpr);
+  b = obj_IsCached[6];
+  for (i = 0; i < 27; i++) {
+    pb[i] = pb_0[i];
+  }
+
+  for (i = 0; i < 54; i++) {
+    qb[i] = qb_0[i];
+  }
+
+  Motor_predictOneWithCache_jpyzw(X, cachedScore, &cachedWeights, combiner, pb,
+    qb, ob, rb, assign_temp_Cost, sb, &b, unusedExpr);
+  b = obj_IsCached[7];
+  for (i = 0; i < 25; i++) {
+    w[i] = vb[i];
+  }
+
+  for (i = 0; i < 50; i++) {
+    x[i] = wb[i];
+  }
+
+  MotorFa_predictOneWithCache_jpy(X, cachedScore, &cachedWeights, combiner, w, x,
+    ub, xb, assign_temp_Cost, yb, &b, unusedExpr);
+  b = obj_IsCached[8];
+  for (i = 0; i < 29; i++) {
+    cc[i] = cc_0[i];
+  }
+
+  for (i = 0; i < 58; i++) {
+    dc[i] = dc_0[i];
+  }
+
+  Moto_predictOneWithCache_jpyzwe(X, cachedScore, &cachedWeights, combiner, cc,
+    dc, bc, ec, assign_temp_Cost, fc, &b, unusedExpr);
+  b = obj_IsCached[9];
+  for (i = 0; i < 21; i++) {
+    ic[i] = ic_0[i];
+  }
+
+  for (i = 0; i < 42; i++) {
+    jc[i] = jc_0[i];
+  }
+
+  Mot_predictOneWithCache_jpyzwef(X, cachedScore, &cachedWeights, combiner, ic,
+    jc, hc, kc, assign_temp_Cost, lc, &b, unusedExpr);
+  b = obj_IsCached[10];
+  for (i = 0; i < 31; i++) {
+    oc[i] = oc_0[i];
+  }
+
+  for (i = 0; i < 62; i++) {
+    pc[i] = pc_0[i];
+  }
+
+  Mo_predictOneWithCache_jpyzwefn(X, cachedScore, &cachedWeights, combiner, oc,
+    pc, nc, qc, assign_temp_Cost, rc, &b, unusedExpr);
+  b = obj_IsCached[11];
+  for (i = 0; i < 33; i++) {
+    q[i] = uc[i];
+  }
+
+  for (i = 0; i < 66; i++) {
+    r[i] = vc[i];
+  }
+
+  MotorFau_predictOneWithCache_jp(X, cachedScore, &cachedWeights, combiner, q, r,
+    tc, wc, assign_temp_Cost, xc, &b, unusedExpr);
+  b = obj_IsCached[12];
+  for (i = 0; i < 23; i++) {
+    bd[i] = bd_0[i];
+  }
+
+  for (i = 0; i < 46; i++) {
+    cd[i] = cd_0[i];
+  }
+
+  M_predictOneWithCache_jpyzwefnb(X, cachedScore, &cachedWeights, combiner, bd,
+    cd, ad, dd, assign_temp_Cost, ed, &b, unusedExpr);
+  b = obj_IsCached[13];
+  for (i = 0; i < 23; i++) {
+    bd[i] = hd[i];
+  }
+
+  for (i = 0; i < 46; i++) {
+    cd[i] = id[i];
+  }
+
+  M_predictOneWithCache_jpyzwefnb(X, cachedScore, &cachedWeights, combiner, bd,
+    cd, gd, jd, assign_temp_Cost, kd, &b, unusedExpr);
+  b = obj_IsCached[14];
+  for (i = 0; i < 35; i++) {
+    d[i] = nd[i];
+  }
+
+  for (i = 0; i < 70; i++) {
+    e[i] = od[i];
+  }
+
+  MotorFaul_predictOneWithCache_j(X, cachedScore, &cachedWeights, combiner, d, e,
+    md, pd, assign_temp_Cost, qd, &b, false, unusedExpr);
+  b = obj_IsCached[15];
+  for (i = 0; i < 27; i++) {
+    pb[i] = td[i];
+  }
+
+  for (i = 0; i < 54; i++) {
+    qb[i] = ud[i];
+  }
+
+  Motor_predictOneWithCache_jpyzw(X, cachedScore, &cachedWeights, combiner, pb,
+    qb, sd, vd, assign_temp_Cost, wd, &b, unusedExpr);
+  b = obj_IsCached[16];
+  CompactClassificationTree_Co_gn(q, r, assign_temp_CutPoint,
+    assign_temp_NanCutPoints, expl_temp, expl_temp_0, &expl_temp_1, unusedExpr,
+    expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability);
+  MotorFau_predictOneWithCache_jp(X, cachedScore, &cachedWeights, combiner, q, r,
+    assign_temp_CutPoint, assign_temp_NanCutPoints, assign_temp_Cost,
+    assign_temp_ClassProbability, &b, unusedExpr);
+  b = obj_IsCached[17];
+  CompactClassificationTree_C_gne(w, x, assign_temp_CutPoint_0,
+    assign_temp_NanCutPoints_0, expl_temp_3, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_0);
+  MotorFa_predictOneWithCache_jpy(X, cachedScore, &cachedWeights, combiner, w, x,
+    assign_temp_CutPoint_0, assign_temp_NanCutPoints_0, assign_temp_Cost,
+    assign_temp_ClassProbability_0, &b, unusedExpr);
+  b = obj_IsCached[18];
+  CompactClassificationTree__gnex(assign_temp_CutPredictorIndex,
+    assign_temp_Children, assign_temp_CutPoint_1, assign_temp_NanCutPoints_1,
+    expl_temp_4, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
+    assign_temp_Cost, assign_temp_ClassProbability_1);
+  predictOneWithCache_jpyzwefnbj(X, cachedScore, &cachedWeights, combiner,
+    assign_temp_CutPredictorIndex, assign_temp_Children, assign_temp_CutPoint_1,
+    assign_temp_NanCutPoints_1, assign_temp_Cost, assign_temp_ClassProbability_1,
+    &b, unusedExpr);
+  b = obj_IsCached[19];
+  CompactClassificationTree_gnexe(oc, pc, assign_temp_CutPoint_2,
+    assign_temp_NanCutPoints_2, expl_temp_5, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_2);
+  Mo_predictOneWithCache_jpyzwefn(X, cachedScore, &cachedWeights, combiner, oc,
+    pc, assign_temp_CutPoint_2, assign_temp_NanCutPoints_2, assign_temp_Cost,
+    assign_temp_ClassProbability_2, &b, unusedExpr);
+  b = obj_IsCached[20];
+  CompactClassificationTre_gnexe4(oc, pc, assign_temp_CutPoint_2,
+    assign_temp_NanCutPoints_2, expl_temp_5, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_2);
+  Mo_predictOneWithCache_jpyzwefn(X, cachedScore, &cachedWeights, combiner, oc,
+    pc, assign_temp_CutPoint_2, assign_temp_NanCutPoints_2, assign_temp_Cost,
+    assign_temp_ClassProbability_2, &b, unusedExpr);
+  b = obj_IsCached[21];
+  CompactClassificationTr_gnexe4e(assign_temp_CutPredictorIndex_0,
+    assign_temp_Children_0, assign_temp_CutPoint_3, assign_temp_NanCutPoints_3,
+    expl_temp_6, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
+    assign_temp_Cost, assign_temp_ClassProbability_3);
+  predictOneWithCache_jpyzwefnbjt(X, cachedScore, &cachedWeights, combiner,
+    assign_temp_CutPredictorIndex_0, assign_temp_Children_0,
+    assign_temp_CutPoint_3, assign_temp_NanCutPoints_3, assign_temp_Cost,
+    assign_temp_ClassProbability_3, &b, unusedExpr);
+  b = obj_IsCached[22];
+  CompactClassificationT_gnexe4eq(oc, pc, assign_temp_CutPoint_2,
+    assign_temp_NanCutPoints_2, expl_temp_5, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_2);
+  Mo_predictOneWithCache_jpyzwefn(X, cachedScore, &cachedWeights, combiner, oc,
+    pc, assign_temp_CutPoint_2, assign_temp_NanCutPoints_2, assign_temp_Cost,
+    assign_temp_ClassProbability_2, &b, unusedExpr);
+  b = obj_IsCached[23];
+  CompactClassification_gnexe4eq5(assign_temp_ClassProbability_1,
+    assign_temp_Children_1, assign_temp_CutPoint_4, assign_temp_NanCutPoints_4,
+    expl_temp_7, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
+    assign_temp_Cost, assign_temp_ClassProbability_4);
+  predictOneWithCach_jpyzwefnbjt0(X, cachedScore, &cachedWeights, combiner,
+    assign_temp_ClassProbability_1, assign_temp_Children_1,
+    assign_temp_CutPoint_4, assign_temp_NanCutPoints_4, assign_temp_Cost,
+    assign_temp_ClassProbability_4, &b, unusedExpr);
+  b = obj_IsCached[24];
+  CompactClassificatio_gnexe4eq5x(w, x, assign_temp_CutPoint_0,
+    assign_temp_NanCutPoints_0, expl_temp_3, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_0);
+  MotorFa_predictOneWithCache_jpy(X, cachedScore, &cachedWeights, combiner, w, x,
+    assign_temp_CutPoint_0, assign_temp_NanCutPoints_0, assign_temp_Cost,
+    assign_temp_ClassProbability_0, &b, unusedExpr);
+  b = obj_IsCached[25];
+  CompactClassificati_gnexe4eq5xh(bd, cd, assign_temp_CutPoint_5,
+    assign_temp_NanCutPoints_5, expl_temp_8, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_5);
+  M_predictOneWithCache_jpyzwefnb(X, cachedScore, &cachedWeights, combiner, bd,
+    cd, assign_temp_CutPoint_5, assign_temp_NanCutPoints_5, assign_temp_Cost,
+    assign_temp_ClassProbability_5, &b, unusedExpr);
+  b = obj_IsCached[26];
+  CompactClassificat_gnexe4eq5xht(jb, kb, assign_temp_CutPoint_6,
+    assign_temp_NanCutPoints_6, expl_temp_9, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_6);
+  MotorF_predictOneWithCache_jpyz(X, cachedScore, &cachedWeights, combiner, jb,
+    kb, assign_temp_CutPoint_6, assign_temp_NanCutPoints_6, assign_temp_Cost,
+    assign_temp_ClassProbability_6, &b, unusedExpr);
+  b = obj_IsCached[27];
+  CompactClassifica_gnexe4eq5xhts(assign_temp_CutPredictorIndex_0,
+    assign_temp_Children_0, assign_temp_CutPoint_3, assign_temp_NanCutPoints_3,
+    expl_temp_6, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
+    assign_temp_Cost, assign_temp_ClassProbability_3);
+  predictOneWithCache_jpyzwefnbjt(X, cachedScore, &cachedWeights, combiner,
+    assign_temp_CutPredictorIndex_0, assign_temp_Children_0,
+    assign_temp_CutPoint_3, assign_temp_NanCutPoints_3, assign_temp_Cost,
+    assign_temp_ClassProbability_3, &b, unusedExpr);
+  b = obj_IsCached[28];
+  CompactClassific_gnexe4eq5xhtsj(cc, dc, assign_temp_CutPoint_7,
+    assign_temp_NanCutPoints_7, expl_temp_a, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_7);
+  Moto_predictOneWithCache_jpyzwe(X, cachedScore, &cachedWeights, combiner, cc,
+    dc, assign_temp_CutPoint_7, assign_temp_NanCutPoints_7, assign_temp_Cost,
+    assign_temp_ClassProbability_7, &b, unusedExpr);
+  b = obj_IsCached[29];
+  CompactClassifi_gnexe4eq5xhtsjp(w, x, assign_temp_CutPoint_0,
+    assign_temp_NanCutPoints_0, expl_temp_3, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_0);
+  MotorFa_predictOneWithCache_jpy(X, cachedScore, &cachedWeights, combiner, w, x,
+    assign_temp_CutPoint_0, assign_temp_NanCutPoints_0, assign_temp_Cost,
+    assign_temp_ClassProbability_0, &b, unusedExpr);
+  b = obj_IsCached[30];
+  CompactClassificationTree_Com_l(w, x, assign_temp_CutPoint_0,
+    assign_temp_NanCutPoints_0, expl_temp_3, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_0);
+  MotorFa_predictOneWithCache_jpy(X, cachedScore, &cachedWeights, combiner, w, x,
+    assign_temp_CutPoint_0, assign_temp_NanCutPoints_0, assign_temp_Cost,
+    assign_temp_ClassProbability_0, &b, unusedExpr);
+  b = obj_IsCached[31];
+  CompactClassificationTree_Co_jt(bd, cd, assign_temp_CutPoint_5,
+    assign_temp_NanCutPoints_5, expl_temp_8, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_5);
+  M_predictOneWithCache_jpyzwefnb(X, cachedScore, &cachedWeights, combiner, bd,
+    cd, assign_temp_CutPoint_5, assign_temp_NanCutPoints_5, assign_temp_Cost,
+    assign_temp_ClassProbability_5, &b, unusedExpr);
+  b = obj_IsCached[32];
+  CompactClassificationTree_Com_p(pb, qb, assign_temp_CutPoint_8,
+    assign_temp_NanCutPoints_8, expl_temp_b, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_8);
+  Motor_predictOneWithCache_jpyzw(X, cachedScore, &cachedWeights, combiner, pb,
+    qb, assign_temp_CutPoint_8, assign_temp_NanCutPoints_8, assign_temp_Cost,
+    assign_temp_ClassProbability_8, &b, unusedExpr);
+  b = obj_IsCached[33];
+  CompactClassificationTree_Com_d(oc, pc, assign_temp_CutPoint_2,
+    assign_temp_NanCutPoints_2, expl_temp_5, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_2);
+  Mo_predictOneWithCache_jpyzwefn(X, cachedScore, &cachedWeights, combiner, oc,
+    pc, assign_temp_CutPoint_2, assign_temp_NanCutPoints_2, assign_temp_Cost,
+    assign_temp_ClassProbability_2, &b, unusedExpr);
+  b = obj_IsCached[34];
+  CompactClassificationTree_Co_g0(oc, pc, assign_temp_CutPoint_2,
+    assign_temp_NanCutPoints_2, expl_temp_5, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_2);
+  Mo_predictOneWithCache_jpyzwefn(X, cachedScore, &cachedWeights, combiner, oc,
+    pc, assign_temp_CutPoint_2, assign_temp_NanCutPoints_2, assign_temp_Cost,
+    assign_temp_ClassProbability_2, &b, unusedExpr);
+  b = obj_IsCached[35];
+  CompactClassificationTree_Co_bl(w, x, assign_temp_CutPoint_0,
+    assign_temp_NanCutPoints_0, expl_temp_3, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_0);
+  MotorFa_predictOneWithCache_jpy(X, cachedScore, &cachedWeights, combiner, w, x,
+    assign_temp_CutPoint_0, assign_temp_NanCutPoints_0, assign_temp_Cost,
+    assign_temp_ClassProbability_0, &b, unusedExpr);
+  b = obj_IsCached[36];
+  CompactClassificationTree_Co_cj(q, r, assign_temp_CutPoint,
+    assign_temp_NanCutPoints, expl_temp, expl_temp_0, &expl_temp_1, unusedExpr,
+    expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability);
+  MotorFau_predictOneWithCache_jp(X, cachedScore, &cachedWeights, combiner, q, r,
+    assign_temp_CutPoint, assign_temp_NanCutPoints, assign_temp_Cost,
+    assign_temp_ClassProbability, &b, unusedExpr);
+  b = obj_IsCached[37];
+  CompactClassificationTree_Co_lj(bd, cd, assign_temp_CutPoint_5,
+    assign_temp_NanCutPoints_5, expl_temp_8, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_5);
+  M_predictOneWithCache_jpyzwefnb(X, cachedScore, &cachedWeights, combiner, bd,
+    cd, assign_temp_CutPoint_5, assign_temp_NanCutPoints_5, assign_temp_Cost,
+    assign_temp_ClassProbability_5, &b, unusedExpr);
+  b = obj_IsCached[38];
+  CompactClassificationTree_Co_lk(w, x, assign_temp_CutPoint_0,
+    assign_temp_NanCutPoints_0, expl_temp_3, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_0);
+  MotorFa_predictOneWithCache_jpy(X, cachedScore, &cachedWeights, combiner, w, x,
+    assign_temp_CutPoint_0, assign_temp_NanCutPoints_0, assign_temp_Cost,
+    assign_temp_ClassProbability_0, &b, unusedExpr);
+  b = obj_IsCached[39];
+  CompactClassificationTree_Co_n0(w, x, assign_temp_CutPoint_0,
+    assign_temp_NanCutPoints_0, expl_temp_3, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_0);
+  MotorFa_predictOneWithCache_jpy(X, cachedScore, &cachedWeights, combiner, w, x,
+    assign_temp_CutPoint_0, assign_temp_NanCutPoints_0, assign_temp_Cost,
+    assign_temp_ClassProbability_0, &b, unusedExpr);
+  b = obj_IsCached[40];
+  CompactClassificationTree_Co_ha(bd, cd, assign_temp_CutPoint_5,
+    assign_temp_NanCutPoints_5, expl_temp_8, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_5);
+  M_predictOneWithCache_jpyzwefnb(X, cachedScore, &cachedWeights, combiner, bd,
+    cd, assign_temp_CutPoint_5, assign_temp_NanCutPoints_5, assign_temp_Cost,
+    assign_temp_ClassProbability_5, &b, unusedExpr);
+  b = obj_IsCached[41];
+  CompactClassificationTree_Co_cw(ic, jc, assign_temp_CutPoint_9,
+    assign_temp_NanCutPoints_9, expl_temp_c, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_9);
+  Mot_predictOneWithCache_jpyzwef(X, cachedScore, &cachedWeights, combiner, ic,
+    jc, assign_temp_CutPoint_9, assign_temp_NanCutPoints_9, assign_temp_Cost,
+    assign_temp_ClassProbability_9, &b, unusedExpr);
+  b = obj_IsCached[42];
+  CompactClassificationTree_Co_pp(pb, qb, assign_temp_CutPoint_8,
+    assign_temp_NanCutPoints_8, expl_temp_b, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_8);
+  Motor_predictOneWithCache_jpyzw(X, cachedScore, &cachedWeights, combiner, pb,
+    qb, assign_temp_CutPoint_8, assign_temp_NanCutPoints_8, assign_temp_Cost,
+    assign_temp_ClassProbability_8, &b, unusedExpr);
+  b = obj_IsCached[43];
+  CompactClassificationTree_Co_de(ic, jc, assign_temp_CutPoint_9,
+    assign_temp_NanCutPoints_9, expl_temp_c, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_9);
+  Mot_predictOneWithCache_jpyzwef(X, cachedScore, &cachedWeights, combiner, ic,
+    jc, assign_temp_CutPoint_9, assign_temp_NanCutPoints_9, assign_temp_Cost,
+    assign_temp_ClassProbability_9, &b, unusedExpr);
+  b = obj_IsCached[44];
+  CompactClassificationTree_Co_gj(ic, jc, assign_temp_CutPoint_9,
+    assign_temp_NanCutPoints_9, expl_temp_c, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_9);
+  Mot_predictOneWithCache_jpyzwef(X, cachedScore, &cachedWeights, combiner, ic,
+    jc, assign_temp_CutPoint_9, assign_temp_NanCutPoints_9, assign_temp_Cost,
+    assign_temp_ClassProbability_9, &b, unusedExpr);
+  b = obj_IsCached[45];
+  CompactClassificationTree_Co_gv(pb, qb, assign_temp_CutPoint_8,
+    assign_temp_NanCutPoints_8, expl_temp_b, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_8);
+  Motor_predictOneWithCache_jpyzw(X, cachedScore, &cachedWeights, combiner, pb,
+    qb, assign_temp_CutPoint_8, assign_temp_NanCutPoints_8, assign_temp_Cost,
+    assign_temp_ClassProbability_8, &b, unusedExpr);
+  b = obj_IsCached[46];
+  CompactClassificationTree_Co_pa(d, e, assign_temp_CutPoint_a,
+    assign_temp_NanCutPoints_a, expl_temp_d, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_a);
+  MotorFaul_predictOneWithCache_j(X, cachedScore, &cachedWeights, combiner, d, e,
+    assign_temp_CutPoint_a, assign_temp_NanCutPoints_a, assign_temp_Cost,
+    assign_temp_ClassProbability_a, &b, false, unusedExpr);
+  b = obj_IsCached[47];
+  CompactClassificationTree_Com_f(pb, qb, assign_temp_CutPoint_8,
+    assign_temp_NanCutPoints_8, expl_temp_b, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_8);
+  Motor_predictOneWithCache_jpyzw(X, cachedScore, &cachedWeights, combiner, pb,
+    qb, assign_temp_CutPoint_8, assign_temp_NanCutPoints_8, assign_temp_Cost,
+    assign_temp_ClassProbability_8, &b, unusedExpr);
+  b = obj_IsCached[48];
+  CompactClassificationTree_Co_o4(oc, pc, assign_temp_CutPoint_2,
+    assign_temp_NanCutPoints_2, expl_temp_5, expl_temp_0, &expl_temp_1,
+    unusedExpr, expl_temp_2, assign_temp_Cost, assign_temp_ClassProbability_2);
+  Mo_predictOneWithCache_jpyzwefn(X, cachedScore, &cachedWeights, combiner, oc,
+    pc, assign_temp_CutPoint_2, assign_temp_NanCutPoints_2, assign_temp_Cost,
+    assign_temp_ClassProbability_2, &b, unusedExpr);
+  b = obj_IsCached[49];
+  CompactClassificationTree_Co_ba(assign_temp_CutPredictorIndex_0,
+    assign_temp_Children_0, assign_temp_CutPoint_3, assign_temp_NanCutPoints_3,
+    expl_temp_6, expl_temp_0, &expl_temp_1, unusedExpr, expl_temp_2,
+    assign_temp_Cost, assign_temp_ClassProbability_3);
+  predictOneWithCache_jpyzwefnbjt(X, cachedScore, &cachedWeights, combiner,
+    assign_temp_CutPredictorIndex_0, assign_temp_Children_0,
+    assign_temp_CutPoint_3, assign_temp_NanCutPoints_3, assign_temp_Cost,
+    assign_temp_ClassProbability_3, &b, score);
+}
+
 /* Model step function */
 void MotorFaultDeploy_step(void)
 {
   real_T accumulatedData_0[10];
   real_T scores[4];
-  real_T a;
+  real_T scores_0[3];
   real_T accumulatedData;
+  real_T b_accumulatedData;
   real_T b_bsum;
-  real_T b_x0;
   real_T b_y;
   real_T bsum;
   real_T c_accumulatedData;
+  real_T c_y;
   real_T classnum;
-  real_T d_bsum;
-  real_T s2;
+  real_T t;
+  real_T x0;
   real_T xbar;
-  int32_T ab_k;
+  int32_T f_k;
   int32_T i;
   int32_T ii;
   uint32_T tmp;
   boolean_T c_x[4];
+  boolean_T c_x_0[3];
   boolean_T c_x_tmp;
   boolean_T notNaN;
   static const int8_T d[16] = { 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0 };
 
+  static const int8_T b[9] = { 0, 1, 1, 1, 0, 1, 1, 1, 0 };
+
   int32_T exitg1;
   boolean_T exitg2;
 
-  /* MATLAB Function: '<Root>/Detector' incorporates:
+  /* MATLAB Function: '<Root>/BearingDetector' incorporates:
    *  Inport: '<Root>/accel'
    */
   if (!MotorFaultDeploy_DW.buf_not_empty) {
@@ -12106,22 +17324,23 @@ void MotorFaultDeploy_step(void)
     }
   }
 
-  MotorFaultDeploy_DW.idx++;
-  MotorFaultDeploy_DW.buf[(int32_T)MotorFaultDeploy_DW.idx - 1] =
+  MotorFaultDeploy_DW.idx_k++;
+  MotorFaultDeploy_DW.buf[(int32_T)MotorFaultDeploy_DW.idx_k - 1] =
     MotorFaultDeploy_U.accel;
-  if (MotorFaultDeploy_DW.idx == 2048.0) {
-    MotorFaultDeploy_DW.idx = 0.0;
+  if (MotorFaultDeploy_DW.idx_k == 2048.0) {
+    MotorFaultDeploy_DW.idx_k = 0.0;
     for (i = 0; i < 2048; i++) {
       classnum = fabs(MotorFaultDeploy_DW.buf[i]);
-      MotorFaultDeploy_B.x[i] = classnum;
-      MotorFaultDeploy_B.b_x[i] = classnum;
+      MotorFaultDeploy_B.x_c[i] = classnum;
+      MotorFaultDeploy_B.b_x_b[i] = classnum;
     }
 
     FFTImplementationCallback_doHal(MotorFaultDeploy_DW.buf,
       MotorFaultDeploy_B.X);
-    for (i = 0; i < 1025; i++) {
-      a = rt_hypotd_snf(MotorFaultDeploy_B.X[i].re, MotorFaultDeploy_B.X[i].im);
-      MotorFaultDeploy_B.P[i] = a * a / 2.4576E+7;
+    for (ii = 0; ii < 1025; ii++) {
+      xbar = rt_hypotd_snf(MotorFaultDeploy_B.X[ii].re, MotorFaultDeploy_B.X[ii]
+                           .im);
+      MotorFaultDeploy_B.P[ii] = xbar * xbar / 2.4576E+7;
     }
 
     for (i = 0; i < 1023; i++) {
@@ -12135,9 +17354,10 @@ void MotorFaultDeploy_step(void)
 
     FFTImplementationCallback_doHal(MotorFaultDeploy_DW.buf,
       MotorFaultDeploy_B.X);
-    for (i = 0; i < 1025; i++) {
-      a = rt_hypotd_snf(MotorFaultDeploy_B.X[i].re, MotorFaultDeploy_B.X[i].im);
-      MotorFaultDeploy_B.P[i] = a * a / 2.4576E+7;
+    for (f_k = 0; f_k < 1025; f_k++) {
+      xbar = rt_hypotd_snf(MotorFaultDeploy_B.X[f_k].re,
+                           MotorFaultDeploy_B.X[f_k].im);
+      MotorFaultDeploy_B.P[f_k] = xbar * xbar / 2.4576E+7;
     }
 
     for (i = 0; i < 1023; i++) {
@@ -12152,17 +17372,18 @@ void MotorFaultDeploy_step(void)
     FFTImplementationCallback_doHal(MotorFaultDeploy_DW.buf,
       MotorFaultDeploy_B.X);
     for (i = 0; i < 1025; i++) {
-      a = rt_hypotd_snf(MotorFaultDeploy_B.X[i].re, MotorFaultDeploy_B.X[i].im);
-      MotorFaultDeploy_B.P[i] = a * a / 2.4576E+7;
+      xbar = rt_hypotd_snf(MotorFaultDeploy_B.X[i].re, MotorFaultDeploy_B.X[i].
+                           im);
+      MotorFaultDeploy_B.P[i] = xbar * xbar / 2.4576E+7;
     }
 
     for (i = 0; i < 1023; i++) {
       MotorFaultDeploy_B.P[i + 1] *= 2.0;
     }
 
-    a = MotorFaultDeploy_B.P[512];
+    c_y = MotorFaultDeploy_B.P[512];
     for (i = 0; i < 426; i++) {
-      a += MotorFaultDeploy_B.P[i + 513];
+      c_y += MotorFaultDeploy_B.P[i + 513];
     }
 
     accumulatedData = MotorFaultDeploy_DW.buf[0];
@@ -12176,20 +17397,19 @@ void MotorFaultDeploy_step(void)
       b_bsum = bsum;
     }
 
-    accumulatedData = (xbar + b_bsum) / 2048.0;
+    bsum = (xbar + b_bsum) / 2048.0;
     b_bsum = 0.0;
     xbar = 3.312168642111238E-170;
     for (i = 0; i < 2048; i++) {
-      MotorFaultDeploy_B.b_x0[i] = fabs(MotorFaultDeploy_DW.buf[i] -
-        accumulatedData);
-      b_x0 = MotorFaultDeploy_B.b_x0[i];
-      if (b_x0 > xbar) {
-        bsum = xbar / b_x0;
-        b_bsum = b_bsum * bsum * bsum + 1.0;
-        xbar = b_x0;
+      MotorFaultDeploy_B.b_x0[i] = fabs(MotorFaultDeploy_DW.buf[i] - bsum);
+      c_accumulatedData = MotorFaultDeploy_B.b_x0[i];
+      if (c_accumulatedData > xbar) {
+        t = xbar / c_accumulatedData;
+        b_bsum = b_bsum * t * t + 1.0;
+        xbar = c_accumulatedData;
       } else {
-        bsum = b_x0 / xbar;
-        b_bsum += bsum * bsum;
+        t = c_accumulatedData / xbar;
+        b_bsum += t * t;
       }
     }
 
@@ -12216,79 +17436,79 @@ void MotorFaultDeploy_step(void)
       MotorFaultDeploy_B.b_x0_tmp[i] = xbar * xbar;
     }
 
-    bsum = MotorFaultDeploy_B.b_x0_tmp[0];
-    xbar = MotorFaultDeploy_B.b_x0_tmp[1024];
+    b_accumulatedData = MotorFaultDeploy_B.b_x0_tmp[0];
+    t = MotorFaultDeploy_B.b_x0_tmp[1024];
     for (i = 0; i < 1023; i++) {
-      bsum += MotorFaultDeploy_B.b_x0_tmp[i + 1];
-      xbar += MotorFaultDeploy_B.b_x0_tmp[i + 1025];
+      b_accumulatedData += MotorFaultDeploy_B.b_x0_tmp[i + 1];
+      t += MotorFaultDeploy_B.b_x0_tmp[i + 1025];
     }
 
-    s2 = 0.0;
+    xbar = 0.0;
     i = 0;
     for (ii = 0; ii < 2048; ii++) {
       if (!rtIsNaN(MotorFaultDeploy_DW.buf[ii])) {
-        s2 += MotorFaultDeploy_DW.buf[ii];
+        xbar += MotorFaultDeploy_DW.buf[ii];
         i++;
       }
     }
 
     if (i == 0) {
-      s2 = (rtNaN);
+      xbar = (rtNaN);
     } else {
-      s2 /= (real_T)i;
+      xbar /= (real_T)i;
     }
 
-    d_bsum = 0.0;
+    accumulatedData = 0.0;
     i = 0;
     for (ii = 0; ii < 2048; ii++) {
-      b_x0 = MotorFaultDeploy_DW.buf[ii] - s2;
-      MotorFaultDeploy_B.x0[ii] = b_x0 * b_x0;
+      x0 = MotorFaultDeploy_DW.buf[ii] - xbar;
+      MotorFaultDeploy_B.x0_p[ii] = x0 * x0;
       if (!rtIsNaN(MotorFaultDeploy_DW.buf[ii])) {
-        d_bsum += MotorFaultDeploy_DW.buf[ii];
+        accumulatedData += MotorFaultDeploy_DW.buf[ii];
         i++;
       }
     }
 
-    s2 = MotorFaultDeploy_mean(MotorFaultDeploy_B.x0);
+    xbar = MotorFaultDeploy_mean(MotorFaultDeploy_B.x0_p);
     if (i == 0) {
-      d_bsum = (rtNaN);
+      accumulatedData = (rtNaN);
     } else {
-      d_bsum /= (real_T)i;
+      accumulatedData /= (real_T)i;
     }
 
     for (i = 0; i < 2048; i++) {
-      b_x0 = MotorFaultDeploy_DW.buf[i] - d_bsum;
-      MotorFaultDeploy_B.b_x0[i] = b_x0;
-      MotorFaultDeploy_B.xp[i] = b_x0 * b_x0;
+      c_accumulatedData = MotorFaultDeploy_DW.buf[i] - accumulatedData;
+      MotorFaultDeploy_B.b_x0[i] = c_accumulatedData;
+      MotorFaultDeploy_B.xp_cv[i] = c_accumulatedData * c_accumulatedData;
     }
 
     c_accumulatedData = MotorFaultDeploy_B.b_x0_tmp[0];
-    d_bsum = MotorFaultDeploy_B.b_x0_tmp[1024];
+    accumulatedData = MotorFaultDeploy_B.b_x0_tmp[1024];
     for (i = 0; i < 1023; i++) {
       c_accumulatedData += MotorFaultDeploy_B.b_x0_tmp[i + 1];
-      d_bsum += MotorFaultDeploy_B.b_x0_tmp[i + 1025];
+      accumulatedData += MotorFaultDeploy_B.b_x0_tmp[i + 1025];
     }
 
     for (i = 0; i < 2048; i++) {
-      b_x0 = MotorFaultDeploy_B.x0[i];
-      MotorFaultDeploy_B.b_x0_tmp[i] = b_x0 * b_x0;
-      MotorFaultDeploy_B.xp_m[i] = MotorFaultDeploy_B.xp[i] *
+      x0 = MotorFaultDeploy_B.x0_p[i];
+      MotorFaultDeploy_B.b_x0_tmp[i] = x0 * x0;
+      MotorFaultDeploy_B.xp_f[i] = MotorFaultDeploy_B.xp_cv[i] *
         MotorFaultDeploy_B.b_x0[i];
     }
 
-    accumulatedData_0[0] = accumulatedData;
+    accumulatedData_0[0] = bsum;
     accumulatedData_0[1] = b_bsum / 45.24378410345447;
-    accumulatedData_0[2] = sqrt((bsum + xbar) / 2048.0);
-    accumulatedData_0[3] = MotorFaultDeploy_maximum(MotorFaultDeploy_B.x);
+    accumulatedData_0[2] = sqrt((b_accumulatedData + t) / 2048.0);
+    accumulatedData_0[3] = MotorFaultDeploy_maximum(MotorFaultDeploy_B.x_c);
     accumulatedData_0[4] = MotorFaultDeploy_mean(MotorFaultDeploy_B.b_x0_tmp) /
-      (s2 * s2);
-    accumulatedData_0[5] = MotorFaultDeploy_mean(MotorFaultDeploy_B.xp_m) /
-      rt_powd_snf(MotorFaultDeploy_mean(MotorFaultDeploy_B.xp), 1.5);
-    accumulatedData_0[6] = MotorFaultDeploy_maximum(MotorFaultDeploy_B.b_x) /
-      sqrt((c_accumulatedData + d_bsum) / 2048.0);
+      (xbar * xbar);
+    accumulatedData_0[5] = MotorFaultDeploy_mean(MotorFaultDeploy_B.xp_f) /
+      rt_powd_snf(MotorFaultDeploy_mean(MotorFaultDeploy_B.xp_cv), 1.5);
+    accumulatedData_0[6] = MotorFaultDeploy_maximum(MotorFaultDeploy_B.b_x_b) /
+      sqrt((c_accumulatedData + accumulatedData) / 2048.0);
     accumulatedData_0[7] = classnum * 12000.0 / 2048.0;
     accumulatedData_0[8] = b_y * 12000.0 / 2048.0;
-    accumulatedData_0[9] = a * 12000.0 / 2048.0;
+    accumulatedData_0[9] = c_y * 12000.0 / 2048.0;
     CompactEnsemble_ensemblePredict(MotorFaultDeploy_DW.mdl.IsCached,
       accumulatedData_0, scores);
     c_x_tmp = rtIsNaN(scores[0]);
@@ -12329,11 +17549,213 @@ void MotorFaultDeploy_step(void)
     } else {
       classnum = MotorFaultDeploy_DW.mdl.Prior[ii - 1];
       i = ii;
-      for (ab_k = ii + 1; ab_k < 5; ab_k++) {
-        b_y = MotorFaultDeploy_DW.mdl.Prior[ab_k - 1];
+      for (f_k = ii + 1; f_k < 5; f_k++) {
+        b_y = MotorFaultDeploy_DW.mdl.Prior[f_k - 1];
         if (classnum < b_y) {
           classnum = b_y;
-          i = ab_k;
+          i = f_k;
+        }
+      }
+    }
+
+    MotorFaultDeploy_DW.lastLabel_a = ((real_T)i - 1.0) + 1.0;
+    if (!notNaN) {
+      if (!c_x_tmp) {
+        ii = 1;
+      } else {
+        ii = 0;
+        f_k = 2;
+        exitg2 = false;
+        while (!exitg2 && (f_k < 5)) {
+          if (!rtIsNaN(scores[f_k - 1])) {
+            ii = f_k;
+            exitg2 = true;
+          } else {
+            f_k++;
+          }
+        }
+      }
+
+      if (ii == 0) {
+        f_k = 1;
+      } else {
+        classnum = scores[ii - 1];
+        f_k = ii;
+        for (i = ii + 1; i < 5; i++) {
+          b_y = scores[i - 1];
+          if (classnum < b_y) {
+            classnum = b_y;
+            f_k = i;
+          }
+        }
+      }
+
+      if (f_k < 4.294967296E+9) {
+        tmp = (uint32_T)f_k;
+      } else {
+        tmp = MAX_uint32_T;
+      }
+
+      MotorFaultDeploy_DW.lastLabel_a = (int8_T)((int8_T)((int32_T)tmp - 1) + 1);
+    }
+
+    if (MotorFaultDeploy_DW.lastLabel_a != 1.0) {
+      MotorFaultDeploy_DW.cnt_p++;
+    } else {
+      MotorFaultDeploy_DW.cnt_p = 0.0;
+    }
+  }
+
+  /* Outport: '<Root>/bearingClass' incorporates:
+   *  MATLAB Function: '<Root>/BearingDetector'
+   */
+  MotorFaultDeploy_Y.bearingClass = MotorFaultDeploy_DW.lastLabel_a;
+
+  /* MATLAB Function: '<Root>/ElectricalDetector' incorporates:
+   *  Inport: '<Root>/current'
+   *  Inport: '<Root>/speed'
+   *  Inport: '<Root>/voltage'
+   */
+  if (!MotorFaultDeploy_DW.bc_not_empty) {
+    MotorFaultDeploy_DW.bc_not_empty = true;
+    MotorFaultDeploy_DW.mdl_h.ClassNamesLength[0] = 1;
+    MotorFaultDeploy_DW.mdl_h.ClassLogicalIndices[0] = true;
+    MotorFaultDeploy_DW.mdl_h.ClassNamesLength[1] = 1;
+    MotorFaultDeploy_DW.mdl_h.ClassLogicalIndices[1] = true;
+    MotorFaultDeploy_DW.mdl_h.ClassNamesLength[2] = 1;
+    MotorFaultDeploy_DW.mdl_h.ClassLogicalIndices[2] = true;
+    MotorFaultDeploy_DW.mdl_h.ScoreTransform = Identity;
+    for (i = 0; i < 50; i++) {
+      MotorFaultDeploy_DW.mdl_h.LearnerWeights[i] = 1.0;
+      MotorFaultDeploy_DW.mdl_h.IsCached[i] = false;
+    }
+
+    MotorFaultDeploy_DW.mdl_h.Prior[0] = 0.3333333333333333;
+    MotorFaultDeploy_DW.mdl_h.Prior[1] = 0.3333333333333333;
+    MotorFaultDeploy_DW.mdl_h.Prior[2] = 0.3333333333333333;
+    for (i = 0; i < 9; i++) {
+      MotorFaultDeploy_DW.mdl_h.Cost[i] = b[i];
+    }
+  }
+
+  MotorFaultDeploy_DW.idx++;
+  MotorFaultDeploy_DW.bc[(int32_T)MotorFaultDeploy_DW.idx - 1] =
+    MotorFaultDeploy_U.current;
+  MotorFaultDeploy_DW.bs[(int32_T)MotorFaultDeploy_DW.idx - 1] =
+    MotorFaultDeploy_U.speed;
+  if (MotorFaultDeploy_DW.idx == 2400.0) {
+    MotorFaultDeploy_DW.idx = 0.0;
+    for (i = 0; i < 2400; i++) {
+      classnum = fabs(MotorFaultDeploy_DW.bc[i]);
+      MotorFaultDeploy_B.x[i] = classnum;
+      MotorFaultDeploy_B.b_x[i] = classnum;
+    }
+
+    xbar = 0.0;
+    i = 0;
+    for (ii = 0; ii < 2400; ii++) {
+      if (!rtIsNaN(MotorFaultDeploy_DW.bc[ii])) {
+        xbar += MotorFaultDeploy_DW.bc[ii];
+        i++;
+      }
+    }
+
+    if (i == 0) {
+      xbar = (rtNaN);
+    } else {
+      xbar /= (real_T)i;
+    }
+
+    accumulatedData = 0.0;
+    i = 0;
+    for (ii = 0; ii < 2400; ii++) {
+      x0 = MotorFaultDeploy_DW.bc[ii] - xbar;
+      MotorFaultDeploy_B.x0[ii] = x0 * x0;
+      if (!rtIsNaN(MotorFaultDeploy_DW.bc[ii])) {
+        accumulatedData += MotorFaultDeploy_DW.bc[ii];
+        i++;
+      }
+    }
+
+    xbar = MotorFaultDeploy_mean_o(MotorFaultDeploy_B.x0);
+    if (i == 0) {
+      accumulatedData = (rtNaN);
+    } else {
+      accumulatedData /= (real_T)i;
+    }
+
+    for (i = 0; i < 2400; i++) {
+      b_y = MotorFaultDeploy_DW.bc[i];
+      c_accumulatedData = b_y - accumulatedData;
+      classnum = c_accumulatedData * c_accumulatedData;
+      MotorFaultDeploy_B.xp[i] = classnum;
+      MotorFaultDeploy_B.dv[i] = b_y * b_y;
+      x0 = MotorFaultDeploy_B.x0[i];
+      MotorFaultDeploy_B.x0_m[i] = x0 * x0;
+      MotorFaultDeploy_B.xp_c[i] = classnum * c_accumulatedData;
+    }
+
+    classnum = sqrt(MotorFaul_combineVectorElements(MotorFaultDeploy_B.dv) /
+                    2400.0);
+    accumulatedData_0[0] = MotorFaul_combineVectorElements
+      (MotorFaultDeploy_DW.bc) / 2400.0;
+    accumulatedData_0[1] = MotorFaultDeploy_std(MotorFaultDeploy_DW.bc);
+    accumulatedData_0[2] = classnum;
+    accumulatedData_0[3] = MotorFaultDeploy_maximum_p(MotorFaultDeploy_B.x);
+    accumulatedData_0[4] = MotorFaultDeploy_mean_o(MotorFaultDeploy_B.x0_m) /
+      (xbar * xbar);
+    accumulatedData_0[5] = MotorFaultDeploy_mean_o(MotorFaultDeploy_B.xp_c) /
+      rt_powd_snf(MotorFaultDeploy_mean_o(MotorFaultDeploy_B.xp), 1.5);
+    accumulatedData_0[6] = MotorFaultDeploy_maximum_p(MotorFaultDeploy_B.b_x) /
+      classnum;
+    classnum = MotorFaul_combineVectorElements(MotorFaultDeploy_DW.bs) / 2400.0;
+    accumulatedData_0[7] = classnum;
+    accumulatedData_0[8] = MotorFaultDeploy_std(MotorFaultDeploy_DW.bs);
+    accumulatedData_0[9] = classnum / MotorFaultDeploy_U.voltage;
+    CompactEnsemble_ensemblePredi_j(MotorFaultDeploy_DW.mdl_h.IsCached,
+      accumulatedData_0, scores_0);
+    c_x_tmp = rtIsNaN(scores_0[0]);
+    c_x_0[0] = c_x_tmp;
+    c_x_0[1] = rtIsNaN(scores_0[1]);
+    c_x_0[2] = rtIsNaN(scores_0[2]);
+    notNaN = true;
+    i = 0;
+    exitg2 = false;
+    while (!exitg2 && (i < 3)) {
+      if (!c_x_0[i]) {
+        notNaN = false;
+        exitg2 = true;
+      } else {
+        i++;
+      }
+    }
+
+    if (!rtIsNaN(MotorFaultDeploy_DW.mdl_h.Prior[0])) {
+      ii = 1;
+    } else {
+      ii = 0;
+      i = 2;
+      exitg2 = false;
+      while (!exitg2 && (i < 4)) {
+        if (!rtIsNaN(MotorFaultDeploy_DW.mdl_h.Prior[i - 1])) {
+          ii = i;
+          exitg2 = true;
+        } else {
+          i++;
+        }
+      }
+    }
+
+    if (ii == 0) {
+      i = 1;
+    } else {
+      classnum = MotorFaultDeploy_DW.mdl_h.Prior[ii - 1];
+      i = ii;
+      for (f_k = ii + 1; f_k < 4; f_k++) {
+        b_y = MotorFaultDeploy_DW.mdl_h.Prior[f_k - 1];
+        if (classnum < b_y) {
+          classnum = b_y;
+          i = f_k;
         }
       }
     }
@@ -12344,34 +17766,34 @@ void MotorFaultDeploy_step(void)
         ii = 1;
       } else {
         ii = 0;
-        ab_k = 2;
+        f_k = 2;
         exitg2 = false;
-        while (!exitg2 && (ab_k < 5)) {
-          if (!rtIsNaN(scores[ab_k - 1])) {
-            ii = ab_k;
+        while (!exitg2 && (f_k < 4)) {
+          if (!rtIsNaN(scores_0[f_k - 1])) {
+            ii = f_k;
             exitg2 = true;
           } else {
-            ab_k++;
+            f_k++;
           }
         }
       }
 
       if (ii == 0) {
-        ab_k = 1;
+        f_k = 1;
       } else {
-        classnum = scores[ii - 1];
-        ab_k = ii;
-        for (i = ii + 1; i < 5; i++) {
-          b_y = scores[i - 1];
+        classnum = scores_0[ii - 1];
+        f_k = ii;
+        for (i = ii + 1; i < 4; i++) {
+          b_y = scores_0[i - 1];
           if (classnum < b_y) {
             classnum = b_y;
-            ab_k = i;
+            f_k = i;
           }
         }
       }
 
-      if (ab_k < 4.294967296E+9) {
-        tmp = (uint32_T)ab_k;
+      if (f_k < 4.294967296E+9) {
+        tmp = (uint32_T)f_k;
       } else {
         tmp = MAX_uint32_T;
       }
@@ -12386,15 +17808,18 @@ void MotorFaultDeploy_step(void)
     }
   }
 
-  /* Outport: '<Root>/faultClass' incorporates:
-   *  MATLAB Function: '<Root>/Detector'
+  /* Outport: '<Root>/electricalClass' incorporates:
+   *  MATLAB Function: '<Root>/ElectricalDetector'
    */
-  MotorFaultDeploy_Y.faultClass = MotorFaultDeploy_DW.lastLabel;
+  MotorFaultDeploy_Y.electricalClass = MotorFaultDeploy_DW.lastLabel;
 
   /* Outport: '<Root>/alarm' incorporates:
-   *  MATLAB Function: '<Root>/Detector'
+   *  Logic: '<Root>/SystemAlarm'
+   *  MATLAB Function: '<Root>/BearingDetector'
+   *  MATLAB Function: '<Root>/ElectricalDetector'
    */
-  MotorFaultDeploy_Y.alarm = (MotorFaultDeploy_DW.cnt >= 3.0);
+  MotorFaultDeploy_Y.alarm = ((MotorFaultDeploy_DW.cnt_p >= 3.0) ||
+    (MotorFaultDeploy_DW.cnt >= 3.0));
 
   /* Matfile logging */
   rt_UpdateTXYLogVars(MotorFaultDeploy_M->rtwLogInfo,
@@ -12467,7 +17892,7 @@ void MotorFaultDeploy_initialize(void)
                 sizeof(DW_MotorFaultDeploy_T));
 
   /* external inputs */
-  MotorFaultDeploy_U.accel = 0.0;
+  (void)memset(&MotorFaultDeploy_U, 0, sizeof(ExtU_MotorFaultDeploy_T));
 
   /* external outputs */
   (void)memset(&MotorFaultDeploy_Y, 0, sizeof(ExtY_MotorFaultDeploy_T));
@@ -12477,9 +17902,17 @@ void MotorFaultDeploy_initialize(void)
     rtmGetTFinal(MotorFaultDeploy_M), MotorFaultDeploy_M->Timing.stepSize0,
     (&rtmGetErrorStatus(MotorFaultDeploy_M)));
 
-  /* SystemInitialize for MATLAB Function: '<Root>/Detector' */
+  /* SystemInitialize for MATLAB Function: '<Root>/BearingDetector' */
   MotorFaultDeploy_DW.buf_not_empty = false;
   memset(&MotorFaultDeploy_DW.buf[0], 0, sizeof(real_T) << 11U);
+  MotorFaultDeploy_DW.idx_k = 0.0;
+  MotorFaultDeploy_DW.lastLabel_a = 1.0;
+  MotorFaultDeploy_DW.cnt_p = 0.0;
+
+  /* SystemInitialize for MATLAB Function: '<Root>/ElectricalDetector' */
+  MotorFaultDeploy_DW.bc_not_empty = false;
+  memset(&MotorFaultDeploy_DW.bc[0], 0, 2400U * sizeof(real_T));
+  memset(&MotorFaultDeploy_DW.bs[0], 0, 2400U * sizeof(real_T));
   MotorFaultDeploy_DW.idx = 0.0;
   MotorFaultDeploy_DW.lastLabel = 1.0;
   MotorFaultDeploy_DW.cnt = 0.0;

@@ -9,7 +9,7 @@
  *
  * Model version              : 1.1
  * Simulink Coder version : 26.1 (R2026a) 20-Nov-2025
- * C source code generated on : Sun Oct 25 13:06:37 2026
+ * C source code generated on : Sun Oct 25 14:16:21 2026
  *
  * Target selection: grt.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping
@@ -81,35 +81,54 @@
 /* Block signals (default storage) */
 typedef struct {
   creal_T X[2048];
-  real_T x[2048];
-  real_T b_x[2048];
-  real_T x0[2048];
+  real_T x[2400];
+  real_T b_x[2400];
+  real_T x0[2400];
+  real_T xp[2400];
+  real_T dv[2400];
+  real_T x0_m[2400];
+  real_T xp_c[2400];
+  real_T b_x_k[2400];
+  real_T x_c[2048];
+  real_T b_x_b[2048];
+  real_T x0_p[2048];
   real_T b_x0[2048];
-  real_T xp[2048];
+  real_T xp_cv[2048];
   real_T b_x0_tmp[2048];
-  real_T xp_m[2048];
+  real_T xp_f[2048];
   real_T P[1025];
 } B_MotorFaultDeploy_T;
 
 /* Block states (default storage) for system '<Root>' */
 typedef struct {
-  c_classreg_learning_classif_C_T mdl; /* '<Root>/Detector' */
-  real_T buf[2048];                    /* '<Root>/Detector' */
-  real_T idx;                          /* '<Root>/Detector' */
-  real_T lastLabel;                    /* '<Root>/Detector' */
-  real_T cnt;                          /* '<Root>/Detector' */
-  boolean_T buf_not_empty;             /* '<Root>/Detector' */
+  c_classreg_learning_classif_C_T mdl; /* '<Root>/BearingDetector' */
+  c_classreg_learning_classif_o_T mdl_h;/* '<Root>/ElectricalDetector' */
+  real_T bc[2400];                     /* '<Root>/ElectricalDetector' */
+  real_T bs[2400];                     /* '<Root>/ElectricalDetector' */
+  real_T idx;                          /* '<Root>/ElectricalDetector' */
+  real_T lastLabel;                    /* '<Root>/ElectricalDetector' */
+  real_T cnt;                          /* '<Root>/ElectricalDetector' */
+  real_T buf[2048];                    /* '<Root>/BearingDetector' */
+  real_T idx_k;                        /* '<Root>/BearingDetector' */
+  real_T lastLabel_a;                  /* '<Root>/BearingDetector' */
+  real_T cnt_p;                        /* '<Root>/BearingDetector' */
+  boolean_T bc_not_empty;              /* '<Root>/ElectricalDetector' */
+  boolean_T buf_not_empty;             /* '<Root>/BearingDetector' */
 } DW_MotorFaultDeploy_T;
 
 /* External inputs (root inport signals with default storage) */
 typedef struct {
   real_T accel;                        /* '<Root>/accel' */
+  real_T current;                      /* '<Root>/current' */
+  real_T speed;                        /* '<Root>/speed' */
+  real_T voltage;                      /* '<Root>/voltage' */
 } ExtU_MotorFaultDeploy_T;
 
 /* External outputs (root outports fed by signals with default storage) */
 typedef struct {
-  real_T faultClass;                   /* '<Root>/faultClass' */
-  real_T alarm;                        /* '<Root>/alarm' */
+  real_T bearingClass;                 /* '<Root>/bearingClass' */
+  real_T electricalClass;              /* '<Root>/electricalClass' */
+  boolean_T alarm;                     /* '<Root>/alarm' */
 } ExtY_MotorFaultDeploy_T;
 
 /* Real-time Model Data Structure */
@@ -167,6 +186,7 @@ extern RT_MODEL_MotorFaultDeploy_T *const MotorFaultDeploy_M;
  * Here is the system hierarchy for this model
  *
  * '<Root>' : 'MotorFaultDeploy'
- * '<S1>'   : 'MotorFaultDeploy/Detector'
+ * '<S1>'   : 'MotorFaultDeploy/BearingDetector'
+ * '<S2>'   : 'MotorFaultDeploy/ElectricalDetector'
  */
 #endif                                 /* MotorFaultDeploy_h_ */
