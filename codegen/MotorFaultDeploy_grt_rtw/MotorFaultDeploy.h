@@ -9,7 +9,7 @@
  *
  * Model version              : 1.1
  * Simulink Coder version : 26.1 (R2026a) 20-Nov-2025
- * C source code generated on : Sun Oct 25 14:16:21 2026
+ * C source code generated on : Sun Oct 25 14:59:34 2026
  *
  * Target selection: grt.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping
@@ -80,40 +80,53 @@
 
 /* Block signals (default storage) */
 typedef struct {
+  creal_T y[4096];
+  real_T X_m[4096];
+  real_T x[4096];
+  real_T b_x[4096];
+  real_T X_c[4096];
   creal_T X[2048];
-  real_T x[2400];
-  real_T b_x[2400];
+  real_T x_k[2400];
+  real_T b_x_c[2400];
   real_T x0[2400];
   real_T xp[2400];
   real_T dv[2400];
-  real_T x0_m[2400];
-  real_T xp_c[2400];
-  real_T b_x_k[2400];
-  real_T x_c[2048];
-  real_T b_x_b[2048];
-  real_T x0_p[2048];
+  real_T x0_b[2400];
+  real_T xp_p[2400];
+  real_T b_x_cv[2400];
+  real_T x_f[2048];
+  real_T b_x_g[2048];
+  real_T x0_g[2048];
   real_T b_x0[2048];
-  real_T xp_cv[2048];
+  real_T xp_m[2048];
   real_T b_x0_tmp[2048];
-  real_T xp_f[2048];
+  real_T xp_n[2048];
   real_T P[1025];
+  real_T costab[1024];
+  real_T sintab[1024];
 } B_MotorFaultDeploy_T;
 
 /* Block states (default storage) for system '<Root>' */
 typedef struct {
   c_classreg_learning_classif_C_T mdl; /* '<Root>/BearingDetector' */
-  c_classreg_learning_classif_o_T mdl_h;/* '<Root>/ElectricalDetector' */
+  c_classreg_learning_classif_o_T mdl_d;/* '<Root>/ElectricalDetector' */
+  c_classreg_learning_classif_o_T mdl_j;/* '<Root>/MechDetector' */
+  real_T buf[4096];                    /* '<Root>/MechDetector' */
+  real_T idx;                          /* '<Root>/MechDetector' */
+  real_T lastLabel;                    /* '<Root>/MechDetector' */
+  real_T cnt;                          /* '<Root>/MechDetector' */
   real_T bc[2400];                     /* '<Root>/ElectricalDetector' */
   real_T bs[2400];                     /* '<Root>/ElectricalDetector' */
-  real_T idx;                          /* '<Root>/ElectricalDetector' */
-  real_T lastLabel;                    /* '<Root>/ElectricalDetector' */
-  real_T cnt;                          /* '<Root>/ElectricalDetector' */
-  real_T buf[2048];                    /* '<Root>/BearingDetector' */
-  real_T idx_k;                        /* '<Root>/BearingDetector' */
-  real_T lastLabel_a;                  /* '<Root>/BearingDetector' */
-  real_T cnt_p;                        /* '<Root>/BearingDetector' */
+  real_T idx_b;                        /* '<Root>/ElectricalDetector' */
+  real_T lastLabel_k;                  /* '<Root>/ElectricalDetector' */
+  real_T cnt_l;                        /* '<Root>/ElectricalDetector' */
+  real_T buf_e[2048];                  /* '<Root>/BearingDetector' */
+  real_T idx_h;                        /* '<Root>/BearingDetector' */
+  real_T lastLabel_o;                  /* '<Root>/BearingDetector' */
+  real_T cnt_d;                        /* '<Root>/BearingDetector' */
+  boolean_T buf_not_empty;             /* '<Root>/MechDetector' */
   boolean_T bc_not_empty;              /* '<Root>/ElectricalDetector' */
-  boolean_T buf_not_empty;             /* '<Root>/BearingDetector' */
+  boolean_T buf_not_empty_h;           /* '<Root>/BearingDetector' */
 } DW_MotorFaultDeploy_T;
 
 /* External inputs (root inport signals with default storage) */
@@ -122,12 +135,15 @@ typedef struct {
   real_T current;                      /* '<Root>/current' */
   real_T speed;                        /* '<Root>/speed' */
   real_T voltage;                      /* '<Root>/voltage' */
+  real_T mechAccel;                    /* '<Root>/mechAccel' */
+  real_T shaftFreq;                    /* '<Root>/shaftFreq' */
 } ExtU_MotorFaultDeploy_T;
 
 /* External outputs (root outports fed by signals with default storage) */
 typedef struct {
   real_T bearingClass;                 /* '<Root>/bearingClass' */
   real_T electricalClass;              /* '<Root>/electricalClass' */
+  real_T mechClass;                    /* '<Root>/mechClass' */
   boolean_T alarm;                     /* '<Root>/alarm' */
 } ExtY_MotorFaultDeploy_T;
 
@@ -188,5 +204,6 @@ extern RT_MODEL_MotorFaultDeploy_T *const MotorFaultDeploy_M;
  * '<Root>' : 'MotorFaultDeploy'
  * '<S1>'   : 'MotorFaultDeploy/BearingDetector'
  * '<S2>'   : 'MotorFaultDeploy/ElectricalDetector'
+ * '<S3>'   : 'MotorFaultDeploy/MechDetector'
  */
 #endif                                 /* MotorFaultDeploy_h_ */

@@ -1,0 +1,61 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   6 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "buf"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Tejashri\motor-fault-detection\scripts\mechanicalDetector.m:167-170"\
+      Dimensions   [4096]\
+    }\
+    ChartData {\
+      Name         "buf_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Tejashri\motor-fault-detection\scripts\mechanicalDetector.m:167-170"\
+    }\
+    ChartData {\
+      Name         "idx"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Tejashri\motor-fault-detection\scripts\mechanicalDetector.m:171-174"\
+    }\
+    ChartData {\
+      Name         "mdl"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Tejashri\motor-fault-detection\scripts\mechanicalDetector.m:175-178"\
+    }\
+    ChartData {\
+      Name         "lastLabel"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Tejashri\motor-fault-detection\scripts\mechanicalDetector.m:179-188"\
+    }\
+    ChartData {\
+      Name         "cnt"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Users\Tejashri\motor-fault-detection\scripts\mechanicalDetector.m:189-192"\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

@@ -1,6 +1,7 @@
 % step4_generate_code.m
 % Builds MotorFaultDeploy.slx with all three detectors (bearing, electrical,
-% mechanical) and generates C code (grt.tlc) for an ARM Cortex-M device type.
+% mechanical), lays it out cleanly, and generates C code (grt.tlc) for an
+% ARM Cortex-M device type.
 clear; clc; bdclose all;
 here = fileparts(mfilename('fullpath'));
 repo = fileparts(here);
@@ -55,7 +56,32 @@ add_line(mdl,'BearingDetector/1','bearingClass/1');
 add_line(mdl,'ElectricalDetector/1','electricalClass/1');
 add_line(mdl,'MechDetector/1','mechClass/1');
 add_line(mdl,'SystemAlarm/1','alarm/1');
-Simulink.BlockDiagram.arrangeSystem(mdl);
+
+% ---- Tidy layout: inputs | detectors | alarm | outputs
+set_param([mdl '/BearingDetector'],   'Position',[300  40 520 150]);
+set_param([mdl '/ElectricalDetector'],'Position',[300 230 520 370]);
+set_param([mdl '/MechDetector'],      'Position',[300 450 520 560]);
+set_param([mdl '/SystemAlarm'],       'Position',[700 280 750 360]);
+set_param([mdl '/BearingDetector'],   'BackgroundColor','lightBlue');
+set_param([mdl '/ElectricalDetector'],'BackgroundColor','yellow');
+set_param([mdl '/MechDetector'],      'BackgroundColor','green');
+set_param([mdl '/SystemAlarm'],       'BackgroundColor','orange');
+
+pb = get_param([mdl '/BearingDetector'],   'PortHandles');
+pe = get_param([mdl '/ElectricalDetector'],'PortHandles');
+pm = get_param([mdl '/MechDetector'],      'PortHandles');
+pa = get_param([mdl '/SystemAlarm'],       'PortHandles');
+placeBlock([mdl '/accel'],      pb.Inport(1),  100);
+placeBlock([mdl '/current'],    pe.Inport(1),  100);
+placeBlock([mdl '/speed'],      pe.Inport(2),  100);
+placeBlock([mdl '/voltage'],    pe.Inport(3),  100);
+placeBlock([mdl '/mechAccel'],  pm.Inport(1),  100);
+placeBlock([mdl '/shaftFreq'],  pm.Inport(2),  100);
+placeBlock([mdl '/bearingClass'],    pb.Outport(1), 880);
+placeBlock([mdl '/electricalClass'], pe.Outport(1), 880);
+placeBlock([mdl '/mechClass'],       pm.Outport(1), 880);
+placeBlock([mdl '/alarm'],           pa.Outport(1), 880);
+set_param(mdl,'ZoomFactor','FitSystem');
 
 % ---- Target: generic real-time target, ARM Cortex-M device type, code only
 set_param(mdl,'SystemTargetFile','grt.tlc');
@@ -67,6 +93,11 @@ simDir = fullfile(repo,'simulink');
 if ~exist(simDir,'dir'), mkdir(simDir); end
 save_system(mdl, fullfile(simDir, mdl));
 
+% ---- Save a picture of the tidy model for the report
+resDir = fullfile(repo,'results');
+if ~exist(resDir,'dir'), mkdir(resDir); end
+print(['-s' mdl], '-dpng', '-r200', fullfile(resDir,'simulink_model_deploy.png'));
+
 % ---- Build, with the full error message if it fails
 try
     slbuild(mdl);
@@ -76,4 +107,10 @@ catch ME
     for k = 1:numel(ME.cause)
         disp(ME.cause{k}.message);
     end
+end
+
+function placeBlock(blk, portHandle, xLeft)
+    p = get_param(portHandle,'Position');
+    y = p(2);
+    set_param(blk,'Position',[xLeft y-7 xLeft+30 y+7]);
 end

@@ -9,7 +9,7 @@
  *
  * Model version              : 1.1
  * Simulink Coder version : 26.1 (R2026a) 20-Nov-2025
- * C source code generated on : Sun Oct 25 14:16:21 2026
+ * C source code generated on : Sun Oct 25 14:59:34 2026
  *
  * Target selection: grt.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping
@@ -32,5 +32,6 @@
 
 extern real_T rt_hypotd_snf(real_T u0, real_T u1);
 extern real_T rt_powd_snf(real_T u0, real_T u1);
+extern real_T rt_roundd_snf(real_T u);
 
 #endif                                 /* MotorFaultDeploy_private_h_ */
