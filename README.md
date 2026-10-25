@@ -2,7 +2,7 @@
 
 A fault detection system for electric motors, built with MATLAB and Simulink. Three small classifiers watch different signals (vibration and motor current), and one combined alarm goes on when any of them sees a fault. C code is generated for an ARM Cortex-M device type, the architecture of the STM32H743 on the NUCLEO-H743ZI2.
 
-Author: Tejashri
+Author: Tejashri  
 Level: Bachelor's
 MATLAB: R2026a
 Challenge: MathWorks Challenge Project 253
