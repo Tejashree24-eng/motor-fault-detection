@@ -1,5 +1,6 @@
 % step4_generate_code.m
-% Builds MotorFaultDeploy.slx (deployable version) and generates C code.
+% Builds MotorFaultDeploy.slx and generates C code for an ARM Cortex-M target
+% (the architecture of the STM32H743 on the NUCLEO-H743ZI2).
 clear; clc; bdclose all;
 here = fileparts(mfilename('fullpath'));
 repo = fileparts(here);
@@ -24,22 +25,15 @@ add_line(mdl,'Detector/1','faultClass/1');
 add_line(mdl,'Detector/2','alarm/1');
 Simulink.BlockDiagram.arrangeSystem(mdl);
 
-% ---- Target: STM32 NUCLEO-H743ZI2
-try
-    set_param(mdl,'HardwareBoard','STM32 Nucleo H743ZI2');
-catch
-    warning(['Board name not found. Set it manually: Modeling > Model Settings > ' ...
-        'Hardware Implementation > Hardware board. Using generic Cortex-M for now.']);
-    set_param(mdl,'ProdHWDeviceType','ARM Compatible->ARM Cortex-M');
-    set_param(mdl,'SystemTargetFile','grt.tlc');
-end
-
-set_param(mdl,'GenCodeOnly','on');      % no board/toolchain needed
+% ---- Target: ARM Cortex-M (code generation only)
+set_param(mdl,'SystemTargetFile','grt.tlc');   % use 'grt.tlc' if no Embedded Coder
+set_param(mdl,'ProdHWDeviceType','ARM Compatible->ARM Cortex-M');
+set_param(mdl,'GenCodeOnly','on');
 set_param(mdl,'GenerateReport','on');
 
 simDir = fullfile(repo,'simulink');
 if ~exist(simDir,'dir'), mkdir(simDir); end
 save_system(mdl, fullfile(simDir, mdl));
 
-slbuild(mdl);                           % generates the C code
-disp('Code generated. Open the code generation report and take a screenshot.');
+slbuild(mdl);
+disp('Code generated. Take a screenshot of the code generation report.');
